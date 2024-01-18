@@ -1,14 +1,14 @@
 
 
 ---
-title: Home: This is our website :)
+title: Home: 
 ---
 
 # Home
 
 ## Introduction
 
-**Bold Text**
+**EGR314 - Embedded Systems Design Project II - Team 305**
 _Italic Text_
 **_Bold and Italic Text_**
 
