@@ -1,7 +1,7 @@
 
 
 ---
-title: Home
+title: Home: This is our website :)
 ---
 
 # Home
