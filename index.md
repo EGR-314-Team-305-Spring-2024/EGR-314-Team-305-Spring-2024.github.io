@@ -1,16 +1,16 @@
 
 
 ---
-title: Home: This is our website :)
+title: Home: 
 ---
 
 # Home
 
 ## Introduction
 
-**Bold Text**
+**EGR 314: Embedded Systems Design - Team 305**
 _Italic Text_
-**_Bold and Italic Text_**
+**_Bold and Italic Text**
 
 ## Research Question
 
