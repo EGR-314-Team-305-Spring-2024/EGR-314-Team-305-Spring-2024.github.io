@@ -1,5 +1,5 @@
 ---
-title: Team 305 Repository
+Team 305 Repository: EGR 314 Spring 2024
 ---
 
 # Background
