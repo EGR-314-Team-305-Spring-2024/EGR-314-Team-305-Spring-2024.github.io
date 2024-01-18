@@ -2,10 +2,10 @@
 Team 305 Repository: EGR 314 Spring 2024
 ---
 
-## Background
+# Background
 
-## Introduction
+# Introduction
 
-## Conclusions
+# Conclusions
 
-## References
+# References
