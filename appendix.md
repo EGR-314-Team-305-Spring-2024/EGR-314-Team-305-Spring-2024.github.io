@@ -10,6 +10,7 @@
 * Create a reliable and sturdy final product within the project requirements
 
 **Communication Channels Table:**
+
 ![Alt text](pictures/Communication_Channels_Screenshot.png)
 
 ### Communucation Procedures
