@@ -11,12 +11,12 @@ Arizona State University, EGR 314 (Class #17878), Professor: Kevin Nichols
 
 # Home
 
+
 ## Team Orgainzation
 
-**Team Charter**: Our mission as CodeCraft Innovators is to create a dynamic and collaborative environment where we maintain a consistent and productive work schedule, cultivate a passion for coding and collaboration using code repositories like GitHub, deepen our understanding of manufacturing processes, advance our knowledge in professional PCB design, and collectively deliver reliable and sturdy final products that exceed project requirements.
+**Team Charter**: Our mission as MWMS is to create a dynamic and collaborative environment where we maintain a consistent and productive work schedule, cultivate a passion for coding and collaboration using code repositories like GitHub, deepen our understanding of manufacturing processes, advance our knowledge in professional PCB design, and collectively deliver reliable and sturdy final products that exceed project requirements.
 
 **Our Mission Statement**: Our team’s goal is to create a flexible solution to remote weather data monitoring and logging for people in rural communities and territories.
-
 
 
 ## User Needs, Benchmarking, and Requirments
@@ -24,6 +24,8 @@ Arizona State University, EGR 314 (Class #17878), Professor: Kevin Nichols
 **Project Description**: "This semester we will be producing systems that can respond to the environment using serial sensing and actuation in your system for a mobile weather station. Each team will also broadcast their environmental data to the internet over WiFi using the MQTT protocol."
 
 High overview, few highlights
+
+
 
 ## Introduction
 
