@@ -23,7 +23,18 @@ Arizona State University, EGR 314 (Class #17878), Professor: Kevin Nichols
 
 **Project Description**: "This semester we will be producing systems that can respond to the environment using serial sensing and actuation in your system for a mobile weather station. Each team will also broadcast their environmental data to the internet over WiFi using the MQTT protocol."
 
-High overview, few highlights
+**Steps Involved in our User Needs Process:**
+1. List more user needs based from web forums on industrial products
+2. Group similar user needs into categories: 
+    1. Data based
+    2. Location based
+    3. General
+3. Ranked User Needs
+
+**Unexpected User Needs:** 
+1. Battery lubricant
+2. Fan aspirated temperature sensor
+
 
 
 
