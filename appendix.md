@@ -92,4 +92,111 @@ _The team members agree to the following process for resolving conflicts with ot
 
 ## User Needs, Benchmarking, and Requirements
 
-Input here
+**Initial list of User Needs:**
+1. User needs to measure temperature in the plains
+2. User needs to measure temperature in the arctic
+3. User needs to measure temperature in the desert
+4. User needs to measure temperature on the coast
+5. User needs to measure temperature in the forest
+6. User needs to measure temperature in mountains
+7. User needs to measure fan aspirated temperature in the plains
+8. User needs to measure fan aspirated temperature in the arctic
+User needs to measure fan aspirated temperature in the desert
+User needs to measure fan aspirated temperature on the coast
+User needs to measure fan aspirated temperature in the forest
+User needs to measure fan aspirated temperature in mountains
+User needs to measure rainfall in the plains
+User needs to measure rainfall in the arctic
+User needs to measure rainfall in the desert
+User needs to measure rainfall on the coast
+User needs to measure rainfall in the forest
+User needs to measure rainfall in mountains
+User needs to measure sunlight in the plains
+User needs to measure sunlight in the arctic
+User needs to measure sunlight in the desert
+User needs to measure sunlight on the coast
+User needs to measure sunlight in the forest
+User needs to measure sunlight in mountains
+User needs to measure UV levels in the plains
+User needs to measure UV levels in the arctic
+User needs to measure UV levels in the desert
+User needs to measure UV levels on the coast
+User needs to measure UV levels in the forest
+User needs to measure UV levels in mountains
+User needs to measure humidity in the plains
+User needs to measure humidity in the arctic
+User needs to measure humidity in the desert
+User needs to measure humidity on the coast
+User needs to measure humidity in the forest
+User needs to measure humidity in mountains
+User needs to measure air pollution levels in the plains
+User needs to measure air pollution levels in the arctic
+User needs to measure air pollution levels in the desert
+User needs to measure air pollution levels on the coast
+User needs to measure air pollution levels in the forest
+User needs to measure air pollution levels in mountains
+User needs to remotely monitor weather conditions in the plains
+User needs to remotely monitor weather conditions in the arctic
+User needs to remotely monitor weather conditions in the desert
+User needs to remotely monitor weather conditions on the coast
+User needs to remotely monitor weather conditions in the forest
+User needs to remotely monitor weather conditions in the mountains
+User needs to measure heat waves
+User needs to measure weather data during floods
+User needs to measure drought conditions
+User needs to measure weather data during hurricane
+User needs to measure weather data during rain storm
+User needs to measure weather data during tornado
+User needs to measure weather data during blizzard 
+User needs to measure weather data during avalanche 
+User needs lubricant for batteries 
+User needs to be able to see temperature from a central location (laptop, phone, etc.)
+User needs to be able to see rainfall from a central location (laptop, phone, etc.)
+User needs to be able to see sunlight from a central location (laptop, phone, etc.)
+User needs to be able to see UV levels from a central location (laptop, phone, etc.)
+User needs to be able to see humidity from a central location (laptop, phone, etc.)
+User needs to monitor temperature in multiple locations
+User needs to monitor fan aspirated temperature in multiple locations
+User needs to monitor rainfall in multiple locations
+User needs to monitor sunlight in multiple locations
+User needs to monitor UV levels in multiple locations
+User needs to monitor humidity in multiple locations
+User needs to monitor air pollution in multiple locations
+User needs to log temperature data
+User needs to log air aspirated temperature data
+User needs to log rainfall data
+User needs to log sunlight data
+User needs to log UV level data
+User needs to log humidity data 
+User needs to log air pollution data
+User needs to compare years of temperature data
+User needs to compare years of air aspirated temperature data
+User needs to compare years of rainfall data
+User needs to compare years of sunlight data
+User needs to compare years of UV level data
+User needs to compare years of humidity data
+User needs to compare years of air pollution data
+User needs to know the time
+User needs to know the day
+User needs to know the month
+User needs to know the year
+User needs to know the century
+User needs to know the millennium 
+User needs to know the lunar phase
+User needs to know where they are located
+User needs to know the local geography 
+User needs to know local temperature predictions
+User needs to know local air aspirated temperature predictions
+User needs to know local rainfall predictions
+User needs to know local sunlight predictions
+User needs to know local UV level predictions
+User needs to know local humidity predictions
+User needs to know local air pollution predictions
+User needs to measure temperature in Celsius and Fahrenheit
+User needs to measure air aspirated temperature in celsius and fahrenheit 
+User needs a private API solution to remote monitoring weather conditions
+User needs a secure API solution to remote monitoring weather conditions
+User needs to measure adverse weather conditions safely
+User needs to know when a forest fire starts
+User needs to know where forest fires are
+
