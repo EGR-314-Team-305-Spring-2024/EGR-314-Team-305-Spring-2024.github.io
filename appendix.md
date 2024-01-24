@@ -90,7 +90,9 @@ _The team members agree to the following process for resolving conflicts with ot
 ![Alt text](/pictures/Signatures_Screenshot.png)
 
 
+
 ## User Needs, Benchmarking, and Requirements
+
 
 ### Voices of Customers (VOC) Benchmarking
 
@@ -110,15 +112,15 @@ _The team members agree to the following process for resolving conflicts with ot
 
 * **Description:** “ Easily call up information on temperature, humidity, etc. The reception range of the device has been improved which means the measurements of sainlogic weather station are more accurate. The wireless weather station with rain gauge and wind speed measures indoor/outdoor temperature and humidity, wind speed/direction, air pressure. Experience the convenience of your personal home weather station. Wrap up the best Christmas gifts now!...The 5-in-1 outdoor weather station sensor consists of a rain funnel, solar panel and transmission module, wind vane and high-speed anemometer, and transmits current information about temperature, humidity, air pressure, wind speed and wind direction, as well as the precipitation and much more. Assembly is easy, please follow the instructions provided…  “
 
-Positive Comment 1:
+**Positive Comment 1:**
 
-    “... Installation was easy, and the mounting bracket, arm, and base give you lots of options for horizontal or vertical, on either a flat surface or on a pole. Since we had the last one up high on a pole above the fence, we did the same thing here is it worked out very easily.
+_“... Installation was easy, and the mounting bracket, arm, and base give you lots of options for horizontal or vertical, on either a flat surface or on a pole. Since we had the last one up high on a pole above the fence, we did the same thing here is it worked out very easily._
 
-    The base unit readout screen is nice, good contrast, lots of information on it, more than we had on the last one. It hasn't rained yet, so we haven't seen how that works yet, but the rest of it has been effective, in comparison to our neighbors and some other readouts we have available nearby. Setting all the options along with date, time, and measurement/unit preferences was quick and easy.
+_The base unit readout screen is nice, good contrast, lots of information on it, more than we had on the last one. It hasn't rained yet, so we haven't seen how that works yet, but the rest of it has been effective, in comparison to our neighbors and some other readouts we have available nearby. Setting all the options along with date, time, and measurement/unit preferences was quick and easy._
 
-    Getting the station and base unit to link up was simple and easy without any problems following the quick start instructions…”
+_Getting the station and base unit to link up was simple and easy without any problems following the quick start instructions…”_
 
-Generated User Needs:
+**Generated User Needs:**
 
     Implies the need for a simple installation process
 
@@ -126,17 +128,72 @@ Generated User Needs:
 
     Implies the need for easy to change settings
 
-Positive Comment 2:
 
-    “There are a great number of weather stations on the market that provide a varying range of data. Finding one that targets what you need can be daunting if not exhausting by the time you do all the research. I depend on solar panels to power my home and needed a unit that, along with the basic weather data, could provide sun radiation readings to compare to the panel array performance. My aim was to find something easy to operate but still provide key weather data that was reliable, consistent and affordable. After researching the available units I purchased the Sainlogic 089. Keep in mind that any weather station won’t stand a chance of providing accurate data if you don’t follow the instructions. The user manual provided sufficient details (and pictures) to make the installation easy. We were up and running with a connection to an online weather channel within an hour.”
+**Positive Comment 2:**
 
-Generated User Needs:
+_“There are a great number of weather stations on the market that provide a varying range of data. Finding one that targets what you need can be daunting if not exhausting by the time you do all the research. I depend on solar panels to power my home and needed a unit that, along with the basic weather data, could provide sun radiation readings to compare to the panel array performance. My aim was to find something easy to operate but still provide key weather data that was reliable, consistent and affordable. After researching the available units I purchased the Sainlogic 089. Keep in mind that any weather station won’t stand a chance of providing accurate data if you don’t follow the instructions. The user manual provided sufficient details (and pictures) to make the installation easy. We were up and running with a connection to an online weather channel within an hour.”_
 
-    Implies the need for readily available, reliable and accurate data.
+
+**Generated User Needs:**
+
+    Implies the need for readily available, reliable and accurate data
     
-    Implies the need for simple device operation. 
+    Implies the need for simple device operation
     
-    Implies the need for simple manual instructions.
+    Implies the need for simple manual instructions
+
+
+**Positive Comment 3:**
+
+_“Had it up and running in less than an hour. Only disappointment was no batteries were included. Other than that, I'm absolutely satisfied. Easy to read and accurate.”_
+
+**Generated User Needs:**
+
+    Implies the need for an organized/ readable display
+    
+    Implies the need for a quick installation process
+    
+    Implies the need for readily available power source (i.e. batteries)
+
+
+**Negative comment 1:**
+
+_“The setup on this product was fairly straightforward. Didn't have any problems there. What I've found is that the outdoor temperature is fairly accurate down to about freezing temperatures. Then it starts to diverge. By the time the temperature is in the teens, it measures 4 degrees warmer than it really is. The reason I know this is that I have two other already proven sensors strapped to the pole of the sainlogic and have observed consistent data supporting this conclusion. Because it doesn't measure 4 degrees difference across all temperatures, I can't add an calibration factor that the device allows. That is a nice feature by the way, but not useful in this case._
+
+_The other big complaint I have is that the anemometer stops working with accumulating snow. Yesterday we only received 2 inches of snow and it prevented it from working. The direction still works because that is not obstructed by accumulating snow, but the gust and average speed does not work until the snow melts. This is a poor mechanical design. I've owned other weather stations in this same home and they do not have this problem.”_
+
+**Generated User Needs:**
+
+    Implies the need for accessibility in extreme cold temperatures
+    
+    Implies the need for a confidence scale behind data predictions
+    
+    Implies the need for debug features
+    
+    Implies the need for power LED indicators
+
+
+**Negative comment 2:**
+
+_“This weather station worked for a couple of months, then stopped transmitting the outside temperature, wind speed and rainfall. We changed the batteries, went out and bought expensive lithium batteries and the reset button on the unit stayed red, never green like it’s supposed to be!
+It worked long enough for it to no longer be covered by Amazon or its seller. As a matter of fact, it doesn’t even come with a warranty! So I again, urge you not to WASTE your money!”_
+
+**Generated User Needs:**
+
+    Implies the need for a long-lasting power supply
+    
+    Implies the need for components
+
+
+**Negative comment 3:**
+
+_“Will not record rainfall. Tried it in the house and it works but once hung it will not record any rainfall- even a pouring rain. We have it where our old weather station was for years (different company). Tried reaching out for customer support and got no response. Display doesn’t show feels like temp or past rainfall without going through elaborate steps. In the cold north the feels like temp is important. Crap station and would not recommend. Unfortunately past the point of returning so stuck with it. Guess I’m buying a rain gauge.”_
+
+**Generated User Needs:**
+
+    Implies the need for “feels-like”temperatures. 
+
+    Implies the need for knowing the amount of rainfall. 
 
 
 
