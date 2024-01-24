@@ -96,11 +96,11 @@ _The team members agree to the following process for resolving conflicts with ot
 
 ### Voices of Customers (VOC) Benchmarking
 
-#### Product 1
+### Product 1
 
 * **Keywords:** “portable weather station”
 
-* **Product name:** “sainlogic Wireless Weather Station with Outdoor Sensor, 8-in-1 Weather Station with Weather Forecast, Temperature, Air Pressure, Humidity, Wind Gauge, Rain Gauge, Moon Phase, Alarm Clock (No WiFi)”
+* **Product Name:** “sainlogic Wireless Weather Station with Outdoor Sensor, 8-in-1 Weather Station with Weather Forecast, Temperature, Air Pressure, Humidity, Wind Gauge, Rain Gauge, Moon Phase, Alarm Clock (No WiFi)”
 
 * **Product Link:** https://amzn.to/4aOIjw5
 
@@ -110,7 +110,7 @@ _The team members agree to the following process for resolving conflicts with ot
 
 * **Vendor:** Amazon
 
-* **Description:** “ Easily call up information on temperature, humidity, etc. The reception range of the device has been improved which means the measurements of sainlogic weather station are more accurate. The wireless weather station with rain gauge and wind speed measures indoor/outdoor temperature and humidity, wind speed/direction, air pressure. Experience the convenience of your personal home weather station. Wrap up the best Christmas gifts now!...The 5-in-1 outdoor weather station sensor consists of a rain funnel, solar panel and transmission module, wind vane and high-speed anemometer, and transmits current information about temperature, humidity, air pressure, wind speed and wind direction, as well as the precipitation and much more. Assembly is easy, please follow the instructions provided…  “
+* **Description:** _Easily call up information on temperature, humidity, etc. The reception range of the device has been improved which means the measurements of sainlogic weather station are more accurate. The wireless weather station with rain gauge and wind speed measures indoor/outdoor temperature and humidity, wind speed/direction, air pressure. Experience the convenience of your personal home weather station. Wrap up the best Christmas gifts now!...The 5-in-1 outdoor weather station sensor consists of a rain funnel, solar panel and transmission module, wind vane and high-speed anemometer, and transmits current information about temperature, humidity, air pressure, wind speed and wind direction, as well as the precipitation and much more. Assembly is easy, please follow the instructions provided…_
 
 **Positive Comment 1:**
 
@@ -196,7 +196,7 @@ _“Will not record rainfall. Tried it in the house and it works but once hung i
     Implies the need for knowing the amount of rainfall. 
 
 
-#### Product 2
+### Product 2
 
 * **Keywords:** Wireless Color Weather Station
 
@@ -210,8 +210,8 @@ _“Will not record rainfall. Tried it in the house and it works but once hung i
 
 * **Vender:** Amazon
 
-* **Description:** Precise, real-time backyard weather with wireless technology. Animated weather icons display your personal forecast based on barometric 
-pressure. Monitor indoor & outdoor temps & humidity levels and their trends. Set personal alerts for both indoor & remote temperatures. View mold risk either remotely or indoors (basement or crawl space) with wireless sensor. Accurate atomic time and date and indicators for low battery power. Includes AC adapter for display, and batteries are required for backup (not included) and for wireless sensor.
+* **Description:** _Precise, real-time backyard weather with wireless technology. Animated weather icons display your personal forecast based on barometric 
+pressure. Monitor indoor & outdoor temps & humidity levels and their trends. Set personal alerts for both indoor & remote temperatures. View mold risk either remotely or indoors (basement or crawl space) with wireless sensor. Accurate atomic time and date and indicators for low battery power. Includes AC adapter for display, and batteries are required for backup (not included) and for wireless sensor_
 
 **Positive Comment 1:**
 
@@ -293,6 +293,281 @@ _"Do not like! It is hard to read unless you are right in front of it. It is so 
 
     Implies the need for long-lasting bright display.
 
+
+### Product 3
+
+* **Keywords:** “Remote Monitoring Weather Station”
+
+* **Product Name:** “Ambient Weather WS-8482-3107 7-Channel WiFi Remote Monitoring Weather Station with Indoor/Outdoor Temperature & Humidity, Floating Pool, Spa & Pond Thermometer”
+
+* **Product Link:** https://www.amazon.com/Ambient-Weather-WS-8482-3107-Temperature-Thermometer/dp/B07MGJ4F4T?source=ps-sl-shoppingads-lpcontext&ref_=fplfs&psc=1&smid=A2ANVX7C75D1I
+
+![Alt text](pictures/product_3.jpg)
+
+* **Price:** $146.50
+
+* **Vendor:** Amazon
+
+* **Description:** _The Ambient Weather WS-8482 monitors indoor and outdoor conditions including indoor and outdoor temperature and humidity, heat index, and dew point. The console measures locally, and up to 7 sensors can connect for remote monitoring. Channels 1-7 for the remote sensors display with an auto-scroll feature. The console supports both imperial and metric units of measure and displays min/max data, allowing you to set up independent alerts for all parameters. The time and date automatically synchronize to the Internet NIST time server_
+
+
+**Positive Comment 1**
+
+_"I have several wireless thermometers. My main complaint with them is the lack of accuracy. I did some research and found the product line from Ambient Weather. I bought this one because it came with the wireless temperature sensor for the pool, as well as a thermometer/hygrometer outdoor sensor._
+
+_I read the other reviews on Amazon and saw that many people expressed extreme frustration with the setup of the device. I experienced none of those frustrations. I have quite a bit of experience setting up similar devices such as WiFi-connected garage door openers, doorbells, cameras, and other weather gateways. That experience helped for sure. I also work in information technology and so my technical skills are probably higher than the average person._
+
+_Regardless of technical skill level, the setup of this device is actually very straightforward as long as you follow the instructions carefully._
+
+_The key to setting up this device is connecting your computer to the device's internal WiFi access point. That is how you connect your computer (or smart phone) to the device during initial setup. Then you put in the information for your own WiFi so the device can then connect to your network and from there, to the internet._
+
+_You don't have to set up the wunderground.com and ambientweather.net if you don't want to. But it's easy and kind of fun. So record the MAC address that is shown when you connect to the configuration page of the device, or just look on the back for the sticker that has a number such as "00:AB:12:34:CD:EF" and then head over and register an account and your device there. Then fill out the appropriate fields on the device while you're setting it up._
+
+_It did take me two tries to get my device connected to my home WiFi. But the entire setup process probably took about 30 minutes._
+
+_I did run into a little trouble with the sensors. One of them kept coming up as "Er" in the display. I ended up removing the batteries, changing the channel, and reinserting the batteries. (If you change the channel, you have to remove and reinsert the batteries in order to get it to actually change the channel.) After a bit of minor fiddling, the device was able to receive data from both of the sensors and also send data to the two websites. I installed the Ambient Weather app, signed in with my account and now I see the data displayed on my phone as well._
+
+_I've only had this device up and running since last night, but it's dialed-in and working perfectly._
+
+_Don't let the negative reviews deter you if you have some technical wherewithal and the ability to follow instructions carefully. You will likely have no serious problems._
+
+_A word of caution regarding the water-resistant pool temperature probe: Make sure that the o-ring is carefully pressed into the groove in the top part of the casing. It would be a good idea to use some silicone grease as well. The o-ring may pop out of the groove when you open the case to insert the batteries or change the radio channel. Be very careful to ensure that you replace it properly or your device could fill with water and cause damage."_
+
+**Generated User Needs**
+
+    Implies the need for accurate temperature readings
+
+    Implies the need for simple setup instructions
+
+
+
+**Positive Comment 2**
+
+_"We have one of the thermometers in the pool which is a good 200 feet from our house. The other sensor is in our bedroom. They both communicate with the home station with NO issues. It's really nice to be able to know the temperature of the pool before heading out!
+This is the 2nd time we bought this. The first time I put the pool sensor in my hot tub once pool season was over. I'm not sure if they warn against this or not. But it didn't last long in the 105 degree hot tub. I'm guessing it has more to do with the humidity with the cover on...but don't make the same mistake I did. Highly recommend."_
+
+**Generated User Needs**
+
+    Implies the need for communication across devices
+
+
+**Positive Comment 3**
+
+_"Last winter I vacationed in Florida the month of January. When I returned to Wisconsin my hot tub was nearly frozen over. Luckily I was able to get a technician out to replace a circulating pump before any damage was done to the piping._
+
+_Before going to Florida this year I searched for a wi-fi enabled thermometer that I could access while in Florida. I found very little information on available systems. Comments on the Ambient Weather System did not give me comfort that the signal would penetrate the 5in. cover so I decided to wing it. A week before we were to leave I made a last minute decision to purchase this system and see how it worked. When I set it up, the signal was received by the receiver and I could monitor temperature via the internet._
+
+_The first week in Florida I logged on and saw the temperature was dropping. I had a neighbor go check on the hot tub and the breaker was tripped and would not reset. The technician came out and replaced a defective heater. A week later the same situation occurred and again I called the technician. Turns out he had jostled the hot tub plug and the water level dropped shutting off the hot tub._
+
+_Without this product I would have had thousands of dollars in damages and probably would have had to replace the tub. I'm back in Wisconsin in February and everything is a little better when you have a hot tub."_
+
+**Generated User Needs**
+
+    Implies the need for clear data presentation through a phone app
+
+    Implies the need for customized warning/ limit indicators
+
+
+**Negative Comment 1**
+
+_"One of the most ridiculously complicated solutions to what should be a basic function . Just wanted an easy to use weather monitor and pool temp monitor. I work in tech and after an hour of trying to get it set up and get the sensor to synchronize it’s all I could do to return it and not throw it across room. Also, no way am I creating a potential security issue with my WiFi by having this product synchronize externally. Perhaps if one fancies themselves an amateur meteorologist this is useful but for those of us that just want basic information in an easy by use package, this ain’t it."_
+
+**Generated User Needs**
+
+    Customer needs to monitor temperature of their pool
+
+    Implies the need for wifi connectivity
+    
+    Implies the need to monitor water temperature
+
+
+**Negative Comment 2**
+
+_"I bought it for the API, so that I could automate things based on the temperature. The API is incredibly inconsistent, with a history of days-long outages. I eventually had some luck using the "unofficial" API used by their web UI, which seems to be separate and more reliable. That only works if you set your weather station public, which is obnoxious because I didn't want to do that._
+
+_Eventually, the outside thermometer stopped working. I've been using the pool thermometer as an outside thermometer. That worked for awhile, but the base station loses it more and more often lately, and I've finally given up._
+
+_I ultimately just bit the bullet and bought an ESP8266, put micropython on it, and hooked up a set of temperature sensors off Amazon. I had really wanted to avoid rolling my own, hence buying this item. Turns out, it was super easy to wire up my own sensor and hook it up to a free grafana account. Way more reliable and a fraction the cost, and I have a pool and outside sensor. No humidity but I can add a sensor for that if I want to. Now this item is going in the trash."_
+
+**Generated User Needs**
+
+    The customer needs a device that can measure temperature for at least 7 years
+    
+    Implies the need for knowing air pollution levels
+    
+    Implies the need for a private API solution
+
+
+**Negative Comment 3**
+
+_"I tried to get help from support, they were annoying and unhelpful. I bought my first of these about 2 years ago. It worked till the batteries died, when I replaced the batteries it immediately died. My bad, I thought. Got a new floaty sensor thing, same story.... worked till batteries died, was super careful to follow instructions with replacing the batteries, used the right lube, dies within a couple days of putting it back in the water. I tried a 3rd time! I really like it, I really wanted it to work. This time the batteries didn't even die. I live close to their office, thinking about returning their trash in person._
+
+_Tldr wonderful device, except it only last ~6 months."_
+
+**Generated User Needs**
+
+    The custom needs good customer service
+    
+    The customer needs lubricant
+    
+    Implies the need for quality customer service
+    
+    Implies the need for a consistent power source
+
+
+### Product 4
+
+* **Keywords:** “Weather Station”
+
+* **Product Name:** “RainWise MK-III RTN-LR Weather Station”
+
+* **Product Link:** https://www.weathershack.com/product/rainwise-mkiiirti-lr.html
+
+![Alt text](pictures/product_4.png)
+
+* **Price:** $895.95
+
+* **Vendor:** Weather Shack
+
+* **Description:** The RainWise MKIIIRTI-LR sensor array combines all outside sensor components into a single compact unit that's easy to install. With a transmission range of over one mile line of sight, this sensor array is a great choice for applications where remote conditions must be monitored from a long distance.
+
+
+**Positive Comment 1**
+
+_"Upon opening the box, I found the unit to be packed well and the station appears to be well built. It's set up is extremely simple as all that's needed to do is mount the station in an appropriate location using either the mono mount or tripod mount, set the solar panel accordingly, orient to true south, then switch the unit on."_
+
+**Generated User Needs**
+
+    Implies a need for a portable weather solution
+    
+    Implies the need for easy installation
+    
+    Implies the need to monitor weather in remote locations
+    
+    Implies the need for a low/zero maintenance 
+
+
+**Positive Comment 2**
+
+_"The overall design of the MKIIIRTI-LR is nice but for this price and with the large solar panel and good sized battery, it really should at least, have a fan aspirated temperature sensor to reduce sun induced temperature variations especially in low wind situations. Also, why not already have solar, UV or both sensors already attached. Most much cheaper stations now have these sensors as part of the whole package. I'm hoping the new station performs better than my older station which has not fared well in the harsh Wyoming climate it's constantly exposed to. Time will tell..."_
+
+**Generated User Needs**
+
+    Implies the need for a off the grid solution
+    
+    Implies the need to measure fan aspirated 
+    
+    Implies the need to measure UV light
+    
+    Implies the need to measure weather conditions in harsh environments
+
+    Implies the need for a fan aspirated temperature sensor 
+
+
+**Positive Comment 3**
+
+_"This unit replaced MKIII I purchased several years ago. The electronics degraded on my original MKIII to the extent the unit no longer functioned. In addition to the MKIII I purchased I had to get a new display panel (long range version). I recommend that Rainwise institute a refurbishment program rather than forcing customers to completely replace the unit and display panel."_
+
+**Generated User Needs**
+
+    Implies need for long term use
+    
+    Implies need for weather monitoring over long ranges
+    
+    Implies need for portability
+
+**Drawbacks:**
+
+* Needs a supporting display bought separately to work
+
+* Implies need for an all-in-one solution
+    * Needs supporting display to be from the same generation as the weather station
+    * Implies need for intercompatibility with multi-generational support equipment
+
+
+### Product 5
+
+* **Keywords:** “deployable weather station”
+
+* **Product Name:** La Crosse Technology V21-WTH Wireless Wi-Fi Weather Station
+
+* **Product Link:** https://amzn.to/3O9WORh
+
+![Alt text](pictures/product_5.png)
+
+* **Price:** $133.95
+
+* **Vendor:** Amazon
+
+* **Description:** _Introducing La Crosse Technology’s new Remote Monitoring Professional Weather Station system that offers a combination of quality engineering, design, and functionality. The innovative system’s display receives and transmits data wirelessly for optimal accuracy with built in Wi-Fi by connecting to multiple sensors and has enhanced features when connected to the La Crosse View App. Sensors in this system include a wind speed sensor, a rain sensor, and a temperature and humidity sensor, bringing you your backyard weather anytime, anywhere. The display acts as command center for all elements of the system, featuring a large LCD panel with brightly colored numbers and graphics and an adjustable kickstand, making the display easy-to-read from any angle in the room. The intuitive button design, located at the top of the station, allows you to effortlessly navigate through the display for adjustable screen brightness, easy setup, sensor data, and setting alerts. The built in Wi-Fi module is programmed to send all sensor and display information directly to our servers, which is maintained by our team of skilled technicians, quickly processed and sent to you and your network of friends via the La Crosse View App_
+
+
+**Positive Comment 1**
+
+_“Bought the La Crosse Technology V21-WTH unit about 3 weeks ago and it is working perfectly so far. Had some crazy weather for this area and all the functions reported properly. The accuracy of temp and humidity appears to be consistent. As compared to a separate wireless thermometer the readings pair consistently. Setup was a bit tricky getting the weather station to pair with my iPhone. Had to go to their web site for problem solving. Quickly found the fix and all good from there. The display has several brightness settings from off to high and clarity/readability are good. The anemometer is mounted @ 50 feet straight line of site from the base unit atop the rear fence. The temp/humidity sensor about 25 feet away protected by the patio cover. No signal issues as these sensors have much further range especially if unobstructed. Will take time to figure out how long the 2 size C batteries for the anemometer last before needing replacement. I've seen a post that suggests it's in the 3 month range but that was in some sub-zero weather.”_
+
+**Generated User Needs**
+
+    Implies the need for easy pairing for phone applications
+    
+    Implies the need for long-range operation
+    
+    Implies the need for common/ easy to use power source
+
+
+**Positive Comment 2**
+
+_“I like having separate devices for my weather system. The display is very bright and seems to respond quickly to the changes. The wind meter is perfect! I don't have it connected to the internet. I just wanted local information.
+The display is working beautifully, it seems to be very accurate. I have several other remote sensors and it hears those as well so I see consistent info.
+I didn't want to spend $300+ for a weather station. So my choice has worked out well. This has just the right amount of information without breaking the bank.”_
+
+**Generated User Needs**
+
+    Implies the need for responsiveness
+    
+    Implies the need for affordability
+
+
+**Positive Comment 3**
+
+_“This is very accurate, I am impressed with the color screen and all the information it provides, it is a little smaller the the older version I have which still works like new. The old unit was not color and thought I would like this, I was not disappointed.”_
+
+**Generated User Needs**
+
+    Implies the need for a colorful display
+
+
+**Negative Comment 1**
+
+_“when I first bought the thing, I had trouble with the wind and temp stations. somehow I managed to connect both and the wifi. HOWEVER, after a month, it lost connect to everything, including wifi. I have tried 30 times to get it to connect. the station will not go into wifi mode it seems even after a factory reset. also, the instructions tell you that the wifi signal is near the clock. its NOT. furthermore, the wind sensor and temp sensor both show that they are connected with full strength. but they are NOT connected at all. remove the battery and the connection sensor is still on 10 min later…”_
+
+**Generated User Needs**
+
+    Implies the need for a simple reset button.
+
+    Implies the need for visual instruction. 
+
+    Implies the need for phone use over wifi.
+
+    Implies the need for computer use over wifi.
+
+
+**Negative Comment 2**
+
+_“I've owned numerous La Crosse devices and have owned the V21-WTH for about a year. Unfortunately, I moved to a new house and can not get the device to connect to the new WIFI network. I've read the FAQ documents, watched their videos where they explain what hoops you have to jump through, I've reconfigured my network to match their limitations, and tried to contact their support desk with no response. After about four hours, I'm giving up. Next step is to toss it and buy something from another company…”_
+
+**Generated User Needs**
+
+    Implies the need for simple wifi connection process
+
+
+**Negative Comment 3**
+
+_“The unit would connect to my 2.4Ghz for about 10 minutes then the WiFi would drop. Reconnected multiple times over a few days with the same results. Also, as soon as it connected, the time jumped 21 hours forward, thus the forecast was for a totally different time zone. I contacted tech support, and received a call the following day. The timezone issue was a "known issue", their engineers were "working on it", but there was no ETA. Connecting to an NTP server is not rocket science. I waited a few more days and it still wasn't working so I returned the unit…”_
+
+**Generated User Needs**
+
+    Implies the need for accurate time zone representation
 
 
 
