@@ -156,7 +156,7 @@ _“Had it up and running in less than an hour. Only disappointment was no batte
     Implies the need for readily available power source (i.e. batteries)
 
 
-**Negative comment 1:**
+**Negative Comment 1:**
 
 _“The setup on this product was fairly straightforward. Didn't have any problems there. What I've found is that the outdoor temperature is fairly accurate down to about freezing temperatures. Then it starts to diverge. By the time the temperature is in the teens, it measures 4 degrees warmer than it really is. The reason I know this is that I have two other already proven sensors strapped to the pole of the sainlogic and have observed consistent data supporting this conclusion. Because it doesn't measure 4 degrees difference across all temperatures, I can't add an calibration factor that the device allows. That is a nice feature by the way, but not useful in this case._
 
@@ -173,7 +173,7 @@ _The other big complaint I have is that the anemometer stops working with accumu
     Implies the need for power LED indicators
 
 
-**Negative comment 2:**
+**Negative Comment 2:**
 
 _“This weather station worked for a couple of months, then stopped transmitting the outside temperature, wind speed and rainfall. We changed the batteries, went out and bought expensive lithium batteries and the reset button on the unit stayed red, never green like it’s supposed to be!
 It worked long enough for it to no longer be covered by Amazon or its seller. As a matter of fact, it doesn’t even come with a warranty! So I again, urge you not to WASTE your money!”_
@@ -185,7 +185,7 @@ It worked long enough for it to no longer be covered by Amazon or its seller. As
     Implies the need for components
 
 
-**Negative comment 3:**
+**Negative Comment 3:**
 
 _“Will not record rainfall. Tried it in the house and it works but once hung it will not record any rainfall- even a pouring rain. We have it where our old weather station was for years (different company). Tried reaching out for customer support and got no response. Display doesn’t show feels like temp or past rainfall without going through elaborate steps. In the cold north the feels like temp is important. Crap station and would not recommend. Unfortunately past the point of returning so stuck with it. Guess I’m buying a rain gauge.”_
 
@@ -194,6 +194,104 @@ _“Will not record rainfall. Tried it in the house and it works but once hung i
     Implies the need for “feels-like”temperatures. 
 
     Implies the need for knowing the amount of rainfall. 
+
+
+#### Product 2
+
+* **Keywords:** Wireless Color Weather Station
+
+* **Product Name:**  “La Crosse Technology 308-1414MB-INT Wireless Color Weather Station with Mold Indicator, Black”
+
+* **Product Link:** https://www.amazon.com/Crosse-Technology-308-1414MB-INT-Wireless-Indicator/dp/B00NMRZEU4?source=ps-sl-shoppingads-lpcontext&ref_=fplfs&psc=1&smid=ATVPDKIKX0DER
+
+![Alt text](pictures/product_2.jpg)
+
+* **Price:**  $65.99
+
+* **Vender:** Amazon
+
+* **Description:** Precise, real-time backyard weather with wireless technology. Animated weather icons display your personal forecast based on barometric 
+pressure. Monitor indoor & outdoor temps & humidity levels and their trends. Set personal alerts for both indoor & remote temperatures. View mold risk either remotely or indoors (basement or crawl space) with wireless sensor. Accurate atomic time and date and indicators for low battery power. Includes AC adapter for display, and batteries are required for backup (not included) and for wireless sensor.
+
+**Positive Comment 1:**
+
+_"I just love these units. I have purchased four to date. One for a gift, one for each of my two houses, and one I left behind in a previously owned house. The base station does work on battery but I plugged mine in for brighter display. I use Cord Mate brand wire covers to hide the power cable. The home base battery kicks in during a power loss. The outside sensor is meant to be protect from direct rain but mine out totally outside in the elements for over two years (Oh Oh, I may have just voided my warrantee). One is in Maine with snow and rain). One in California in blistering heat and rain. Would I buy it again. Yes, I have again and again."_
+
+**Generated User Needs:**
+
+    Implies the need for measuring weather conditions across different settings
+
+    Implies the need for compatibility in rainy conditions
+
+    Implies the need for compatibility in sunny conditions
+
+
+**Positive Comment 2:**
+
+_"This is a HUGE upgrade from the piece of junk I bought from Walmart a few years ago. The display is bright and the remote sensor worked as soon as I put in the batteries. The one this replaced always had a problem communicating with the sensor and the past few months I was going through batteries like crazy. This one at least has an AC adapter and just that feature alone makes it worth buying it. There are videos on YouTube that show how to set this up too, in case you don't like to read directions._
+
+_Two and half year update: I bought this in April 2017 and if worked flawlessly. I've only had to change the batteries once in that time until recently. Just a few days ago I had to change the batteries again. After jumping through all the hoops to do that to make it work again (take out the batteries from both the station and remote, unplug the station, press any button at least 20 times and leave it unplugged for 15 minutes), which there is no documentation on unless you happen to find this instruction on their youtube channel, my remote only works for a day or two and I have to repeat the process. So it's clear to me I have to buy either a new remote for over $25 of a new station and remote for $65. Yes, two and a half years is a long time but I think this should have lasted a lot longer since there are no moving parts, just electronics. The remote doesn't even look water proof since when I first opened it a few days ago, there was water in it. You'd think they'd make these things water proof, or at least water resistant. But oh, you can buy"_
+
+**Generated User Needs:**
+
+    The customer needs a reliable way to measure weather conditions over time
+
+    Implies the need for a simple installation process
+            
+    Implies the need for reliable weather measurement methods
+    
+    Implies the need for long-distance control
+
+
+**Positive Comment 3:**
+
+_"My old sensor stopped working so I upgraded to this. Works great. Easy to see numbers"_
+
+**Generated User Needs:**
+
+    Implies needs to be able to easily determine environment conditions
+
+
+**Negative Comment 1:**
+
+_"Very disappointed. The outside sensor only worked for a week or 2 before it died. I had even bought the ridiculously expensive plastic cage that is supposed to shield the sensor from the elements. I don't know if it didn't work or if the sensor was so crappy that no amount of protection was going to keep it alive. I've replaced the batteries with new ones and cannot resuscitate the sensor — it's dead, Jim._
+
+_I bought this weather station because I had another La Crosse weather station (different model) at my previous house and it had worked perfectly for over 5 years. This one barely made it to 5 days. I already have several devices which tell me the indoor temperature and humidity — I bought this for the outside info — exactly what it's not giving me._
+
+_I'm certain I can't return this to Amazon at this point since only the indoor unit hasn't been exposed to the weather. I'm thoroughly disgusted at this point at the money I've wasted on this La Crosse product! Never again!"_
+
+**Generated User Needs:**
+
+    The customer needs a way to remotely monitor the weather conditions outside
+    
+    Implies the need for a durable design. 
+
+
+**Negative Comment 2:**
+
+_"Looks good but not very accurate. I have 3 other digital thermometers, I put them all side by side and let them stabilize for an hour. The Lacrosse Indoor temp read 80.8 degrees and all the others read 79.5 exactly ( the other 3 read exactly the same and they were different manufacturers). I even have one that reads Celsius, converting C to F came to 79.5 degrees. The Lacrosse unit reads 1.3 degrees too high. Also the Indoor humidity is off as well, the Lacrosse reads 42%, all of the others read 49%. The Outdoor temp on the LaCrosse read within .1 degree of the other units but the Humidity reading is way off. The other 3 units read between 61% to 63%, the Lacrosse reads 53%. Not very accurate but it looks good..
+UPDATE - the power adapter died after 3 days, I'm sending it back to Amazon."_
+
+**Generated User Needs:**
+
+    Implies the need to have access to accurate temperature data. 
+
+    Implies the need to have access to accurate humidity data. 
+
+    Implies the need for a long-lasting power source. 
+
+
+**Negative Comment 3:**
+
+_"Do not like! It is hard to read unless you are right in front of it. It is so directional, you can not see it at certain angles. Very disappointed. I wanted to set this on a piece of furniture in my bedroom and be able to see it when in bed at night. You have to stand up to be at an angle to actually see the numbers. I would send it back, but threw the box that it came in away and didn't set it up immediately. Dumb on my part thinking it would work. We had another one that worked perfect, but the lights on it have dimmed so much, you can't see it, but it is very old. Don't order, you will be disappointed,"_
+
+**Generated User Needs:**
+
+    Implies the need for easy readability. 
+
+    Implies the need for adjustable viewing angles. 
+
+    Implies the need for long-lasting bright display.
 
 
 
@@ -326,7 +424,7 @@ missing photo of OG jam board :(
 ![Alt text](pictures/group_jam_4.png)
 ![Alt text](pictures/group_jam_5.png)
 
-### Ranked User Needs Jamboard:
+### Grouped and Ranked User Needs:
 
 **Weather Condition Measurements:**
 * User needs to measure temperature in the plains ⭐⭐⭐
