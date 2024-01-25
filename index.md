@@ -14,6 +14,7 @@ Arizona State University, EGR 314 (Class #17878), Professor: Kevin Nichols
 ## Introduction
 
 **EGR314 - Embedded Systems Design Project II - Team 305**
+
 Input intro here.
 
 **Introducing _The Isopod_**
