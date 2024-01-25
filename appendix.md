@@ -811,6 +811,7 @@ _“The unit would connect to my 2.4Ghz for about 10 minutes then the WiFi would
 ![Alt text](pictures/wb_2.png)
 
 ### Product Ideas/Concepts/Features
+
 1. Red debug LED 
 2. Blue debug LED 
 3. Green debug LED 
@@ -914,7 +915,7 @@ _“The unit would connect to my 2.4Ghz for about 10 minutes then the WiFi would
 101. Date format option
 
 
-### Group/Rank
+### Grouped/Ranked Ideas/Concepts/Features
 
 **Electorics:**
 * Red debug LED ⭐
@@ -1034,3 +1035,16 @@ _“The unit would connect to my 2.4Ghz for about 10 minutes then the WiFi would
 ![Alt text](pictures/prototype_1d.png)
 
 
+### Prototype Design #2: Backpack to Weather Station
+
+![Alt text](pictures/prototype_2.png)
+
+### Prototype Design #3: The Buffalo
+
+![Alt text](pictures/prototype_3a.png)
+
+![Alt text](pictures/prototype_3b.png)
+
+![Alt text](pictures/prototype_3c.png)
+
+![Alt text](pictures/prototype_3d.png)

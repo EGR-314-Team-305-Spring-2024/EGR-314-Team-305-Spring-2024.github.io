@@ -11,6 +11,10 @@ Arizona State University, EGR 314 (Class #17878), Professor: Kevin Nichols
 
 # Home
 
+## Introduction
+
+**EGR314 - Embedded Systems Design Project II - Team 305**
+Input intro here.
 
 ## Team Orgainzation
 
@@ -22,6 +26,8 @@ Arizona State University, EGR 314 (Class #17878), Professor: Kevin Nichols
 ## User Needs, Benchmarking, and Requirments
 
 **Project Description**: "This semester we will be producing systems that can respond to the environment using serial sensing and actuation in your system for a mobile weather station. Each team will also broadcast their environmental data to the internet over WiFi using the MQTT protocol."
+
+### User Needs
 
 **Steps Involved in our User Needs Process:**
 1. List more user needs based from web forums on industrial products
@@ -35,14 +41,52 @@ Arizona State University, EGR 314 (Class #17878), Professor: Kevin Nichols
 1. Battery lubricant
 2. Fan aspirated temperature sensor
 
+### Product Requirements
+
+**Steps Involved in our Product Requirements:**
+
+* Identify Stakeholders
+    * Park Rangers/ National Park Associations
+    * Camping/ Hiking Clubs
+    * Petroleum Companies
+    * Farmers
+* Brainstormed possible Use Cases based on identified stakeholders
+* Brainstormed Product Requirements based on User Needs
+    * The product must require no prior training to deploy
+    * Display “Feels Like” Temperatures
+    * The device must be transportable by an average human
 
 
+## Design Ideation
 
-## Introduction
+**Key Design Concepts:** 
+* Solar panel
+* Temperature Sensor
+* Humidity Sensor
+* Removable Padded Backpack
+* “Camalback” - sized body
+* Poles for Mounting Body
+* Sensor API Modules
 
-**EGR314 - Embedded Systems Design Project II - Team 305**
-_Italic Text_
-**_Bold and Italic Text_**
+### Prototype Design #1: Backpack design 
+
+![Alt text](pictures/prototype_1a.png)
+
+### Prototype Design #2: Backpack to Weather Station
+
+![Alt text](pictures/prototype_2.png)
+
+### Prototype Design #3: The Buffalo
+
+![Alt text](pictures/prototype_3a.png)
+
+
+# Appendix
+
+[link to Appendix](/appendix)
+
+
+# Other stuff
 
 ## Research Question
 
