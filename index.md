@@ -3,7 +3,7 @@
 # MWMS (Mobile Weather Monitoring Solutions)
 ---
 ## Team 305
-Anthony Alvarado, Princess Colon, Cole Lackey, William Pena
+Anthony Alvarado, Princess Colon, Cole Lackey, William Pena 
 ---
 
 Arizona State University, EGR 314 (Class #17878), Professor: Kevin Nichols
