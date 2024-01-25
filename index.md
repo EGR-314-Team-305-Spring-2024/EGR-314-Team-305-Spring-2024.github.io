@@ -23,6 +23,10 @@ Input intro here.
 
 _Logo generated at www.craiyon.com_
 
+### Checkpoint 1 Presentation
+
+[Link to checkpoint 1 video](https://youtu.be/IFEdKx9uXrw)
+
 ## Team Orgainzation
 
 **Team Charter**: Our mission as MWMS is to create a dynamic and collaborative environment where we maintain a consistent and productive work schedule, cultivate a passion for coding and collaboration using code repositories like GitHub, deepen our understanding of manufacturing processes, advance our knowledge in professional PCB design, and collectively deliver reliable and sturdy final products that exceed project requirements.
