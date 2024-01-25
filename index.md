@@ -16,6 +16,12 @@ Arizona State University, EGR 314 (Class #17878), Professor: Kevin Nichols
 **EGR314 - Embedded Systems Design Project II - Team 305**
 Input intro here.
 
+**Introducing _The Isopod_**
+
+![Alt text](pictures/logo_1a.png)
+
+_Logo generated at www.craiyon.com_
+
 ## Team Orgainzation
 
 **Team Charter**: Our mission as MWMS is to create a dynamic and collaborative environment where we maintain a consistent and productive work schedule, cultivate a passion for coding and collaboration using code repositories like GitHub, deepen our understanding of manufacturing processes, advance our knowledge in professional PCB design, and collectively deliver reliable and sturdy final products that exceed project requirements.
