@@ -90,4 +90,4 @@ Anthony Alvarado, Princess Colon, Cole Lackey, William Pena
 
 # Appendix
 
-[link to Appendix](/appendix)
+[link to Appendix](/appendix.md)
