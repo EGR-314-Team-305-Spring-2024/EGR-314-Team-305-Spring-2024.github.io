@@ -2,26 +2,22 @@
 ---
 # MWMS (Mobile Weather Monitoring Solutions)
 ---
-## Team 305
-Anthony Alvarado, Princess Colon, Cole Lackey, William Pena 
----
 
-Arizona State University, EGR 314 (Class #17878), Professor: Kevin Nichols
-
+Team 305 Arizona State University, EGR 314 (Class #17878), Professor: Kevin Nichols
 
 # Home
 
-## Introduction
-
-**EGR314 - Embedded Systems Design Project II - Team 305**
-
-Welcome to our team's Embedded System Design page. Our team was tasked with developing a mobile weather station that would be capable of measuring at least two different environmental variables, such as temperature, rainfall, humidity, atmospheric pressure, as well as utilize an actuator as per our project guidelines. With these guidelines in mind, we are currently developing a transportable weather station that one could comfortably wear as a backpack so that they could assemble it in an unmonitored location of their choosing. Below, we go more in-depth in our processes. If you wish to find more information, please refer to our appendix page linked below. Thank you for visiting our website. 
-
-**Introducing _The Isopod_**
+## Introducing _Project Isopod_
 
 ![Alt text](pictures/logo_1a.png)
 
 _Logo generated at www.craiyon.com_
+
+Welcome to our team's Embedded System Design page. Our team was tasked with developing a mobile weather station that would be capable of measuring at least two different environmental variables, such as temperature, rainfall, humidity, atmospheric pressure, as well as utilize an actuator as per our project guidelines. With these guidelines in mind, we are currently developing a transportable weather station that one could comfortably wear as a backpack so that they could assemble it in an unmonitored location of their choosing. Below, we go more in-depth in our processes. If you wish to find more information, please refer to our appendix page linked below. Thank you for visiting our website. 
+
+### Our Team:
+
+Anthony Alvarado, Princess Colon, Cole Lackey, William Pena
 
 ### Checkpoint 1 Presentation
 
