@@ -1048,3 +1048,7 @@ _“The unit would connect to my 2.4Ghz for about 10 minutes then the WiFi would
 ![Alt text](pictures/prototype_3c.png)
 
 ![Alt text](pictures/prototype_3d.png)
+
+## Block Diagram
+
+![Alt text](pictures/Block_Diagram_Screenshot.png)
