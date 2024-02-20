@@ -1061,6 +1061,16 @@ _“The unit would connect to my 2.4Ghz for about 10 minutes then the WiFi would
 
 ## Microcontroller Selection
 
+![Alt text](pictures/Microcontroller_Selection_Screenshot_1.png)
+
+![Alt text](pictures/Microcontroller_Selection_Screenshot_2.png)
+
+![Alt text](pictures/Microcontroller_Selection_Screenshot_3.png)
+
+![Alt text](pictures/Microcontroller_Selection_Screenshot_4.png)
+
+![Alt text](pictures/Microcontroller_Selection_Screenshot_5.png)
+
 ## Software Proposal
 
 ## Hardware Proposal
