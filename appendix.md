@@ -1055,7 +1055,7 @@ _“The unit would connect to my 2.4Ghz for about 10 minutes then the WiFi would
 
 ### Verification Table
 
-![Alt text](Verification_Table_Screenshot.png)
+![Alt text](pictures/Verification_Table_Screenshot.png)
 
 ## Component Selection
 
