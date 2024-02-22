@@ -1,98 +1,6 @@
-# Team 305 Appendix
+# User Needs, Benchmarking, and Requirements
 
-## Team Organization
-
-**Team Goals:**
-* Maintain consistent and productive work schedule
-* Furthering passion of coding, like working with code repositories (github)
-* Further knowledge in manufacturing process
-* Advance knowledge in professional PCB design 
-* Create a reliable and sturdy final product within the project requirements
-
-**Communication Channels Table:**
-
-![Alt text](pictures/Communication_Channels_Screenshot.png)
-
-### Communucation Procedures
-
-**How will your team communicate (e.g., group text, email, Canvas, Slack, Discord, telephone)? Consider the need for both asynchronous and synchronous discussion types, and the expectations that come with each mode of communication.**
-
-Our team will be communicating primarily through text messaging. For meetings that require all members to be present, in person meeting is preferable but if all members can not attend, such meeting will be done via Discord.
-
-**How will you handle instructor correspondence? Who is responsible? How will that be communicated with/back to the group?**
-
-Communication to the instructor will be handled via email in which the person will tag the rest of the team in the correspondence. 
-
-### Meeting Schedule
-
-In order for the team to conduct meetings, a text reminder will be sent out on the day of the meeting both a couple of hours prior and immediately before. Meetings will occur on a consistent agreed upon schedule. Assuming a meeting change happens in response to the relative workload required for a 314 assignment, changing meeting times will be discussed in class with a text sent out as a reminder. Under other circumstances, a discussion will be conducted via text in-order to determine a new meeting time. It is preferred that meetings happen face-to-face on the ASU Polytechnic campus though Zoom will be available as needed.
-
-![Alt text](pictures/Meeting_Schedules_Screenshot.png)
-
-### Roles & Responsibilities 
-
-![Alt text](pictures/Roles_and_Responsibilities_Screenshot.png)
-
-For our team, project roles are to be picked voluntarily, and once assigned, they are to remain in that role unless there is an accommodation that is required that prevents them from satisfying said position. This should be communicated in advance. In such a scenario, a consensus will be reached among the team members for who is best capable to fulfill the role switch or the responsibilities of the role in question can be distributed among the different roles. However, if a role switch is not required but only assistance is, any role is allowed to assist at any time. 
-
-Projects will be kept on track through the use of a Gantt chart via Smartsheet. And the team leader will be responsible for ensuring that all requirements are met among the team members. 
-
-The current roles for the project are as follows:
-* Meeting leader - **William Pena**
-* Meeting recorder - **Anthony Alvarado**
-* Assignment leader - **Princess Colon**
-* Project monitor - **Cole Lackey**
-
-**How often will you change project roles?**
-* Every 3 weeks
-
-**How will you decide who is assigned to each role?**
-* We all picked initially what role we wanted to be and every three weeks we will rotate the roles by 1 downward. (Ex/ Current assignment leader will become the project monitor)
-
-**How will team members help one another meet their responsibilities?**
-* Team members can ask other group members for help when needed and every person in the group is expected to be supportive and encouraged. 
-
-**How will you identify and respond to situations where the team must adjust roles and responsibilities?**
-* Group discussions either through text, in-person meetings, or Zoom will determine any role changes if needed. 
-
-**How will you track the team activities and milestones?**
-* We will create a separate team meeting notes document.
-
-**How will you assign technical responsibilities to team members?**
-* Technical responsibilities will be included in the team Gantt chart and distributed among team members based on group discussions and individual strengths. 
-
-### Team Coordination & Accountability
-
-To complete assignments as a team, we will begin with a general meeting about what needs to be done. Outside of hard scheduled meet times, all team members can work on the project at any time. However, the assignment must be completed the day before, including the quality check. The assignment will then be submitted by the Meeting Recorder. To ensure the assignment is completed successfully all members will be required to report on which portion of the assignment they will best be able to assist. However, the final say will go to the Assignment Leader. Making sure everyone on the team is informed of the design review will fall under the task of the Project Monitor. 
-
-For things referring to accountability and team conflict, it will be subject to the Conflict Resolution Protocol.
-
-### Conflict Recognition & Resolution
-
-_The team members agree to the following process for resolving conflicts with other team members:_
-
-1) If, by 48 hours of initial contact by team leader, any member does not reply, they are to be removed from the corresponding assignment 
-
-2) If, after two repeated violations of [1], the violating member is to be considered a missing participant, and to be removed indefinitely via pink slip until contact is reestablished. Assuring this on assignments shall fall under the jurisdiction of the Meeting Recorder
-
-3) If, in the conditions where there is a conflict among members, a meeting will be scheduled at the next available time to resolve said conflict. Planning meetings will be done by the Meeting Leader position and hosted on the platform Zoom
-
-4) Conflicts regarding project course decisions are to be voted anonymously. If consensus is unable to be met during the meet times established by the Project Planner, decision making power shall be deferred to the Team Leader Position
-
-5) For intrapersonal team conflict, Article 3 is invoked at the next possible meeting time disregarding any preset assignments. If there is no resolution to which all parties are satisfied, it is to be referred to the professor or TA of the course for further action. This can be done by any member. 
-
-6) Team decisions related to conflict resolution and student participation are to be made via vote, including the approval of this protocol which shall be done unanimously.
-
-7) Any debate to change this protocol can be started by any present participant.
-
-### Signatures
-
-![Alt text](/pictures/Signatures_Screenshot.png)
-
-
-
-## User Needs, Benchmarking, and Requirements
-
+[Back to Appendix](/appendices/appendix.md)
 
 ### Voices of Customers (VOC) Benchmarking
 
@@ -104,7 +12,7 @@ _The team members agree to the following process for resolving conflicts with ot
 
 * **Product Link:** https://amzn.to/4aOIjw5
 
-![Alt text](pictures/product_1.png)
+![Alt text](/pictures/product_1.png)
 
 * **Price:** $150.00
 
@@ -204,7 +112,7 @@ _“Will not record rainfall. Tried it in the house and it works but once hung i
 
 * **Product Link:** https://www.amazon.com/Crosse-Technology-308-1414MB-INT-Wireless-Indicator/dp/B00NMRZEU4?source=ps-sl-shoppingads-lpcontext&ref_=fplfs&psc=1&smid=ATVPDKIKX0DER
 
-![Alt text](pictures/product_2.jpg)
+![Alt text](/pictures/product_2.jpg)
 
 * **Price:**  $65.99
 
@@ -302,7 +210,7 @@ _"Do not like! It is hard to read unless you are right in front of it. It is so 
 
 * **Product Link:** https://www.amazon.com/Ambient-Weather-WS-8482-3107-Temperature-Thermometer/dp/B07MGJ4F4T?source=ps-sl-shoppingads-lpcontext&ref_=fplfs&psc=1&smid=A2ANVX7C75D1I
 
-![Alt text](pictures/product_3.jpg)
+![Alt text](/pictures/product_3.jpg)
 
 * **Price:** $146.50
 
@@ -423,7 +331,7 @@ _Tldr wonderful device, except it only last ~6 months."_
 
 * **Product Link:** https://www.weathershack.com/product/rainwise-mkiiirti-lr.html
 
-![Alt text](pictures/product_4.png)
+![Alt text](/pictures/product_4.png)
 
 * **Price:** $895.95
 
@@ -493,7 +401,7 @@ _"This unit replaced MKIII I purchased several years ago. The electronics degrad
 
 * **Product Link:** https://amzn.to/3O9WORh
 
-![Alt text](pictures/product_5.png)
+![Alt text](/pictures/product_5.png)
 
 * **Price:** $133.95
 
@@ -681,19 +589,19 @@ _“The unit would connect to my 2.4Ghz for about 10 minutes then the WiFi would
 
 ### User Needs on Jamboard
 
-![Alt text](pictures/jam_1.png)
-![Alt text](pictures/jam_2.png)
-![Alt text](pictures/jam_3.png)
-![Alt text](pictures/jam_4.png)
-![Alt text](pictures/jam_5.png)
+![Alt text](/pictures/jam_1.png)
+![Alt text](/pictures/jam_2.png)
+![Alt text](/pictures/jam_3.png)
+![Alt text](/pictures/jam_4.png)
+![Alt text](/pictures/jam_5.png)
 
 ### Grouped User Needs on Jamboard
 
-![Alt text](pictures/group_jam_1.png)
-![Alt text](pictures/group_jam_2.png)
-![Alt text](pictures/group_jam_3.png)
-![Alt text](pictures/group_jam_4.png)
-![Alt text](pictures/group_jam_5.png)
+![Alt text](/pictures/group_jam_1.png)
+![Alt text](/pictures/group_jam_2.png)
+![Alt text](/pictures/group_jam_3.png)
+![Alt text](/pictures/group_jam_4.png)
+![Alt text](/pictures/group_jam_5.png)
 
 ### Grouped and Ranked User Needs:
 
@@ -801,276 +709,4 @@ _“The unit would connect to my 2.4Ghz for about 10 minutes then the WiFi would
 * User needs lubricant for batteries ⭐
 
 
-
-## Design Ideation
-
-### Brainstorming
-
-![Alt text](pictures/wb_1.png)
-
-![Alt text](pictures/wb_2.png)
-
-### Product Ideas/Concepts/Features
-
-1. Red debug LED 
-2. Blue debug LED 
-3. Green debug LED 
-4. Power LED 
-5. Wifi connection LED 
-6. Debug LCD 
-7. Solar panel 
-8. Solar charge unit 
-9. Solar power indicator 
-10. Waterproof charger for electronics 
-11. USB port charging port 
-12. Charging light 
-13. Power cable 
-14. Temperature sensor 
-15. Air aspirated temperature sensor 
-16. Rainfall sensor 
-17. Sunlight 
-18. UV level sensor 
-19. Humidity sensor 
-20. Air pollution sensor 
-21. Camera 
-22. INFRARED sensor 
-23. Removable padded backpack 
-24. Night vision camera 
-25. Wind speed sensor 
-26. Internal thermal sensor 
-27. Snow sensor 
-28. Wifi 6 chip 
-29. ESP32 chip 
-30. Motor for solar panel 
-31. Atomic 
-32. RFM95W radio module 
-33. 60 watt-hour battery 
-34. General LCD screen 
-35. General OLED screen 
-36. Debug OLED screen 
-37. Central server 
-38. Red LED blink continuously during programming 
-39. Green LED on for stable connection 
-40. LCD LED on for stable connections 
-41. LCD display error code 
-42. Color display dashboard 
-43. Smooth edges 
-44. Fuses in power circuit 
-45. Customizable widget display 
-46. Temperature module 
-47. Rainfall module
-48. Lunar module
-49. Sunlight module
-50. Time module
-51. Date module
-52. Temperature limit warning indicator
-53. Rainfall limit warning
-54. Custom lunar indicator
-55. Custom sunlight indicator
-56. Time zone indicator
-57. Touch screen LCD
-58. Wind chill module
-59. Removable padded backpack straps
-60. “Camalback” sized body
-61. Poles for mounting body
-62. Poles for mounting solar panel
-63. Pole mount
-64. Aluminum shell
-65. Pla sensor mounts
-66. Stainless steel for poles
-67. UV resin pole inserts
-68. Carbon fiber hatch
-69. Internal access panel
-70. Sloped edges to deter water
-71. Battery lubricant
-72. Fine recognition AI
-73. SSh control protocols
-74. Web application
-75. Private/secure API protocols
-76. Time API block
-77. Day API block
-78. Month API block
-79. Year API block
-80. Century API block
-81. Millennium API block
-82. Lunar API block
-83. Temperature API block
-84. Air aspirate temperature API block
-85. Rainfall API block
-86. Sunlight API block
-87. UV level API block
-88. Humidity API block
-89. Air pollution API block
-90. Air speed API block
-91. Colorful API
-92. Modular API
-93. Block structure API
-94. Warning API block
-95. Power level API block
-96. Debug API block
-97. Windchill API block
-98. Weather predictions API block
-99. Unit conversion API block
-100. Temperature conversion API block
-101. Date format option
-
-
-### Grouped/Ranked Ideas/Concepts/Features
-
-**Electorics:**
-* Red debug LED ⭐
-* Blue debug LED⭐
-* Green debug LED⭐
-* Power LED⭐⭐
-* Wifi connection LED⭐⭐
-* Debug LCD⭐⭐
-* Solar panel⭐⭐⭐
-* Solar charge unit⭐⭐⭐
-* Solar power indicator⭐⭐
-* Waterproof charger for electronics⭐⭐⭐
-* USB port charging port⭐
-* Charging light⭐
-* Power cable⭐
-* Temperature sensor⭐⭐⭐
-* Air aspirated temperature sensor⭐⭐⭐
-* Rainfall sensor⭐⭐
-* Sunlight⭐⭐
-* UV level sensor⭐⭐
-* Humidity sensor⭐⭐⭐
-* Air pollution sensor⭐⭐
-* Camera⭐
-* INFRARED sensor⭐⭐
-* Removable padded backpack⭐⭐⭐
-* Night vision camera⭐⭐
-* Wind speed sensor⭐⭐⭐
-* Internal thermal sensor⭐⭐
-* Snow sensor⭐
-* Wifi 6 chip⭐⭐⭐
-* ESP32 chip⭐⭐⭐
-* Motor for solar panel⭐⭐⭐
-* Atomic⭐
-* RFM95W radio module ⭐⭐⭐
-* 60 watt-hour battery⭐⭐⭐
-* General LCD screen⭐
-* General OLED screen⭐
-* Debug OLED screen⭐
-* Central server⭐⭐
-* Red LED blink continuously during programming⭐
-* Green LED on for stable connection⭐
-* LCD LED on for stable connections⭐
-* LCD display error code⭐
-* Color display dashboard⭐
-* Smooth edges⭐⭐⭐
-* Fuses in power circuit ⭐⭐⭐
-* Customizable widget display⭐
-* Temperature module⭐⭐
-* Rainfall module ⭐⭐
-* Lunar module ⭐⭐
-* Sunlight module⭐⭐
-* Time module⭐⭐
-* Date module⭐
-* Temperature limit warning indicator⭐⭐
-* Rainfall limit warning ⭐
-* Custom lunar indicator⭐
-* Custom sunlight indicator⭐
-* Time zone indicator⭐
-* Touch screen LCD⭐
-* Wind chill module⭐⭐
-
-**Hardware:**
-* Removable padded backpack straps⭐⭐
-* “Camalback” sized body⭐⭐⭐
-* Poles for mounting body⭐⭐⭐
-* Poles for mounting solar panel⭐⭐
-* Pole mount⭐⭐
-* Aluminum shell⭐⭐⭐
-* Pla sensor mounts⭐
-* Stainless steel for poles⭐⭐
-* UV resin pole inserts⭐⭐
-* Carbon fiber hatch⭐
-* Internal access panel⭐⭐
-* Sloped edges to deter water⭐⭐
-* Battery lubricant⭐⭐
-
-**Software:**
-* Fire recognition AI⭐⭐
-* SSh control protocols ⭐
-* Web application⭐⭐
-* Private/secure API protocols⭐⭐⭐
-* Time API block⭐⭐⭐
-* Day API block⭐⭐⭐
-* Month API block⭐⭐⭐
-* Year API block⭐⭐
-* Century API block⭐
-* Millennium API block⭐
-* Lunar API block⭐
-* Temperature API block⭐⭐⭐
-* Air aspirate temperature API block⭐⭐⭐
-* Rainfall API block⭐⭐
-* Sunlight API block⭐
-* UV level API block⭐⭐
-* Humidity API block⭐⭐
-* Air pollution API block⭐⭐
-* Air speed API block⭐⭐⭐
-* Colorful API⭐
-* Modular API ⭐⭐
-* Block structure API⭐
-* Warning API block⭐⭐⭐
-* Power level API block⭐
-* Debug API block⭐⭐
-* Windchill API block⭐⭐
-* Weather predictions API block⭐⭐
-* Unit conversion API block⭐⭐
-* Temperature conversion API block⭐⭐
-* Date format option⭐
-
-### Prototype Design #1: Backpack design 
-
-![Alt text](pictures/prototype_1a.png)
-
-![Alt text](pictures/prototype_1b.png)
-
-![Alt text](pictures/prototype_1c.png)
-
-![Alt text](pictures/prototype_1d.png)
-
-
-### Prototype Design #2: Backpack to Weather Station
-
-![Alt text](pictures/prototype_2.png)
-
-### Prototype Design #3: The Buffalo
-
-![Alt text](pictures/prototype_3a.png)
-
-![Alt text](pictures/prototype_3b.png)
-
-![Alt text](pictures/prototype_3c.png)
-
-![Alt text](pictures/prototype_3d.png)
-
-## Block Diagram
-
-
-
-### Verification Table
-
-![Alt text](pictures/Verification_Table_Screenshot.png)
-
-## Component Selection
-
-## Microcontroller Selection
-
-![Alt text](pictures/Microcontroller_Selection_Screenshot_1.png)
-
-![Alt text](pictures/Microcontroller_Selection_Screenshot_2.png)
-
-![Alt text](pictures/Microcontroller_Selection_Screenshot_3.png)
-
-![Alt text](pictures/Microcontroller_Selection_Screenshot_4.png)
-
-![Alt text](pictures/Microcontroller_Selection_Screenshot_5.png)
-
-## Software Proposal
-
-## Hardware Proposal
+[Back to Appendix](/appendices/appendix.md)
