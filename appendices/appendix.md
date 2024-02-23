@@ -4,7 +4,7 @@
 
 ### Team Organization
 
-[link to Team Organization](/appendices/team_organization.md)
+[link to Team Organization](https://github.com/EGR-314-Team-305-Spring-2024/EGR-314-Team-305-Spring-2024.github.io/appendices/team_organization.md)
 
 ### User Needs, Benchmarking, and Requirements
 
