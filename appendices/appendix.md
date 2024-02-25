@@ -8,7 +8,7 @@
 
 ### User Needs, Benchmarking, and Requirements
 
-[link to User Needs, Benchmarking, and Requirements](/appendices/user_needs_benchmarking_and_requirements.md)
+[link to User Needs, Benchmarking, and Requirements](/appendices/user_needs_benchmarking_and_requirements.html)
 
 ### Design Ideation
 

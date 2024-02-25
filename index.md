@@ -6,7 +6,6 @@
 Team 305 Arizona State University, EGR 314 (Class #17878), Professor: Kevin Nichols
 
 
-
 ## Our Team
 
 **Members:** Anthony Alvarado, Princess Colon, Cole Lackey, William Pena
