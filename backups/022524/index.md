@@ -72,7 +72,7 @@ With the ladder project requirements in mind, we moved on to delevop user needs 
 * Rank generated product requirments
 
 
-[Click here for more information on User needs and requirements](/appendices/user_needs_benchmarking_and_requirements.md)
+[Click here for more information on User needs and requirements](/appendices/user_needs_benchmarking_and_requirements.html)
 
 ## Design Ideation
 

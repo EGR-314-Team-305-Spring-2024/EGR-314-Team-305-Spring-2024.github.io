@@ -1,16 +1,14 @@
 # Team 305 Appendix
 
-[Home Page](/index.md)
+[Home Page](/index.html)
 
 ### Team Organization
 
-[link to Team Organization]()
+[link to Team Organization](/appendices/team_oganization.html)
 
 ### User Needs, Benchmarking, and Requirements
 
 [link to User Needs, Benchmarking, and Requirements](/appendices/user_needs_benchmarking_and_requirements.html)
-
-updated
 
 ### Design Ideation
 
