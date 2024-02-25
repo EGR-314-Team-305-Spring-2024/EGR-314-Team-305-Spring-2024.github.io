@@ -4,7 +4,7 @@
 
 ### Team Organization
 
-[link to Team Organization](https://github.com/EGR-314-Team-305-Spring-2024/EGR-314-Team-305-Spring-2024.github.io/blob/main/appendices/team_organization.md)
+[link to Team Organization]()
 
 ### User Needs, Benchmarking, and Requirements
 
@@ -14,27 +14,27 @@ updated
 
 ### Design Ideation
 
-[link to Design Ideation](/appendices/design_ideation.md)
+[link to Design Ideation](/appendices/design_ideation.html)
 
 ### Block Diagram
 
-[link to Block Diagram](/appendices/block_diagram.md)
+[link to Block Diagram](/appendices/block_diagram.html)
 
 ### Component Selection
 
-[link to Component Selection](/appendices/component_selection.md)
+[link to Component Selection](/appendices/component_selection.html)
 
 ### Microcontroller Selection
 
-[link to Mircocontroller Selection](/appendices/microcontroller_selection.md)
+[link to Mircocontroller Selection](/appendices/microcontroller_selection.html)
 
 ### Software Proposal
 
-[link to Software Proposal](/appendices/software_proposal.md)
+[link to Software Proposal](/appendices/software_proposal.html)
 
 ### Hardware Proposal
 
-[link to Hardware Proposal](/appendices/hardware_proposal.md)
+[link to Hardware Proposal](/appendices/hardware_proposal.html)
 
 ### Checkpoint 1 Presentation
 

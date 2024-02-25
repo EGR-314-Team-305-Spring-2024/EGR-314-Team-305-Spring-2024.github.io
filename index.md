@@ -95,4 +95,4 @@ With these guidelines in mind, we are currently developing a transportable weath
 
 # Appendix
 
-[link to Appendix](/appendices/appendix.md)
+[link to Appendix](/appendices/appendix.html)
