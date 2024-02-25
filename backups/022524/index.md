@@ -24,7 +24,7 @@ _Logo generated at www.craiyon.com_
 
 Our team was tasked with developing a mobile weather station that would be capable of measuring at least two different environmental variables, including but not limited to: 
 * Temperature
-* rainfall
+* Rainfall
 * Humidity
 * Atmospheric pressure
 * Windspeed
