@@ -41,18 +41,14 @@ With the ladder project requirements in mind, we moved on to delevop user needs 
 **Steps Involved in our User Needs Process:**
 1. List more user needs based from web forums on industrial products
 
-    <img src="/pictures/product_1.png" alt="drawing" width="25%" height="25%">
-    
-    _Sainlogic Wireless Weather Station_
+    <img src="/pictures/product_1.png" alt="Sainlogic Wireless Weather Station" width="25%" height="25%">
 
 2. Group similar user needs into categories: 
     1. Data based
     2. Location based
     3. General
 
-    <img src="/pictures/group_jam_3.png" alt="drawing" width="25%" height="25%">
-    
-    _User needs grouped on Jam Board_
+    <img src="/pictures/group_jam_3.png" alt="User needs grouped on Jam Board" width="25%" height="25%">
 
 3. Ranked User Needs
 
