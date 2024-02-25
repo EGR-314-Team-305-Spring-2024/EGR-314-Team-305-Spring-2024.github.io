@@ -88,7 +88,7 @@ With the ladder project requirements in mind, we moved on to delevop user needs 
 
 ### Prototype Design #1: Backpack design 
 
-<img src="/pictures/prototype_1a.png" alt="Backpack design" width="20%" height="20%">
+<img src="/pictures/prototype_1a.png" alt="Backpack design" width="40%" height="40%">
 
 ![Alt text](/pictures/prototype_1a.png)
 
