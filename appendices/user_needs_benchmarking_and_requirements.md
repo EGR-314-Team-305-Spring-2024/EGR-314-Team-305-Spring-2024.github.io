@@ -8,7 +8,7 @@
 
 * **Keywords:** “portable weather station”
 
-* **Product Name:** “sainlogic Wireless Weather Station with Outdoor Sensor, 8-in-1 Weather Station with Weather Forecast, Temperature, Air Pressure, Humidity, Wind Gauge, Rain Gauge, Moon Phase, Alarm Clock (No WiFi)”
+* **Product Name:** “Sainlogic Wireless Weather Station with Outdoor Sensor, 8-in-1 Weather Station with Weather Forecast, Temperature, Air Pressure, Humidity, Wind Gauge, Rain Gauge, Moon Phase, Alarm Clock (No WiFi)”
 
 * **Product Link:** https://amzn.to/4aOIjw5
 

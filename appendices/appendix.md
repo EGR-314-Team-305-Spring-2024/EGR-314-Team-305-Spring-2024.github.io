@@ -33,3 +33,7 @@
 ### Hardware Proposal
 
 [link to Hardware Proposal](/appendices/hardware_proposal.md)
+
+### Checkpoint 1 Presentation
+
+[Link to checkpoint 1 video](https://youtu.be/IFEdKx9uXrw)
