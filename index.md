@@ -34,16 +34,17 @@ In addition to monitoring the eviorment, we were required to utilize an actuator
 
 ## Developing User Needs and Requirments
 
-With the ladder project requirements in mind, we moved on to delevop user needs and requirements for our product based on generated user needs. (**Workshop this**)
+With the ladder project requirements in mind, we moved on to delevop user needs and requirements for our product based on generated user needs. **(Workshop this)**
 
 ### User Needs
 
-**Steps Involved in our User Needs Process:**
-1. List more user needs based from web forums on industrial products
+**Steps Involved in our User Needs Process: (WORKSHOP THIS)**
+
+1. Gather knowledge and generate user needs based on current industrial products **(WORKSHOP THIS)**
 
     <img src="/pictures/product_1.png" alt="Sainlogic Wireless Weather Station" width="25%" height="25%">
 
-2. Group similar user needs into categories: 
+2. Sort user needs into categories: 
     1. Data based
     2. Location based
     3. General
@@ -59,8 +60,6 @@ With the ladder project requirements in mind, we moved on to delevop user needs 
 
 ### Product Requirements
 
-**Steps Involved in our Product Requirements:**
-
 * Identify Stakeholders
     * Park Rangers/ National Park Associations
     * Camping/ Hiking Clubs
@@ -71,6 +70,7 @@ With the ladder project requirements in mind, we moved on to delevop user needs 
     * The product must require no prior training to deploy
     * Display “Feels Like” Temperatures
     * The device must be transportable by an average human
+* Rank generated product requirments
 
 
 [Click here for more information on User needs and requirements](/appendices/user_needs_benchmarking_and_requirements.md)
@@ -88,20 +88,12 @@ With the ladder project requirements in mind, we moved on to delevop user needs 
 
 ### Prototype Design #1: Backpack design 
 
+<img src="/pictures/prototype_1a.png" alt="Backpack design" width="20%" height="20%">
+
 ![Alt text](/pictures/prototype_1a.png)
 
-With these guidelines in mind, we are currently developing a transportable weather station that one could comfortably wear as a backpack so that they could assemble it in a location of their choosing. 
+With these guidelines in mind, we are currently developing a transportable weather station that one could comfortably wear as a backpack so that they could assemble it in a location of their choosing.
 
-
-Below, we go more in-depth in our processes. If you wish to find more information, please refer to our appendix page linked below.
-
-### Prototype Design #2: Backpack to Weather Station
-
-![Alt text](/pictures/prototype_2.png)
-
-### Prototype Design #3: The Buffalo
-
-![Alt text](/pictures/prototype_3a.png)
 
 
 # Appendix
