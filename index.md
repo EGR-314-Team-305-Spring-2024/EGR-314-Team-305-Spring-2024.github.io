@@ -42,6 +42,7 @@ With the ladder project requirements in mind, we moved on to delevop user needs 
 1. List more user needs based from web forums on industrial products
 
     <img src="/pictures/product_1.png" alt="drawing" width="25%" height="25%">
+    
     _Sainlogic Wireless Weather Station_
 
 2. Group similar user needs into categories: 
@@ -50,6 +51,7 @@ With the ladder project requirements in mind, we moved on to delevop user needs 
     3. General
 
     <img src="/pictures/group_jam_3.png" alt="drawing" width="25%" height="25%">
+    
     _User needs grouped on Jam Board_
 
 3. Ranked User Needs
@@ -58,8 +60,6 @@ With the ladder project requirements in mind, we moved on to delevop user needs 
 1. Battery lubricant
 2. Fan aspirated temperature sensor
 3. **ADD MORE HERE**
-
-[Click here for more information on User needs and requirements](/appendices/user_needs_benchmarking_and_requirements.md)
 
 ### Product Requirements
 
@@ -76,6 +76,8 @@ With the ladder project requirements in mind, we moved on to delevop user needs 
     * Display “Feels Like” Temperatures
     * The device must be transportable by an average human
 
+
+[Click here for more information on User needs and requirements](/appendices/user_needs_benchmarking_and_requirements.md)
 
 ## Design Ideation
 
