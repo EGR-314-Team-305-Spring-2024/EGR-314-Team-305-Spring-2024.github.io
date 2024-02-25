@@ -43,7 +43,7 @@ With the ladder project requirements in mind, we moved on to delevop user needs 
 
     Example: _sainlogic Wireless Weather Station_
 
-    <img src="/pictures/product_1.png" alt="drawing" width="50%" height="50%">
+    <img src="/pictures/product_1.png" alt="drawing" width="10%" height="10%">
     
     ![Alt text](./pictures/product_1.png)
 
