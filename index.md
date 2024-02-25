@@ -84,13 +84,11 @@ With the ladder project requirements in mind, we moved on to delevop user needs 
 * Removable Padded Backpack
 * “Camalback” - sized body
 * Poles for Mounting Body
-* Sensor API Modules
+* Sensor API Modules **(MAYBE REMOVE THIS?)**
 
-### Prototype Design #1: Backpack design 
+### Prototype Design: Mobile Backpack Weahter Station
 
-<img src="/pictures/prototype_1a.png" alt="Backpack design" width="40%" height="40%">
-
-![Alt text](/pictures/prototype_1a.png)
+<img src="/pictures/prototype_1a.png" alt="Mobile Backpack Weahter Station" width="60%" height="60%">
 
 With these guidelines in mind, we are currently developing a transportable weather station that one could comfortably wear as a backpack so that they could assemble it in a location of their choosing.
 
