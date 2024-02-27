@@ -4,7 +4,7 @@
 
 ### Team Organization
 
-[link to Team Organization](/appendices/team_oganization.md)
+[link to Team Organization](/appendices/team_organization.md)
 
 ### User Needs, Benchmarking, and Requirements
 
