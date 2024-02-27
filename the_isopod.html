@@ -27,7 +27,22 @@
 								<p>SHORT DESCRIPTION OF DESIGN SOLUTION<br />
 							</div>
 						</div>
+                        
 					</header>
+
+                <p></p>
+
+                <nav>
+                    <ul class="actions">
+                        <li><a href="#user-needs" class="button">User Needs</a></li>
+                        <li><a href="#design-ideation" class="button">Design</a></li>
+                        <li><a href="#block-diagram" class="button">Block Diagram</a></li>
+                        <li><a href="#component-selection" class="button">Components</a></li>
+                        <li><a href="#hardware-proposal" class="button">Hardware</a></li>
+                        <li><a href="#software-proposal" class="button">Software</a></li>
+                        <!--<li><a href="#elements">Elements</a></li>-->
+                    </ul>
+                </nav>
 
                 <p></p>
                 <p></p>
@@ -39,7 +54,7 @@
                 <p></p>
                 <p></p>
 
-                <div>
+                <div class="content">
                     <h2 class="major">Project Description</h2>
                     <p>This semester we will be producing systems that can respond to the environment using serial sensing and actuation in your system for a mobile weather station. Each team will also broadcast their environmental data to the internet over WiFi using the MQTT protocol.</p>
                     
@@ -54,89 +69,95 @@
                 
                     <p>In addition to monitoring the eviorment, we were required to utilize an actuator who's movement would be based on data collected by our sensors.</p>
 
-                    <!-- User needs, Benchmarking, and Requirments Section-->
-                    <h3 class="minor">Developing User Needs and Requirments</h3>
-                    <p>With the ladder project requirements in mind, we moved on to delevop user needs and requirements for our product based on generated user needs. **(Workshop this)**</p>
+                </div>
 
-                    <div class="content">
-                        <h4 class="minor">User Needs</h4>
-                        <p>Steps Involved in our User Needs Generation: (WORKSHOP THIS)</p>
+                <!-- User needs, Benchmarking, and Requirments Section-->
+                <h2 class="minor" id="user-needs">
+                    <a href="#header">Developing User Needs and Requirments</a>
+                </h2>
+
+                <p>With the ladder project requirements in mind, we moved on to delevop user needs and requirements for our product based on generated user needs. **(Workshop this)**</p>
+
+                <div class="content">
+                    <h4 class="minor">User Needs</h4>
+                    <p>Steps Involved in our User Needs Generation: (WORKSHOP THIS)</p>
+                    <ol>
+                        <li>Gather knowledge and generate user needs based on current industrial products **(WORKSHOP THIS)**</li>
+                            <img src="/pictures/product_1.png" alt="Sainlogic Wireless Weather Station" width="25%" height="25%">
+                        <li>Sort user needs into categories:</li>
                         <ol>
-                            <li>Gather knowledge and generate user needs based on current industrial products **(WORKSHOP THIS)**</li>
-                                <img src="/pictures/product_1.png" alt="Sainlogic Wireless Weather Station" width="25%" height="25%">
-                            <li>Sort user needs into categories:</li>
-                            <ol>
-                                <li>Data based</li>
-                                <li>Location based</li>
-                                <li>General</li>
-                            </ol>
-                                <img src="/pictures/group_jam_3.png" alt="User needs grouped on Jam Board" width="25%" height="25%">
-                            <li>Ranked User Needs</li>
+                            <li>Data based</li>
+                            <li>Location based</li>
+                            <li>General</li>
                         </ol>
-                        <p>Unexpected User Needs:</p>
+                            <img src="/pictures/group_jam_3.png" alt="User needs grouped on Jam Board" width="25%" height="25%">
+                        <li>Ranked User Needs</li>
+                    </ol>
+                    <p>Unexpected User Needs:</p>
+                    <ul>
+                        <li>Battery lubricant</li>
+                        <li>Fan aspirated temperature sensor</li>
+                        <li>**ADD MORE HERE**</li>
+                    </ul>
+                </div>
+
+                <div class="content">
+                    <h4 class="minor">Product Requirments</h4>
+                    <p>Steps Involved in our Product Requirments Generation: (WORKSHOP THIS)</p>
+                    <ol>
+                        <li>Identify Stakeholders</li>
                         <ul>
-                            <li>Battery lubricant</li>
-                            <li>Fan aspirated temperature sensor</li>
-                            <li>**ADD MORE HERE**</li>
+                            <li>Park Rangers/ National Park Associations</li>
+                            <li>Camping/ Hiking Clubs</li>
+                            <li>Petroleum Companies</li>
+                            <li>Farmers</li>
                         </ul>
-                    </div>
-
-                    <div>
-                        <h4 class="minor">Product Requirments</h4>
-                        <p>Steps Involved in our Product Requirments Generation: (WORKSHOP THIS)</p>
-                        <ol>
-                            <li>Identify Stakeholders</li>
-                            <ul>
-                                <li>Park Rangers/ National Park Associations</li>
-                                <li>Camping/ Hiking Clubs</li>
-                                <li>Petroleum Companies</li>
-                                <li>Farmers</li>
-                            </ul>
-                            <li>Brainstormed possible Use Cases based on identified stakeholders (Shown above)</li>
-                            <li>Brainstormed Product Requirements based on User Needs</li>
-                            <ul>
-                                <li>The product must require no prior training to deploy</li>
-                                <li>Display “Feels Like” Temperatures</li>
-                                <li>The device must be transportable by an average human</li>
-                            </ul>
-                            <li>Rank generated product requirments</li>
-                        </ol>
-                    </div>
-
-                    <p><a href="https://github.com/EGR-314-Team-305-Spring-2024/EGR-314-Team-305-Spring-2024.github.io/blob/main/appendices/user_needs_benchmarking_and_requirements.md">Click here for more information on User needs and requirements</a></p>
-
-                    <p></p>
-                    <p></p>
-                    <p></p>
-
-                    <!-- Design Ideation-->
-                    <h3 class="minor">Design Ideation</h3>
-
-                    <div>
-                        <p>Key Design Concepts:</p>
+                        <li>Brainstormed possible Use Cases based on identified stakeholders (Shown above)</li>
+                        <li>Brainstormed Product Requirements based on User Needs</li>
                         <ul>
-                            <li>Solar panel</li>
-                            <li>Temperature Sensor</li>
-                            <li>Humidity Sensor</li>
-                            <li>Removable Padded Backpack</li>
-                            <li>“Camalback” - sized body</li>
-                            <li>Poles for Mounting Body</li>
-                            <li>Sensor API Modules **(MAYBE REMOVE THIS?)**</li>
+                            <li>The product must require no prior training to deploy</li>
+                            <li>Display “Feels Like” Temperatures</li>
+                            <li>The device must be transportable by an average human</li>
                         </ul>
+                        <li>Rank generated product requirments</li>
+                    </ol>
+                </div>
 
-                        <h4>Prototype Design: Mobile Backpack Weahter Station</h4>
-                        <img src="/pictures/prototype_1a.png" alt="Mobile Backpack Weahter Station" width="60%" height="60%">
+                <p><a href="https://github.com/EGR-314-Team-305-Spring-2024/EGR-314-Team-305-Spring-2024.github.io/blob/main/appendices/user_needs_benchmarking_and_requirements.md">Click here for more information on User needs and requirements</a></p>
 
-                        <p>With these guidelines in mind, we are currently developing a transportable weather station that one could comfortably wear as a backpack so that they could assemble it in a location of their choosing.</p>
-                    </div>
+                
 
+
+                <!-- Design Ideation-->
+                <h2 class="minor" id="design-ideation">
+                    <a href="#header">Design Ideation</a>
+                </h2>
+                <div class="content" >
+                    <p>Key Design Concepts:</p>
+                    <ul>
+                        <li>Solar panel</li>
+                        <li>Temperature Sensor</li>
+                        <li>Humidity Sensor</li>
+                        <li>Removable Padded Backpack</li>
+                        <li>“Camalback” - sized body</li>
+                        <li>Poles for Mounting Body</li>
+                        <li>Sensor API Modules **(MAYBE REMOVE THIS?)**</li>
+                    </ul>
+
+                    <h4>Prototype Design: Mobile Backpack Weahter Station</h4>
+                    <img src="/pictures/prototype_1a.png" alt="Mobile Backpack Weahter Station" width="60%" height="60%">
+
+                    <p>With these guidelines in mind, we are currently developing a transportable weather station that one could comfortably wear as a backpack so that they could assemble it in a location of their choosing.</p>
                 </div>
 
                 <p></p>
                 <p></p>
                 <p></p>
 
-                <h2>Block Diagram</h2>
+                <h2 id="block-diagram">
+                    <a href="#header">Block Diagram</a>
+                </h2>
+                
                 <p>INPUT DESCRIPTION OF SECTION HERE.</p>
                 <img src="/pictures/Team305_Block_Diagram-2.jpg" alt="Team305_Block_Diagram" width="50%" height="70%">
 
@@ -160,7 +181,9 @@
                 <p></p>
                 <p></p>
 
-                <h2>Component Selection</h2>
+                <h2 id="component-selection">
+                    <a href="#header">Component Selection</a>
+                </h2>
                 <p>INPUT DESCRIPTION OF SECTION HERE.</p>
 
                 <section>
@@ -440,7 +463,7 @@
 
                 <!-- Microcontroller Selection-->
                 <div class="content">
-                    <h2>Microcontroller Selection</h2>
+                    <h3>Microcontroller Selection</h3>
                     <p>INPUT DESCRIPTION OF SECTION HERE.</p>
                 </div>
 
@@ -450,48 +473,265 @@
                         <table>
                             <thead>
                                 <tr>
-                                    <th>Name</th>
-                                    <th>Description</th>
-                                    <th>Price</th>
+                                    <th>Design Considerations</th>
+                                    <th>Team Project-Specific Requirements</th>
+                                    <th>PIC Option 1</th>
+                                    <th>PIC Option 2</th>
+                                    <th>PIC Option 3</th>
                                 </tr>
                             </thead>
                             <tbody>
                                 <tr>
-                                    <td>Item One</td>
-                                    <td>Ante turpis integer aliquet porttitor.</td>
-                                    <td>29.99</td>
+                                    <td>How many GPIO Pins?</td>
+                                    <td>At Least 20 GPIO pins.</td>
+                                    <td>44</td>
+                                    <td>35</td>
+                                    <td>35</td>
                                 </tr>
                                 <tr>
-                                    <td>Item Two</td>
-                                    <td>Vis ac commodo adipiscing arcu aliquet.</td>
-                                    <td>19.99</td>
+                                    <td>Built-in Analog to Digital Converter? How many?</td>
+                                    <td>Our block diagram requires no internal ADC from the microcontroller.</td>
+                                    <td>Yes, 34</td>
+                                    <td>11 single-ended channels, 5 differential channels</td>
+                                    <td>Yes, 35 external channels</td>
                                 </tr>
                                 <tr>
-                                    <td>Item Three</td>
-                                    <td> Morbi faucibus arcu accumsan lorem.</td>
-                                    <td>29.99</td>
+                                    <td>Built-in Hardware PWM? How many?</td>
+                                    <td>At least two PWM modules.</td>
+                                    <td>Yes, 2</td>
+                                    <td>Yes, 4 PSMC</td>
+                                    <td>Yes, 4</td>
                                 </tr>
                                 <tr>
-                                    <td>Item Four</td>
-                                    <td>Vitae integer tempus condimentum.</td>
-                                    <td>19.99</td>
+                                    <td>Built-in I2C? SPI? How many?</td>
+                                    <td>Preferable for 2 modules (ability to communicate in both I2C and SPI simultaneously)</td>
+                                    <td>Includes 2 MSSP pins, SPI and I2C</td>
+                                    <td>Yes, 1 MSSP</td>
+                                    <td>1 SPI, 2 I2C</td>
                                 </tr>
                                 <tr>
-                                    <td>Item Five</td>
-                                    <td>Ante turpis integer aliquet porttitor.</td>
-                                    <td>29.99</td>
+                                    <td>Built-in UART? How many?</td>
+                                    <td>Preferable for debugging and transmitting data via ESP32.</td>
+                                    <td>Yes, 2</td>
+                                    <td>Yes, 1</td>
+                                    <td>Yes, 2</td>
                                 </tr>
                             </tbody>
-                            <tfoot>
+                        </table>
+
+                        <table>
+                            <thead>
                                 <tr>
-                                    <td colspan="2"></td>
-                                    <td>100.00</td>
+                                    <th>Microcontroller Considerations</th>
+                                    <th>PIC Option 1</th>
+                                    <th>PIC Option 2</th>
+                                    <th>PIC Option 3</th>
                                 </tr>
-                            </tfoot>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Part Number</td>
+                                    <td>PIC18F47J13-I/PT</td>
+                                    <td>PIC16F1789</td>
+                                    <td>PIC18F47K42</td>
+                                </tr>
+                                <tr>
+                                    <td>Product Page</td>
+                                    <td><a href="https://www.digikey.com/en/products/detail/microchip-technology/PIC18F47J13-I-PT/2385820">Digikey</a></td>
+                                    <td><a href="https://www.digikey.com/en/products/detail/microchip-technology/PIC16F1789-I-PT/4080209">Digikey</a></td>
+                                    <td><a href="https://www.digikey.com/en/products/detail/microchip-technology/PIC18F47K42-I-PT/7561733">Digikey</a></td>
+                                </tr>
+                                <tr>
+                                    <td>Data Sheets</td>
+                                    <td><a href="https://ww1.microchip.com/downloads/en/DeviceDoc/30009974C.pdf">Microchip</a></td>
+                                    <td><a href="https://ww1.microchip.com/downloads/en/DeviceDoc/40001675C.pdf">Microchip</a></td>
+                                    <td><a href="https://ww1.microchip.com/downloads/en/DeviceDoc/PIC18(L)F26-27-45-46-47-55-56-57K42-Data-Sheet-40001919G.pdf">Microchip</a></td>
+                                </tr>
+                                <tr>
+                                    <td>Application Notes</td>
+                                    <td><a href="https://www.microchip.com/en-us/application-notes/tb3016">Microchip</a></td>
+                                    <td><a href="https://www.microchip.com/en-us/product/PIC16F1789">Microchip</a></td>
+                                    <td><a href="https://www.microchip.com/en-us/application-notes/tb3261.html">Microchip</a></td>
+                                </tr>
+                                <tr>
+                                    <td>Code Examples</td>
+                                    <td><a href="https://www.microchip.com/en-us/application-notes/tb3016">Microchip</a></td>
+                                    <td><a href="https://www.microchip.com/en-us/product/PIC16F1789">Microchip</a></td>
+                                    <td><a href="https://ww1.microchip.com/downloads/en/AppNotes/AN1921_Source%20Code.zip">Microchip</a></td>
+                                </tr>
+                                <tr>
+                                    <td>External Resources</td>
+                                    <td><a href="https://www.youtube.com/watch?v=fpgIAkE8d64">Youtube</a></td>
+                                    <td><a href="https://www.youtube.com/watch?v=6dsypGQR5Fg&t=9s">Youtube</a></td>
+                                    <td><a href="https://www.youtube.com/watch?v=pWEfIVyQRgI">Youtube</a></td>
+                                </tr>
+                                <tr>
+                                    <td>Production Unit Cost</td>
+                                    <td>$5.38</td>
+                                    <td>$3.00</td>
+                                    <td>$2.79</td>
+                                </tr>
+                                <tr>
+                                    <td>Supply Voltage Range</td>
+                                    <td>3.3-6 V</td>
+                                    <td>2.3-5.5 V</td>
+                                    <td>1.8-3.6 V</td>
+                                </tr>
+                                <tr>
+                                    <td>Absolute Maximum Current for entire IC</td>
+                                    <td>250 mA</td>
+                                    <td>350 mA</td>
+                                    <td>350 mA</td>
+                                </tr>
+                                <tr>
+                                    <td>Maximum GPIO Pin Current (Source/Sink)</td>
+                                    <td>50 mA</td>
+                                    <td>50 mA / 50 mA</td>
+                                    <td>+/-50 mA</td>
+                                </tr>
+                                <tr>
+                                    <td>8-Bit or 16-Bit Architecture</td>
+                                    <td>8-Bit</td>
+                                    <td>8-Bit</td>
+                                    <td>8-Bit</td>
+                                </tr>
+                                <tr>
+                                    <td>Available IC Packages / Footprints</td>
+                                    <td>
+                                        <a href="https://www.digikey.com/en/products/detail/microchip-technology/PIC18F47J13-I-PT/2385820">TQFP  </a>   
+                                        <a href="https://www.digikey.com/en/products/detail/microchip-technology/PIC18F47J13-I-ML/2385819">44-QFN</a>
+                                    </td>
+                                    <td>
+                                        <a href="https://www.digikey.com/en/models/4080209">TQFP</a>   
+                                        <a href="https://www.digikey.com/en/models/4080108">SSOP</a>
+                                    </td>
+                                    <td><a href="https://www.digikey.com/en/products/detail/microchip-technology/PIC18LF47K42-I-PT/8037759">TQFP</a></td>
+                                </tr>
+                                <tr>
+                                    <td>Supports External Interrupts?</td>
+                                    <td>Yes, 4</td>
+                                    <td>Yes, IOC</td>
+                                    <td>Yes</td>
+                                </tr>
+                                <tr>
+                                    <td>In-System Programming Capability and type</td>
+                                    <td>Yes, Supports ICSP</td>
+                                    <td>Yes, Supports ICSP</td>
+                                    <td>Yes, Supports ICSP</td>
+                                </tr>
+                                <tr>
+                                    <td>Programming Hardware, Cost, and URL</td>
+                                    <td>
+                                        <a href="https://www.microchip.com/en-us/development-tool/pg164100">MPLAB SNAP</a>
+                                        $39.20
+                                    </td>
+                                    <td>
+                                        <a href="https://www.microchip.com/en-us/development-tool/pg164100">MPLAB SNAP</a>
+                                        $39.20
+                                    </td>
+                                    <td>
+                                        <a href="https://www.microchip.com/en-us/development-tool/pg164100">MPLAB SNAP</a>
+                                        $39.20
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Works with MPLAB® X Integrated Development Environment (IDE)?</td>
+                                    <td>Yes</th>
+                                    <td>Yes</th>
+                                    <td>Yes</th>
+                                </tr>
+                                <tr>
+                                    <td>Works with Microchip Code Configurator?</td>
+                                    <td>Yes</td>
+                                    <td>Yes</td>
+                                    <td>Yes</td>
+                                </tr>
+
+
+                            </tbody>
+                        </table>
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Comparisons</th>
+                                    <th>Option 1</th>
+                                    <th>Option 2</th>
+                                    <th>Option 3</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Overall Pros</td>
+                                    <td>
+                                        <ul>
+                                            <li>34 GPIO Pins</li>
+                                            <li>Has 2 UART modules</li>
+                                            <li>Has 35 external analog channels</li>
+                                            <li>Has 2 MSSP outputs</li>
+                                            <li>Fulfills Peralta Manufacturing Requirements</li>
+                                        </ul>
+                                    </td>
+                                    <td>
+                                        <ul>
+                                            <li>35 GPIO Pins</li>
+                                            <li>Cheap at $3.00</li>
+                                            <li>In Stock</li>
+                                            <li>Small package</li>
+                                            <li>Multiple ADC channels</li>
+                                            <li>4 PWM modules</li>
+                                        </ul>
+                                    </td>
+                                    <td>
+                                        <ul>
+                                            <li>35 GPIO pins</li>
+                                            <li>Cheap at $2.79</li>
+                                            <li>Has two modules for I2C and one for SPI</li>
+                                            <li>Two EUSART modules</li>
+                                            <li>Standalone PWM modules</li>
+                                        </ul>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Overall Cons</td>
+                                    <td>
+                                        <ul>
+                                            <li>Needs extremely expensive programmer</li>
+                                            <li>Only has 1 SPI and 1 I2C</li>
+                                            <li>Only has 2 PWM outputs</li>
+                                            <li>Relatively expensive at $5.38</li>
+                                        </ul>
+                                    </td>
+                                    <td>
+                                        <ul>
+                                            <li>Only one MSSP module (can't communicate in both I3C and SPI)</li>
+                                            <li>11 Single-ended ADC channels</li>
+                                            <li>Does not fulfill Peralta Manufacturing Requirements</li>
+                                        </ul>
+                                    </td>
+                                    <td>
+                                        <ul>
+                                            <li>0.80mm pitch size</li>
+                                            <li>0.55mm lead size</li>
+                                            <li>No internal analog channels</li>
+                                            <li>Does not fulfill Peralta Manufacturing Requirements</li>
+                                        </ul>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Ranking</td>
+                                    <td>1</td>
+                                    <td>3</td>
+                                    <td>2</td>
+                                </tr>
+                            </tbody>
                         </table>
                     </div>
 
                 </section>
+
+                <p></p>
+                <p></p>
+                <p></p>
 
                 <!-- Subsytems -->
                 <h2>Subsystem Designs</h2>
@@ -551,7 +791,9 @@
                 <p></p>
                 <p></p>
 
-                <h2>Hardware Proposal</h2>
+                <h2 id="hardware-proposal">
+                    <a href="#header">Hardware Proposal</a>
+                </h2>
                 
                 <b>Schematics</b>
                 <section>
@@ -572,23 +814,25 @@
                 </section>
 
                 <b>Microcontroller Schematic</b>
-                <img src="/pictures/hardware-prop-microcontroller-schm-1a.jpg" alt="hardware-prop-microcontroller-schm-1a" width="80%" height="80%">
+                <img src="/pictures/isopod_microcontroller_schm_r1.png" alt="isopod_microcontroller_schm_r1" width="80%" height="80%">
 
-                <p>
+                <p></p>
 
                 <b>Peripherals Schematic</b>
-                <img src="/pictures/hardware-prop-peripherals-schm-1a.jpg" alt="hardware-prop-peripherals-schm-1a" width="80%" height="80%">
+                <img src="/pictures/Isopod_peripherals_schm_r1.png" alt="Isopod_peripherals_schm_r1" width="80%" height="80%">
                 
                 <p></p>
                 <p></p>
                 <p></p>
 
-                <h2>Software Proposal</h2>
+                <h2 id="software-proposal">
+                    <a href="#header">Software Proposal</a>
+                </h2>
 
                 <img src="/pictures/Software_Proposal_Team305.jpg" alt="Software_Proposal_Team305" width="80%" height="80%">
 
 
-                </div>
+                
 
 				<!-- Footer -->
 					<footer id="footer">
