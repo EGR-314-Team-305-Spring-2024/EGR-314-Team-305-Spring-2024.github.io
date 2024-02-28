@@ -464,60 +464,12 @@
                 <!-- Microcontroller Selection-->
                 <div class="content">
                     <h3>Microcontroller Selection</h3>
-                    <p>INPUT DESCRIPTION OF SECTION HERE.</p>
-                    
+                    <p>In-depth comparisons among PIC microcontrollers capable of our project requirements.</p>
+
                 </div>
                 <section>
                     <h3>Microcontroller Selection</h3>
                     <div class="table-wrapper">
-                        <table>
-                            <thead>
-                                <tr>
-                                    <th>Design Considerations</th>
-                                    <th>Team Project-Specific Requirements</th>
-                                    <th>PIC Option 1</th>
-                                    <th>PIC Option 2</th>
-                                    <th>PIC Option 3</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>How many GPIO Pins?</td>
-                                    <td>At Least 20 GPIO pins.</td>
-                                    <td>44</td>
-                                    <td>35</td>
-                                    <td>35</td>
-                                </tr>
-                                <tr>
-                                    <td>Built-in Analog to Digital Converter? How many?</td>
-                                    <td>Our block diagram requires no internal ADC from the microcontroller.</td>
-                                    <td>Yes, 34</td>
-                                    <td>11 single-ended channels, 5 differential channels</td>
-                                    <td>Yes, 35 external channels</td>
-                                </tr>
-                                <tr>
-                                    <td>Built-in Hardware PWM? How many?</td>
-                                    <td>At least two PWM modules.</td>
-                                    <td>Yes, 2</td>
-                                    <td>Yes, 4 PSMC</td>
-                                    <td>Yes, 4</td>
-                                </tr>
-                                <tr>
-                                    <td>Built-in I2C? SPI? How many?</td>
-                                    <td>Preferable for 2 modules (ability to communicate in both I2C and SPI simultaneously)</td>
-                                    <td>Includes 2 MSSP pins, SPI and I2C</td>
-                                    <td>Yes, 1 MSSP</td>
-                                    <td>1 SPI, 2 I2C</td>
-                                </tr>
-                                <tr>
-                                    <td>Built-in UART? How many?</td>
-                                    <td>Preferable for debugging and transmitting data via ESP32.</td>
-                                    <td>Yes, 2</td>
-                                    <td>Yes, 1</td>
-                                    <td>Yes, 2</td>
-                                </tr>
-                            </tbody>
-                        </table>
 
                         <table>
                             <thead>
@@ -650,6 +602,57 @@
 
                             </tbody>
                         </table>
+
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Design Considerations</th>
+                                    <th>Team Project-Specific Requirements</th>
+                                    <th>PIC Option 1</th>
+                                    <th>PIC Option 2</th>
+                                    <th>PIC Option 3</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>How many GPIO Pins?</td>
+                                    <td>At Least 20 GPIO pins.</td>
+                                    <td>44</td>
+                                    <td>35</td>
+                                    <td>35</td>
+                                </tr>
+                                <tr>
+                                    <td>Built-in Analog to Digital Converter? How many?</td>
+                                    <td>Our block diagram requires no internal ADC from the microcontroller.</td>
+                                    <td>Yes, 34</td>
+                                    <td>11 single-ended channels, 5 differential channels</td>
+                                    <td>Yes, 35 external channels</td>
+                                </tr>
+                                <tr>
+                                    <td>Built-in Hardware PWM? How many?</td>
+                                    <td>At least two PWM modules.</td>
+                                    <td>Yes, 2</td>
+                                    <td>Yes, 4 PSMC</td>
+                                    <td>Yes, 4</td>
+                                </tr>
+                                <tr>
+                                    <td>Built-in I2C? SPI? How many?</td>
+                                    <td>Preferable for 2 modules (ability to communicate in both I2C and SPI simultaneously)</td>
+                                    <td>Includes 2 MSSP pins, SPI and I2C</td>
+                                    <td>Yes, 1 MSSP</td>
+                                    <td>1 SPI, 2 I2C</td>
+                                </tr>
+                                <tr>
+                                    <td>Built-in UART? How many?</td>
+                                    <td>Preferable for debugging and transmitting data via ESP32.</td>
+                                    <td>Yes, 2</td>
+                                    <td>Yes, 1</td>
+                                    <td>Yes, 2</td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+
                         <table>
                             <thead>
                                 <tr>
