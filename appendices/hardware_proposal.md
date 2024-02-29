@@ -2,7 +2,6 @@
 
 [Back to Appendix](/appendices/appendix.md)
 
-Input here.
-
+![team_305_bom](/pictures/team_305_bom.png)
 
 [Back to Appendix](/appendices/appendix.md)
