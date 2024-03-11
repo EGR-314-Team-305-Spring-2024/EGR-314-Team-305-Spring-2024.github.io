@@ -40,8 +40,8 @@
 
 					<h2>Verification Table</h2>
 					<table>
-						<thead>
-							<tr style="text-align: center;">
+						<tbody>
+							<tr style="text-align: center;border-width: 0px;">
 								<td>
 									u - Unverified
 								</td>
@@ -58,24 +58,272 @@
 									nc - No Connection
 								</td>
 							</tr>
-							<tr>
-								<th> </th>
-								<th>3.3V Power</th>
-								<th>PIC Chip</th>
-								<th>ESP32</th>
-								<th>6V Power</th>
-								<th>ESC</th>
-								<th>7.4V Motor</th>
-								<th>LDR</th>
-								<th>LDR</th>
-								<th>Temp Sensor</th>
-								<th>Anemometer</th>
-								<th>Solar Panel</th>
-								<th>Solar Panel</th>
-								<th>Solar Charger</th>
-							</tr>
-						</thead>
+						</tbody>
 					</table>
+					<div style="text-align: center;">
+						<table>
+							<thead>
+								<tr style="font-size: small;"">
+									<th> </th>
+									<th style="width: 7%;">3.3V<br>Power</th>
+									<th style="width: 7%;">PIC<br>Chip</th>
+									<th style="width: 7%;">ESP32</th>
+									<th style="width: 7%;">6V<br>Power</th>
+									<th style="width: 7%;">ESC</th>
+									<th style="width: 7%;">Motor<br>7.4V</th>
+									<th style="width: 7%;">LDR 1</th>
+									<th style="width: 7%;">LDR 2</th>
+									<th style="width: 7%;">Temp<br>Sensor</th>
+									<th style="width: 7%;">Anemometer</th>
+									<th style="width: 7%;">Solar<br>Panel 1</th>
+									<th style="width: 7%;">Solar<br>Panel 2</th>
+									<th style="width: 7%;">Solar<br>Charger</th>
+									<th style="width: 7%;">Battery</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr style="text-align: center;">
+									<th>3.3V Power Supply</th>
+									<th>u</th>	<!--3.3V-->
+									<th>u</th>	<!--PIC Chip-->
+									<th>u</th>	<!--ESP 32-->
+									<th>u</th>	<!--6V Power-->
+									<th>nc</th>	<!--ESC-->
+									<th>nc</th>	<!--7.4V Motor-->
+									<th>u</th>	<!--LDR-->
+									<th>u</th>	<!--LDR-->
+									<th>u</th>	<!--Temp Sensor-->
+									<th>u</th>	<!--Anemometer-->
+									<th>nc</th>	<!--Solar Panel-->
+									<th>nc</th>	<!--Solar Panel-->
+									<th>nc</th>	<!--Solar Charger-->
+									<th>nc</th>	<!--Battery-->
+								</tr>
+								<tr style="text-align: center;">
+									<th>PIC Chip</th>
+									<th></th>	<!--3.3V-->
+									<th>u</th>	<!--PIC Chip-->
+									<th>u (UART)</th>	<!--ESP 32-->
+									<th>nc</th>	<!--6V Power-->
+									<th>u</th>	<!--ESC-->
+									<th>nc</th>	<!--7.4V Motor-->
+									<th>u</th>	<!--LDR-->
+									<th>u</th>	<!--LDR-->
+									<th>u</th>	<!--Temp Sensor-->
+									<th>u</th>	<!--Anemometer-->
+									<th>nc</th>	<!--Solar Panel-->
+									<th>nc</th>	<!--Solar Panel-->
+									<th>nc</th>	<!--Solar Charger-->
+									<th>nc</th>	<!--Battery-->
+								</tr>
+								<tr style="text-align: center;">
+									<th>ESP32</th>
+									<th></th>	<!--3.3V-->
+									<th></th>	<!--PIC Chip-->
+									<th>u</th>	<!--ESP 32-->
+									<th>nc</th>	<!--6V Power-->
+									<th>nc</th>	<!--ESC-->
+									<th>nc</th>	<!--7.4V Motor-->
+									<th>nc</th>	<!--LDR-->
+									<th>nc</th>	<!--LDR-->
+									<th>nc</th>	<!--Temp Sensor-->
+									<th>nc</th>	<!--Anemometer-->
+									<th>nc</th>	<!--Solar Panel-->
+									<th>nc</th>	<!--Solar Panel-->
+									<th>nc</th>	<!--Solar Charger-->
+									<th>nc</th>	<!--Battery-->
+								</tr>
+								<tr style="text-align: center;">
+									<th>6V Power</th>
+									<th></th>	<!--3.3V-->
+									<th></th>	<!--PIC Chip-->
+									<th></th>	<!--ESP 32-->
+									<th>u</th>	<!--6V Power-->
+									<th>u</th>	<!--ESC-->
+									<th>u</th>	<!--7.4V Motor-->
+									<th>nc</th>	<!--LDR-->
+									<th>nc</th>	<!--LDR-->
+									<th>nc</th>	<!--Temp Sensor-->
+									<th>nc</th>	<!--Anemometer-->
+									<th>nc</th>	<!--Solar Panel-->
+									<th>nc</th>	<!--Solar Panel-->
+									<th>u</th>	<!--Solar Charger-->
+									<th>nc</th>	<!--Battery-->
+								</tr>
+								<tr>
+									<th>ESC</th>
+									<th></th>	<!--3.3V-->
+									<th></th>	<!--PIC Chip-->
+									<th></th>	<!--ESP 32-->
+									<th></th>	<!--6V Power-->
+									<th>u</th>	<!--ESC-->
+									<th>u</th>	<!--7.4V Motor-->
+									<th>nc</th>	<!--LDR-->
+									<th>nc</th>	<!--LDR-->
+									<th>nc</th>	<!--Temp Sensor-->
+									<th>nc</th>	<!--Anemometer-->
+									<th>nc</th>	<!--Solar Panel-->
+									<th>nc</th>	<!--Solar Panel-->
+									<th>nc</th>	<!--Solar Charger-->
+									<th>nc</th>	<!--Battery-->
+								</tr>
+								<tr>
+									<th>7.4V Motor</th>
+									<th></th>	<!--3.3V-->
+									<th></th>	<!--PIC Chip-->
+									<th></th>	<!--ESP 32-->
+									<th></th>	<!--6V Power-->
+									<th></th>	<!--ESC-->
+									<th>u</th>	<!--7.4V Motor-->
+									<th>nc</th>	<!--LDR-->
+									<th>nc</th>	<!--LDR-->
+									<th>nc</th>	<!--Temp Sensor-->
+									<th>nc</th>	<!--Anemometer-->
+									<th>nc</th>	<!--Solar Panel-->
+									<th>nc</th>	<!--Solar Panel-->
+									<th>nc</th>	<!--Solar Charger-->
+									<th>nc</th>	<!--Battery-->
+								</tr>
+								<tr>
+									<th>LDR 1</th>
+									<th></th>	<!--3.3V-->
+									<th></th>	<!--PIC Chip-->
+									<th></th>	<!--ESP 32-->
+									<th></th>	<!--6V Power-->
+									<th></th>	<!--ESC-->
+									<th></th>	<!--7.4V Motor-->
+									<th>u</th>	<!--LDR-->
+									<th>nc</th>	<!--LDR-->
+									<th>nc</th>	<!--Temp Sensor-->
+									<th>nc</th>	<!--Anemometer-->
+									<th>nc</th>	<!--Solar Panel-->
+									<th>nc</th>	<!--Solar Panel-->
+									<th>nc</th>	<!--Solar Charger-->
+									<th>nc</th>	<!--Battery-->
+								</tr>
+								<tr>
+									<th>LDR 2</th>
+									<th></th>	<!--3.3V-->
+									<th></th>	<!--PIC Chip-->
+									<th></th>	<!--ESP 32-->
+									<th></th>	<!--6V Power-->
+									<th></th>	<!--ESC-->
+									<th></th>	<!--7.4V Motor-->
+									<th></th>	<!--LDR-->
+									<th>u</th>	<!--LDR-->
+									<th>nc</th>	<!--Temp Sensor-->
+									<th>nc</th>	<!--Anemometer-->
+									<th>nc</th>	<!--Solar Panel-->
+									<th>nc</th>	<!--Solar Panel-->
+									<th>nc</th>	<!--Solar Charger-->
+									<th>nc</th>	<!--Battery-->
+								</tr>
+								<tr>
+									<th>Temp Sensor</th>
+									<th></th>	<!--3.3V-->
+									<th></th>	<!--PIC Chip-->
+									<th></th>	<!--ESP 32-->
+									<th></th>	<!--6V Power-->
+									<th></th>	<!--ESC-->
+									<th></th>	<!--7.4V Motor-->
+									<th></th>	<!--LDR-->
+									<th></th>	<!--LDR-->
+									<th>u</th>	<!--Temp Sensor-->
+									<th>nc</th>	<!--Anemometer-->
+									<th>nc</th>	<!--Solar Panel-->
+									<th>nc</th>	<!--Solar Panel-->
+									<th>nc</th>	<!--Solar Charger-->
+									<th>nc</th>	<!--Battery-->
+								</tr>
+								<tr>
+									<th>Anemometer</th>
+									<th></th>	<!--3.3V-->
+									<th></th>	<!--PIC Chip-->
+									<th></th>	<!--ESP 32-->
+									<th></th>	<!--6V Power-->
+									<th></th>	<!--ESC-->
+									<th></th>	<!--7.4V Motor-->
+									<th></th>	<!--LDR-->
+									<th></th>	<!--LDR-->
+									<th></th>	<!--Temp Sensor-->
+									<th>u</th>	<!--Anemometer-->
+									<th>nc</th>	<!--Solar Panel-->
+									<th>nc</th>	<!--Solar Panel-->
+									<th>nc</th>	<!--Solar Charger-->
+									<th>nc</th>	<!--Battery-->
+								</tr>
+								<tr>
+									<th>Solar Panel 1</th>
+									<th></th>	<!--3.3V-->
+									<th></th>	<!--PIC Chip-->
+									<th></th>	<!--ESP 32-->
+									<th></th>	<!--6V Power-->
+									<th></th>	<!--ESC-->
+									<th></th>	<!--7.4V Motor-->
+									<th></th>	<!--LDR-->
+									<th></th>	<!--LDR-->
+									<th></th>	<!--Temp Sensor-->
+									<th></th>	<!--Anemometer-->
+									<th>u</th>	<!--Solar Panel-->
+									<th>u</th>	<!--Solar Panel-->
+									<th>u</th>	<!--Solar Charger-->
+									<th>nc</th>	<!--Battery-->
+								</tr>
+								<tr>
+									<th>Solar Panel 2</th>
+									<th></th>	<!--3.3V-->
+									<th></th>	<!--PIC Chip-->
+									<th></th>	<!--ESP 32-->
+									<th></th>	<!--6V Power-->
+									<th></th>	<!--ESC-->
+									<th></th>	<!--7.4V Motor-->
+									<th></th>	<!--LDR-->
+									<th></th>	<!--LDR-->
+									<th></th>	<!--Temp Sensor-->
+									<th></th>	<!--Anemometer-->
+									<th></th>	<!--Solar Panel-->
+									<th>u</th>	<!--Solar Panel-->
+									<th>u</th>	<!--Solar Charger-->
+									<th>nc</th>	<!--Battery-->
+								</tr>
+								<tr>
+									<th>Solar Charger</th>
+									<th></th>	<!--3.3V-->
+									<th></th>	<!--PIC Chip-->
+									<th></th>	<!--ESP 32-->
+									<th></th>	<!--6V Power-->
+									<th></th>	<!--ESC-->
+									<th></th>	<!--7.4V Motor-->
+									<th></th>	<!--LDR-->
+									<th></th>	<!--LDR-->
+									<th></th>	<!--Temp Sensor-->
+									<th></th>	<!--Anemometer-->
+									<th></th>	<!--Solar Panel-->
+									<th></th>	<!--Solar Panel-->
+									<th>u</th>	<!--Solar Charger-->
+									<th>u</th>	<!--Battery-->
+								</tr>
+								<tr>
+									<th>Battery</th>
+									<th></th>	<!--3.3V-->
+									<th></th>	<!--PIC Chip-->
+									<th></th>	<!--ESP 32-->
+									<th></th>	<!--6V Power-->
+									<th></th>	<!--ESC-->
+									<th></th>	<!--7.4V Motor-->
+									<th></th>	<!--LDR-->
+									<th></th>	<!--LDR-->
+									<th></th>	<!--Temp Sensor-->
+									<th></th>	<!--Anemometer-->
+									<th></th>	<!--Solar Panel-->
+									<th></th>	<!--Solar Panel-->
+									<th></th>	<!--Solar Charger-->
+									<th>u</th>	<!--Battery-->
+								</tr>
+							</tbody>
+						</table>
+					</div>
+					
 				</div>
 
 
