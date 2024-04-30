@@ -1201,10 +1201,24 @@
                     <li>Check I2C products for address details</li>
                 </ul>
 
-                <h4>1). Read into the datasheets and figure out real world feasibility</h4>
-                <p>We had a cases where on the surface a product looked like a solid choice, but in the real world proved to be finicky or hard to work with.
+                <p>
+                    We had a cases where on the surface a product looked like a solid choice, but in the real world proved to be finicky or hard to work with.
                     This was especially true with our solar charger, as its datasheet proved to be quite inadequate and we were unable to get it working. We
-                    had to purchase a new solar charger.
+                    had to purchase a new solar charger. We also had some issues with the CAD model of the main chassis of our device being one solid piece in 
+                    SolidWorks. Thus when it came time to actually make it, we had to split it into multiple parts to manufacture it. We also had issues with 
+                    3D printed parts not fitting together, we had to sand down components to make them fit. We learned that having backup boards is a huge
+                    advantage. Not only is it good to have just in case something goes wrong, its really nice to have multiple boards so more than one person
+                    can test code. When first creating the electrical schematic and PCB, we accidentally used the wrong footprint for the microcontroller. We 
+                    were set back a bit as we needed new PCBs and we fried one of our PIC chips. Only a couple hours before the innovation showcase, we
+                    accidentally touched the 12V positive and negative lines and fried the 12V, which was sub-optimal. We only started really manufacturing
+                    the mechanical components of the Isopod only 5 days before the innovation showcase, causing great stress and forced us to make several
+                    debilitating compromises. One of teammates, who will remain unnamed, was not wearing proper PPE during a lengthy soldering session, causing
+                    slight health issues including, but not limited to, dizziness, confusion, and nose bleeds. Proper PPE is heavily recommended for short and
+                    long term health and safety. When trying to create SPI interrupts, we realized that the version of MPLabX can affect the behaviors of the PIC
+                    chip. In our case, all the versions we had wouldn't allow us to have SPI interrupts at all. This was solved by only having a timer interrupt,
+                    it was a rather clunky solution. Lastly, we learned to really pay attention to the I2C address details in datasheets as one of our components,
+                    the ADC, had a fixed I2C address assigned at the factory, so every ADC chip had the same address. This meant that we could only use one ADC
+                    chip on our board, not ideal when you need to read signals from two LDRs.
                 </p>
 
                 <p></p>
