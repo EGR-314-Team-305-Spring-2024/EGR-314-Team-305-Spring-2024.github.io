@@ -25,7 +25,7 @@
 					</div>
 					<div class="content">
 						<div class="inner">
-							<h1>Software Proposal</h1>
+							<h1>Code</h1>
 							<p>Team 305 Arizona State University, EGR 314 (Class #17878), Professor: Kevin Nichols<br />
 						</div>
 					</div>
@@ -34,23 +34,358 @@
                 <p></p>
                 <p></p>
 
+                <nav>
+					<ul class="actions">
+						<li><a href="#mplab-config" class="button">MPLAB Configs</a></li>
+                        <li><a href="#mplab-code" class="button">MPLAB Code</a></li>
+                        <li><a href="#esp-code" class="button">ESP32 Code</a></li>
+						
+					</ul>
+				</nav>
+
                 <div class="content" style="padding-inline: 125px;">
-                    <h2>MPLAB Configurations</h2>
-                    <h3>Pin Manager</h3>
-                    <img src="pictures/pin_manager_package_view.png" alt=""> <br>
-                    <img src="pictures/pin_manager_grid_view.png" alt=""> <br>
+                    <div id="mplab-config" style="text-align: center;">
+                        
+                        <a href="#header"><h2>MPLAB Configurations</h2></a>
+                        
+                        <h3>Pin Manager</h3>
+                        <img src="pictures/pin_manager_package_view.png" alt="" height="40%" width="40%"> <br>
+                        <sub><i>Pin Manager Package View</i></sub> <br><br><br>
+                        <img src="pictures/pin_manager_grid_view.png" alt="" height="55%" width="55%"> <br>
+                        <sub><i>Pin Manager Manager Grid View</i></sub> <br><br><br>
 
-                    <h3>Modules</h3>
-                    <img src="pictures/interrupt_module.png" alt=""> <br>
-                    <img src="pictures/pin_module.png" alt=""> <br>
-                    <img src="pictures/system_module.png" alt=""> <br>
+                        <h3>Modules</h3>
+                        <img src="pictures/interrupt_module.png" alt="" height="40%" width="40%"> <br>
+                        <sub><i>Interrupt Module</i></sub> <br><br><br>
+                        <img src="pictures/pin_module.png" alt="" height="55%" width="55%"> <br>
+                        <sub><i>Pin Module</i></sub> <br><br><br>
+                        <img src="pictures/system_module.png" alt="" height="40%" width="40%"> <br>
+                        <sub><i>System Module</i></sub> <br><br><br>
 
-                    <h3>Peripherals</h3>
-                    <img src="pictures/ADC.png" alt="">
-                    <img src="pictures/EUSART1.png" alt="">
-                    <img src="pictures/MSSP1.png" alt="">
-                    <img src="pictures/MSSP2.png" alt="">
-                    <img src="pictures/TMR1.png" alt="">
+                        <h3>Peripherals</h3>
+                        <img src="pictures/ADC.png" alt="" height="40%" width="40%"> <br>
+                        <sub><i>ADC</i></sub><br><br><br>
+                        <img src="pictures/EUSART1.png" alt="" height="40%" width="40%"> <br>
+                        <sub><i>EUSART</i></sub><br><br><br>
+                        <img src="pictures/MSSP1.png" alt="" height="55%" width="55%"> <br>
+                        <sub><i>MSSP1</i></sub><br><br><br>
+                        <img src="pictures/MSSP2.png" alt="" height="55%" width="55%"> <br>
+                        <sub><i>MSSP2</i></sub><br><br><br>
+                        <img src="pictures/TMR1.png" alt="" height="40%" width="40%"> <br>
+                        <sub><i>Timer 1</i></sub><br><br><br>
+                        
+                    </div>
+                    
+
+                    <div id="mplab-code">
+                        <a href="#header"><h2>MPLab Code</h2></a>
+
+                        <pre>
+            #include "mcc_generated_files/mcc.h"
+            #include "mcc_generated_files/examples/i2c2_master_example.h"
+            #include <string.h>
+
+
+            #define ZERO 0x00
+            #define AT30TS74_ADDRESS 0x48
+            #define Angle_Address_1 0x0E
+            #define Angle_Address_2 0x0F
+            #define Slave_Address 0x36
+
+            uint8_t tempReading = ZERO;
+            uint16_t LDR_1_con;
+            uint16_t LDR_2_con;
+            uint16_t LDR_converted;
+            int LDR_diff;
+            uint8_t LDR_thresh = 100;
+            uint8_t LDR_dark = 100;
+
+            uint8_t  b[2] = {0x0,0x0};
+            int  data = 0x0;
+
+            uint8_t forward_tx = 0b11101111;
+            uint8_t stop_tx = 0b11101100;
+            uint8_t backward_tx = 0b11101101;
+            uint8_t motor_state;
+
+            uint8_t spi_rx;
+
+            double timer_ms = 0; 
+
+            void sendToSPI (uint8_t data);
+            void timer_callback(void);;
+
+            /*
+                                    Main application
+            */
+            void main(void)
+            {
+                // Initialize the device
+                SYSTEM_Initialize();
+                
+                SPI1_Open(SPI1_DEFAULT);
+                CSN_SetHigh();
+
+                // If using interrupts in PIC18 High/Low Priority Mode you need to enable the Global High and Low Interrupts
+                // If using interrupts in PIC Mid-Range Compatibility Mode you need to enable the Global and Peripheral Interrupts
+                // Use the following macros to:
+
+                // Enable the Global Interrupts
+                INTERRUPT_GlobalInterruptEnable();
+
+                // Disable the Global Interrupts
+                //INTERRUPT_GlobalInterruptDisable();
+
+                // Enable the Peripheral Interrupts
+                INTERRUPT_PeripheralInterruptEnable();
+
+                // Disable the Peripheral Interrupts
+                //INTERRUPT_PeripheralInterruptDisable();
+                
+                LED_1_SetLow();
+                LED_2_SetLow();
+                LED_3_SetLow();
+                LED_4_SetLow();
+                LED_5_SetLow();
+                LED_6_SetLow();
+                
+                TMR1_StartTimer();
+                TMR1_SetInterruptHandler(timer_callback);
+                
+
+                while (1)
+                {
+                    // Add your application code
+                    
+                    LDR_1_con = ADC_GetConversion(LDR_1);
+                    LDR_2_con = ADC_GetConversion(LDR_2);
+                    
+                    LDR_diff = abs(LDR_1_con - LDR_2_con);        
+                    
+                    
+                
+                    if (!(LDR_1_con < LDR_dark && LDR_2_con < LDR_dark) && LDR_diff > LDR_thresh)
+                    {
+                        if(LDR_1_con > LDR_2_con)
+                        {
+                            LED_1_SetHigh();
+                            LED_2_SetLow();
+                            LED_3_SetLow();
+                            motor_state = 0;
+                            sendToSPI(forward_tx);
+                        }
+                        if (LDR_1_con < LDR_2_con)
+                        {
+                            LED_1_SetLow();
+                            LED_2_SetLow();
+                            LED_3_SetHigh();
+                            motor_state = 2;
+                            sendToSPI(backward_tx);
+                        }
+                    }
+                    else
+                    {
+                        LED_1_SetLow();
+                        LED_2_SetHigh();
+                        LED_3_SetLow();
+                        motor_state = 1;
+                        sendToSPI(stop_tx);
+                    }
+                }
+            }
+
+            void sendToSPI (uint8_t data) 
+            {
+                CSN_SetLow();
+                spi_rx = SPI1_ExchangeByte(data);
+                CSN_SetHigh();
+                __delay_ms(5);
+            }
+
+            void timer_callback(void)
+            {
+                timer_ms++;
+                
+                if (timer_ms >= 100.0)
+                {
+                    tempReading = I2C2_Read1ByteRegister( AT30TS74_ADDRESS, 0x0);
+                    b[0] = I2C2_Read1ByteRegister(Slave_Address, Angle_Address_1);
+                    b[1] = I2C2_Read1ByteRegister(Slave_Address, Angle_Address_2);
+
+                    data = b[0]<<8|b[1];
+                
+                    printf("%i  %il", LDR_1_con, LDR_2_con);
+                    printf("%it", tempReading);
+                    printf("%ih", data);
+                    printf("%im", motor_state);
+                    
+                    timer_ms -= 100.0;
+                    LED_6_Toggle();
+                }
+            }
+                        </pre>
+                        </div>
+
+                        
+
+
+                    <div id="esp-code">
+                        <a href="#header"><h2>ESP32 Code</h2></a>
+                    
+                            <h3>MQTT UART communication</h3>
+
+                        <pre>
+            from mqtt_async import MQTTClient, config
+            import uasyncio as asyncio
+            import time
+            from machine import UART
+            import my_oled
+            import logging
+            logging.basicConfig(level=logging.DEBUG)
+
+            MAXTX = 4
+
+            # Change the following configs to suit your environment
+            TOPIC_PUB_l = 'EGR314/Team305/LDR'
+            TOPIC_SUB_l = 'EGR314/Team305/LDR'
+            TOPIC_PUB_t = 'EGR314/Team305/TEMP'
+            TOPIC_SUB_t = 'EGR314/Team305/TEMP'
+            TOPIC_PUB_h = 'EGR314/Team305/HALL'
+            TOPIC_SUB_h = 'EGR314/Team305/HALL'
+            TOPIC_PUB_m = 'EGR314/Team305/MOTOR'
+            TOPIC_SUB_m = 'EGR314/Team305/MOTOR'
+
+            config.server = 'egr3x4.ddns.net' # can also be a hostname
+            config.ssid     = 'photon'
+            config.wifi_pw  = 'particle'
+
+            uart = UART(2, 9600,tx=17,rx=16)
+            uart.init(9600, bits=8, parity=None, stop=1,flow=0) # init with given parameters
+
+            async def receiver():
+                b = b''
+                sreader = asyncio.StreamReader(uart)
+                while True:
+                    res = await sreader.read(1)
+                    if res==b'l':
+                        await client.publish(TOPIC_PUB_l, b, qos=1)
+                        print('published', b)
+                        my_oled.print_data(b, 0)
+                        b = b''
+                    elif res==b't':
+                        await client.publish(TOPIC_PUB_t, b, qos=1)
+                        print('published', b)
+                        my_oled.print_data(b, 1)
+                        b = b''
+                    elif res==b'h':
+                        await client.publish(TOPIC_PUB_h, b, qos=1)
+                        print('published', b)
+                        my_oled.print_data(b, 2)
+                        b = b''
+                    elif res==b'm':
+                        await client.publish(TOPIC_PUB_m, b, qos=1)
+                        print('published', b )
+                        my_oled.print_data(b, 3)
+                        b = b''
+                    else:
+                        b+=res
+                    
+
+            def callback(topic, msg, retained, qos):
+                print('callback',topic, msg, retained, qos)
+                
+                #my_oled.print_data(msg)
+                #my_oled.plot_data(msg)
+                
+                while (not not msg):
+                    
+                    uart.write(msg[:MAXTX])
+                    time.sleep(.01)
+                    msg = msg[MAXTX:]
+
+                uart.write('\r\n')
+                time.sleep(.01)
+            
+            async def conn_callback(client):
+                
+                
+                await client.subscribe(TOPIC_SUB_l, 1)
+                await client.subscribe(TOPIC_SUB_t, 1)
+                await client.subscribe(TOPIC_SUB_h, 1)
+                await client.subscribe(TOPIC_SUB_m, 1)
+                
+
+            async def main(client):
+                await client.connect()
+                asyncio.create_task(receiver())
+                while True:
+                    await asyncio.sleep(1)
+
+            config.subs_cb = callback
+            config.connect_coro = conn_callback
+
+            client = MQTTClient(config)
+            loop = asyncio.get_event_loop()
+            loop.run_until_complete(main(client))
+                        </pre>
+
+                        <h3>OLED</h3>
+                        <pre>
+            from machine import Pin, SoftI2C
+            import ssd1306
+            import gfx
+            from time import sleep
+
+            i2c = SoftI2C(scl=Pin(22), sda=Pin(21))
+
+            oled_width = 128
+            oled_height = 64
+            oled = ssd1306.SSD1306_I2C(oled_width, oled_height, i2c)
+            graphics = gfx.GFX(oled_width, oled_height, oled.pixel)
+
+            ldr = 0
+            temp = 0
+            hall = 0
+            motor = "Stop"
+
+            def print_data(msg, TOPIC):
+                # convert byte array to string
+                my_string = msg.decode('utf-8')
+                
+                global ldr
+                global temp
+                global hall
+                global motor
+                
+                if TOPIC == 0:
+                    ldr = my_string
+                    
+                if TOPIC == 1:
+                    temp = my_string
+                    
+                if TOPIC == 2:
+                    hall = my_string
+                
+                if TOPIC == 3:
+                    if my_string == "0":
+                        motor = "Forward"
+                        
+                    if my_string == "1":
+                        motor = "Stop"
+                        
+                    if my_string == "2":
+                        motor = "Backward"
+
+                oled.fill(0)
+                oled.text("LDR: " + str(ldr), 0, 0)
+                oled.text("TEMP: " + str(temp), 0, 10)
+                oled.text("HALL: " + str(hall), 0, 20)
+                oled.text("MOTOR: " + str(motor), 0, 30)
+                
+                
+                oled.show()
+                        </pre>
+                    </div>
 
 
                 </div>
