@@ -995,7 +995,8 @@
 
                 <p>
                     The final design of the schematic allows for multiple access points into the microcontroller to both test for 
-                    failures and leave opportuninty for future modifications. <br>
+                    failures and leave opportuninty for future modifications. <br> <br>
+
                     There are two open header pins at each of the communication lines (UART, SPI, I2C)
                     to allow the addition of more subsystems or to substitute an onboard failing subsystem. Connected directly to the microcontroller are
                     six open header pins with access to four analog pins and the two pins responsible for an external oscillator. 
@@ -1008,6 +1009,12 @@
                     To make the system more robust, fuses were placed at both the 6V and 3.3V powerlines and adjusted just above the expected current draw
                     (with respect to the power budget and not the maximum capability of the circuits). Bypass Capacitors were placed at the power pins of
                     each of the onboard chips.
+
+                    In terms of improvement, the addition of a jumper between the motor controller and the motor itself would allow for the possible implimentation 
+                    of a current-limiting resistor to further tune the speeds of the motor given the unregulated nature of the 6V power line. While the current
+                    design of the voltage divider does well to push the proper voltage through the motor controller and leaves the option of modifying the value
+                    of the resistors, it does not cover the need for adjusting the current. This caused some issues with the overall speed of the motor 
+                    regardless of the gear ratios implemented to regulate this. A jumper here would provide and easier solution than redesiging a gear-box. 
 
                 </p>
 
@@ -1028,8 +1035,28 @@
                                 </tr>
                             </tbody>
                         </table>
-                    </div>
+                    </div> 
                 </section>
+
+                <p>
+                    The PCB is designed primarily to the specifications of the microcontroller's datasheet with the master clear circuit 
+                    placed as close to the microcontroller as possible. <br><br>
+
+                    Given the potential of high temperatures from the 6V voltage divider, the divider was placed as far from the rest of the circuit
+                    as possible (specifically the temperature sensor) where modifications can be made without disturbing the rest of the circuit should 
+                    the need arise. The hall effect sensor and the temperature sensor were also placed as far from eachother as possible
+                    to eliminate any mechanical interference between the two. <br><br>
+
+                    The opportunity to improve on the design would likely include placing the OLED circuit closer to the ESP32 and completely disconnecting
+                    the I2C lines of both the OLED and ESP32 from the rest of the circuit and instead connect them directly to eachother. This would greatly simplify the circuit
+                    and would allow for greater manuverability in terms of integrating the circuit with the final CAD design of the product.
+                    This is because the OLED and the ESP32 are two aspects of the circuit which would require easy and constant access to (either to see or to reprogram for wifi). <br><br>
+
+                    The open pins for the power supplies would also be moved so they would either line the bottom or right edge of the PCB. Or in either case, to 
+                    at least be placed near the LEDs for easy debugging post product assembly. As the design is now, the power pins are difficult to access
+                    once everything has been assembled and would benefit being placed near the LEDs so that the user would be able to immediately see whether 
+                    the circuit is being powered and functioning properly. <br><br>
+                </p>
                 
                 <p><a href="https://github.com/EGR-314-Team-305-Spring-2024/EGR-314-Team-305-Spring-2024.github.io/blob/main/appendices/hardware_proposal.md">Click here for BOM</a></p>
                 
@@ -1037,6 +1064,21 @@
                 <p></p>
                 <p></p>
 
+
+                <!-- 
+                    Include an updated image of the team's final UML activity and/or statechart diagrams as a figure in the report. 
+                    you may use landscape mode on this page to better fit the format of the schematic if desired.
+                    Ensure your diagram matches your code.
+                    Discuss how the functionality of this software diagram satisfies user needs and product requirements though an in depth discussion of function
+                    Discuss your team's design and decision making process related to this section
+                    Numbered list of the top 5 biggest changes to your software design since the software proposal. 
+                    Include several sentences for each change describing the issue and how you resolved it. Use the UML diagrams above to support the discussion.
+                    If you were to create a "Version 2.0" of your software design, discuss what could be improved in the software design and why it should be improved. 
+                    Use the UML diagrams above to support the discussion. Consider using a graphical representation of the flow that your updated software would take. 
+                    What functions would you create? How would you divide up your code? How would you improve its debuggability? 
+                    What peripherals or system features would you like to use or set up to make your system more reliable, stable, functional, or robust? 
+                    How would you simplify, improve, or update your protocol design to support this in software? (½ page minimum)
+                -->
                 <h2 id="software-proposal">
                     <a href="#header">Software Proposal</a>
                 </h2>
@@ -1088,6 +1130,37 @@
                         </table>
                     </div>
                 </section>
+
+                <p>
+                    The code's main purpose is to pass information gathered from all the peripherals to the ESP32 while properly timing the use of the 
+                    motor. The ESP32 then published that information to the MQTT server. The ESP32 simultaneously subscribes from the four topics
+                    (Motor, LDR, Temperature, Hall Effect) to print out the information onto the OLED in a readable fashion. This is done so as to 
+                    ensure that the OLED only displays information if everything is running correctly. 
+                    In the main loop, the microcontroller needed to constantly be checking the values of the LDRs in order to determine whether or not to 
+                    move the motor. To prevent timing issues with posting information, it was decided that the data gathered from the sensors needed to only be 
+                    sent every 100ms rather than the speed at which the microcontroller would run through the main loop. 
+                    In the programming configurations, a new timer was used to send an interrupt every 100ms specifically to convert and send the data from the sensors.
+                    This allowed for both the motors and data transfer to happen vitually at the same time without mistiming the communication of all the peripherals. 
+
+                </p>
+
+                <h3>Top 5 Biggest Changes from Proposal</h3>
+                <ol>
+                    <li>Disabled interrupt on the SPI motor driver</li>
+                    <li>Packaged individual interrupts of the sensor peripherals into a single timer interrupt</li>
+                    <li>Modified the overall timing of the system</li>
+                    <li>Packaged data conversion in timer instead of in main loop</li>
+                    <li>Modified data type of sensors to prevent bit conversion issues</li>
+                </ol>
+
+                <p>
+                    Future modifications to the code would likely implement more practical usage of the onboard LEDs. As the code stands now, they are 
+                    only used to indicate the state of the motor and the timing of the data transfer. To mske debugging easier, the LEDs would likely be better 
+                    distributed to inducate a change in the data. This would mean better determining not only which subsystem may be having issues but also the nature of it
+                    (conversion timing, data transfer, etc).
+                    The code of the ESP32 would also be modified more efficiently send data since as it is now, the information post to MQTT is often 5-10 seconds delayed. 
+                    Different configurations would have to be tested to improve the responsiveness of the ESP. 
+                </p>
 
 
                 <div>
