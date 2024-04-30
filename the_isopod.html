@@ -41,6 +41,10 @@
                         <li><a href="#component-selection" class="button">Components</a></li>
                         <li><a href="#hardware-proposal" class="button">Hardware</a></li>
                         <li><a href="#software-proposal" class="button">Software</a></li>
+                        <li><a href="#system-verification" class="button">Verification</a></li>
+                        <li><a href="#lessons-learned" class="button">Lessons Learned</a></li>
+                        <li><a href="#recommendations" class="button">Recommendations</a></li>
+                        
                         <!--<li><a href="#elements">Elements</a></li>-->
                     </ul>
                 </nav>
@@ -48,7 +52,7 @@
                 <p></p>
                 <p></p>
 
-                <p><a href="index.html" title="Back to home">Click here to go back to home page</a></p>
+                <p><a href="index.html" title="Back to home">Home</a></p>
 
                 <p></p>
                 <p></p>
@@ -922,11 +926,26 @@
                 <p></p>
                 <p></p>
 
+
+                <!--hardware implementation-->
+
+                <!--
+
+                    Include an image of the team's final schematics as a figure in the report. you may use landscape mode on this page to better fit the format of the schematic.
+                    Discuss how the functionality of this schematic satisfies user needs and product requirements though an in depth discussion of function.
+                    Discuss your team's design and decision making process related to this section
+                    Include the team's bill of materials in the appendix
+                    Include front and back screenshots of the team's final PCB design.
+                    Include front and back photos of the team's final PCB design.
+                    If you were to create a "Version 2.0" of your hardware design, discuss what could be 
+                    improved in the hardware design and why it should be improved. Use the schematic above to support the discussion. (½ page minimum)
+                -->
+
                 <h2 id="hardware-proposal">
-                    <a href="#header">Hardware Proposal</a>
+                    <a href="#header">Hardware Implementation</a>
                 </h2>
                 
-                <b>Schematics</b>
+                <b>Schematics version 1</b>
                 <section>
                     <div class="table-wrapper">
                         <table>
@@ -944,15 +963,73 @@
                     </div>
                 </section>
 
+                <b>Schematics version 2</b>
+                <section>
+                    <div class="table-wrapper">
+                        <table>
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <img src="pictures\isopod_hardwareProposal_Microcontroller_v2-1.png" alt="hardware-prop-microcontroller-schm-1a" width="80%" height="80%">
+                                    </td>
+                                    <td>
+                                        <img src="pictures\isopod_hardwareProposal_Peripherals_v2-1.png" alt="hardware-prop-peripherals-schm-1a" width="80%" height="80%">
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </section>
+
+                <h3>Final Schematic</h3>
+
                 <b>Microcontroller Schematic</b>
-                <img src="pictures\isopod_hardwareProposal_Microcontroller-1.png" alt="isopod_microcontroller_schm_r1" width="80%" height="80%">
+                <img src="pictures\isopod_hardwareProposal_Microcontroller_v3-1.png" alt="isopod_microcontroller_schm_r1" width="80%" height="80%">
 
                 <p></p>
 
                 <b>Peripherals Schematic</b>
-                <img src="pictures\isopod_hardwareProposal_Peripherals-1.png" alt="Isopod_peripherals_schm_r1" width="80%" height="80%">
+                <img src="pictures\isopod_hardwareProposal_Peripherals_v3-1.png" alt="Isopod_peripherals_schm_r1" width="80%" height="80%">
 
                 <p></p>
+
+                <p>
+                    The final design of the schematic allows for multiple access points into the microcontroller to both test for 
+                    failures and leave opportuninty for future modifications. <br>
+                    There are two open header pins at each of the communication lines (UART, SPI, I2C)
+                    to allow the addition of more subsystems or to substitute an onboard failing subsystem. Connected directly to the microcontroller are
+                    six open header pins with access to four analog pins and the two pins responsible for an external oscillator. 
+                    In addition to that, there are six onboard LEDs to allow for diagnosis of the microcontrollers program routines.
+                    There are also multiple headers placed specifically for testing the signals of certain circuit junctions such as the at the communication lines,
+                    the analog output of the LDRs and the power rails (3.3V, 6V, 12V). <br>
+                    Multiple jumpers are placed strategically to allow for complete disconnection of select circuits like the master clear programming circuit 
+                    and the ADC of the LDR subsystem. <br> <br>
+
+                    To make the system more robust, fuses were placed at both the 6V and 3.3V powerlines and adjusted just above the expected current draw
+                    (with respect to the power budget and not the maximum capability of the circuits). Bypass Capacitors were placed at the power pins of
+                    each of the onboard chips.
+
+                </p>
+
+                <h3>Final PCB</h3>
+                <section>
+                    <div class="table-wrapper">
+                        <table>
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <i>Front</i> <br>
+                                        <img src="pictures/final_PCB_TOP.png" width="80%" height="80%">
+                                    </td>
+                                    <td>
+                                        <i>Back</i> <br>
+                                        <img src="pictures/final_PCB_BOTTOM.png" width="80%" height="80%">
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </section>
                 
                 <p><a href="https://github.com/EGR-314-Team-305-Spring-2024/EGR-314-Team-305-Spring-2024.github.io/blob/main/appendices/hardware_proposal.md">Click here for BOM</a></p>
                 
@@ -1011,6 +1088,29 @@
                         </table>
                     </div>
                 </section>
+
+
+                <div>
+                    <h2 id="system-verification">
+                    <a href="#header">System Verification</a>
+                    </h2>
+
+                </div>
+
+                <div>
+                    <h2 id="lessons-learned">
+                    <a href="#header">Lessons Learned</a>
+                    </h2>
+
+                </div>
+
+                <div>
+                    <h2 id="recommendations">
+                    <a href="#header">Recommendations for Future Students</a>
+                    </h2>
+
+                </div>
+                
 
 
                 
