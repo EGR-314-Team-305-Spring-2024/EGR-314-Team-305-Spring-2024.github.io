@@ -321,19 +321,19 @@
                                 <tr>
                                     <th>Design Considerations</th>
                                     <th>Team Project-Specific Requirements</th>
-                                    <th style="width: 18%;">Chosen PIC uC</th>
+                                    <th style="width: 18%;">Unchosen PIC uC</th>
                                 </tr>
                             </thead>
                             <tbody>
                                 <tr>
                                     <td>How many GPIO Pins?</td>
                                     <td>At Least 20 GPIO pins.</td>
-                                    <td>44</td>
+                                    <td>35</td>
                                                                     </tr>
                                 <tr>
                                     <td>Built-in Analog to Digital Converter? How many?</td>
                                     <td>Our block diagram requires no internal ADC from the microcontroller.</td>
-                                    <td>Yes, 34</td>
+                                    <td>Yes, 18</td>
                                                                     </tr>
                                 <tr>
                                     <td>Built-in Hardware PWM? How many?</td>
@@ -343,7 +343,189 @@
                                 <tr>
                                     <td>Built-in I2C? SPI? How many?</td>
                                     <td>Preferable for 2 modules (ability to communicate in both I2C and SPI simultaneously)</td>
-                                    <td>Includes 2 MSSP pins, SPI and I2C</td>
+                                    <td>Includes MSSP pins, SPI and I2C</td>
+                                                                    </tr>
+                                <tr>
+                                    <td>Built-in UART? How many?</td>
+                                    <td>Preferable for debugging and transmitting data via ESP32.</td>
+                                    <td>No</td>
+                                                                    </tr>
+                            </tbody>
+                        </table>
+
+
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Comparisons</th>
+                                    <th style="width: 18%;">Unchosen PIC uC</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Overall Pros</td>
+                                    <td>
+                                        <ul>
+                                            <li>35 GPIO Pins</li>
+                                            <li>Cheap at $3.00</li>
+                                            <li>In Stock</li>
+                                            <li>Small package</li>
+                                            <li>Multiple ADC channels</li>
+                                            <li>4 PWM modules</li>
+                                        </ul>
+                                    </td>
+                                                                    </tr>
+                                <tr>
+                                    <td>Overall Cons</td>
+                                    <td>
+                                        <ul>
+                                            <li>Only one MSSP module (can't communicate in both I2C and SPI)</li>
+                                            <li>11 single-ended ADC channels</li>
+                                            <li>Does not fulfill Peralta manufacturing requirements</li>
+                                        </ul>
+                                    </td>
+                                                                    </tr>
+                                <tr>
+                                    <td>Ranking</td>
+                                    <td>2</td>
+                                                                    </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                </section>
+
+                <p>
+                <p>
+                <p>
+                <p>
+                <div class="content">
+                    <h3>Microcontroller Selection (3) </h3>
+                    <p>In-depth comparison of selected Microcontrollers compatible with the SNAP programmer.</p>
+
+                </div>
+                <section>
+                    <div class="table-wrapper">
+
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Microcontroller Considerations</th>
+                                    <th style="width: 18%;">Unchosen PIC uC</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Part Number</td>
+                                    <td>PIC18F47K42-I/PT</td>
+                                                                    </tr>
+                                <tr>
+                                    <td>Product Page</td>
+                                    <td><a href="https://www.digikey.com/en/products/detail/microchip-technology/PIC18F47K42-I-PT/7561733">Digikey</a></td>
+                                                                    </tr>
+                                <tr>
+                                    <td>Data Sheets</td>
+                                    <td><a href="https://ww1.microchip.com/downloads/en/DeviceDoc/PIC18(L)F26-27-45-46-47-55-56-57K42-Data-Sheet-40001919G.pdf">Microchip</a></td>
+                                                                    </tr>
+                                <tr>
+                                    <td>Application Notes</td>
+                                    <td><a href="https://www.microchip.com/en-us/application-notes/tb3261">Microchip</a></td>
+                                                                    </tr>
+                                <tr>
+                                    <td>Code Examples</td>
+                                    <td><a href="https://ww1.microchip.com/downloads/en/AppNotes/AN1921_Source%20Code.zip">Microchip</a></td>
+                                                                    </tr>
+                                <tr>
+                                    <td>External Resources</td>
+                                    <td><a href="https://www.youtube.com/watch?v=pWEfIVyQRgI">Youtube</a></td>
+                                                                    </tr>
+                                <tr>
+                                    <td>Production Unit Cost</td>
+                                    <td>$2.79</td>
+                                                                    </tr>
+                                <tr>
+                                    <td>Supply Voltage Range</td>
+                                    <td>1.8-3.6 V</td>
+                                                                    </tr>
+                                <tr>
+                                    <td>Absolute Maximum Current for entire IC</td>
+                                    <td>350 mA</td>
+                                                                    </tr>
+                                <tr>
+                                    <td>Maximum GPIO Pin Current (Source/Sink)</td>
+                                    <td>+/-50 mA</td>
+                                                                    </tr>
+                                <tr>
+                                    <td>8-Bit or 16-Bit Architecture</td>
+                                    <td>8-Bit</td>
+                                                                    </tr>
+                                <tr>
+                                    <td>Available IC Packages / Footprints</td>
+                                    <td>
+                                        <a href="https://www.digikey.com/en/products/detail/microchip-technology/PIC18LF47K42-I-PT/8037759">TQFP,  </a>   
+                                    </td>
+                                                                    </tr>
+                                <tr>
+                                    <td>Supports External Interrupts?</td>
+                                    <td>Yes</td>
+                                                                    </tr>
+                                <tr>
+                                    <td>In-System Programming Capability and type</td>
+                                    <td>Yes, Supports ICSP</td>
+                                                                    </tr>
+                                <tr>
+                                    <td>Programming Hardware, Cost, and URL</td>
+                                    <td>
+                                        <a href="https://www.microchip.com/en-us/development-tool/pg164100">MPLAB SNAP</a>
+                                        $39.20
+                                    </td>
+                                                                    </tr>
+                                <tr>
+                                    <td>Works with MPLAB® X Integrated Development Environment (IDE)?</td>
+                                    <td>Yes</th>
+                                                                    </tr>
+                                <tr>
+                                    <td>Works with Microchip Code Configurator?</td>
+                                    <td>Yes</td>
+                                                                    </tr>
+
+
+                            </tbody>
+                        </table>
+
+                        <p></p>
+                        <p></p>
+                        <p></p>
+                        <p></p>
+
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Design Considerations</th>
+                                    <th>Team Project-Specific Requirements</th>
+                                    <th style="width: 18%;">Unchosen PIC uC</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>How many GPIO Pins?</td>
+                                    <td>At Least 20 GPIO pins.</td>
+                                    <td>35</td>
+                                                                    </tr>
+                                <tr>
+                                    <td>Built-in Analog to Digital Converter? How many?</td>
+                                    <td>Our block diagram requires no internal ADC from the microcontroller.</td>
+                                    <td>Yes, </td>
+                                                                    </tr>
+                                <tr>
+                                    <td>Built-in Hardware PWM? How many?</td>
+                                    <td>At least four PWM modules.</td>
+                                    <td>Yes, 4</td>
+                                                                    </tr>
+                                <tr>
+                                    <td>Built-in I2C? SPI? How many?</td>
+                                    <td>Preferable for 2 modules (ability to communicate in both I2C and SPI simultaneously)</td>
+                                    <td>Includes MSSP pins, SPI and I2C</td>
                                                                     </tr>
                                 <tr>
                                     <td>Built-in UART? How many?</td>
@@ -358,7 +540,7 @@
                             <thead>
                                 <tr>
                                     <th>Comparisons</th>
-                                    <th style="width: 18%;">Chosen PIC uC</th>
+                                    <th style="width: 18%;">Unchosen PIC uC</th>
                                 </tr>
                             </thead>
                             <tbody>
@@ -366,11 +548,11 @@
                                     <td>Overall Pros</td>
                                     <td>
                                         <ul>
-                                            <li>34 GPIO Pins</li>
-                                            <li>Has 2 UART modules</li>
-                                            <li>Has 35 external analog channels</li>
-                                            <li>Has 2 MSSP outputs</li>
-                                            <li>Fulfills Peralta Manufacturing Requirements</li>
+                                            <li>35 GPIO Pins</li>
+                                            <li>Cheap at $2.79</li>
+                                            <li>Has two modules for I2C and one for SPI</li>
+                                            <li>Two EUSART modules</li>
+                                            <li>4 standalone PWM modules</li>
                                         </ul>
                                     </td>
                                                                     </tr>
@@ -378,25 +560,35 @@
                                     <td>Overall Cons</td>
                                     <td>
                                         <ul>
-                                            <li>Needs expensive programmer</li>
-                                            <li>Only has 1 SPI and 1 I2C</li>
-                                            <li>Only has 2 PWM outputs</li>
-                                            <li>Relatively expensive at $5.38</li>
+                                            <li>0.80mm pitch size</li>
+                                            <li>0.55mm lead size</li>
+                                            <li>No internal analog channels</li>
+                                            <li>Does not fulfill Peralta manufacturing requirements</li>
                                         </ul>
                                     </td>
                                                                     </tr>
                                 <tr>
                                     <td>Ranking</td>
-                                    <td>1</td>
+                                    <td>2</td>
                                                                     </tr>
                             </tbody>
                         </table>
                     </div>
 
                 </section>
+                <p></p>
+                <p></p>
+                <p></p>
+                <p></p>
+
+                <h3>Rational</h3>
+                <p>We are choosing option 1 because of its advanced communication capabilities. It has ample connectivity, with 34 GPIO pins. There are two MSSP modules that can be configured for I2C or SPI which would be perfect because our subsystems require the use of both I2C and SPI. Additionally, there are also two modules for EUSART. It has about the same characteristics as the other two options, but option 1, the PIC18F47J13-I/PT, has more expanded capabilities and most importantly, meets Peralta manufacturing requirements. </p>
+
+                
 
 
 
+                </section>
                 
 
 				<!-- Footer -->
