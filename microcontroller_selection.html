@@ -35,7 +35,7 @@
                 <p></p>
 
 				<div class="content">
-                    <h3>Microcontroller Selection</h3>
+                    <h3>Microcontroller Selection (1) </h3>
                     <p>In-depth comparison of selected Microcontrollers compatible with the SNAP programmer.</p>
 
                 </div>
@@ -212,6 +212,192 @@
                     </div>
 
                 </section>
+                <p>
+                <p>
+                <p>
+                <p>
+                <div class="content">
+                    <h3>Microcontroller Selection (2) </h3>
+                    <p>In-depth comparison of selected Microcontrollers compatible with the SNAP programmer.</p>
+
+                </div>
+                <section>
+                    <div class="table-wrapper">
+
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Microcontroller Considerations</th>
+                                    <th style="width: 18%;">Unchosen PIC uC</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Part Number</td>
+                                    <td>PIC16F1789-I/PT</td>
+                                                                    </tr>
+                                <tr>
+                                    <td>Product Page</td>
+                                    <td><a href="https://www.digikey.com/en/products/detail/microchip-technology/PIC16F1789-I-PT/4080209">Digikey</a></td>
+                                                                    </tr>
+                                <tr>
+                                    <td>Data Sheets</td>
+                                    <td><a href="https://ww1.microchip.com/downloads/en/DeviceDoc/30009974C.pdf">Microchip</a></td>
+                                                                    </tr>
+                                <tr>
+                                    <td>Application Notes</td>
+                                    <td><a href="https://www.microchip.com/en-us/product/PIC16F1789">Microchip</a></td>
+                                                                    </tr>
+                                <tr>
+                                    <td>Code Examples</td>
+                                    <td><a href="https://www.microchip.com/en-us/product/PIC16F1789">Microchip</a></td>
+                                                                    </tr>
+                                <tr>
+                                    <td>External Resources</td>
+                                    <td><a href="https://www.youtube.com/watch?v=6dsypGQR5Fg&t=9s">Youtube</a></td>
+                                                                    </tr>
+                                <tr>
+                                    <td>Production Unit Cost</td>
+                                    <td>$3.00</td>
+                                                                    </tr>
+                                <tr>
+                                    <td>Supply Voltage Range</td>
+                                    <td>2.3-5.5 V</td>
+                                                                    </tr>
+                                <tr>
+                                    <td>Absolute Maximum Current for entire IC</td>
+                                    <td>350 mA</td>
+                                                                    </tr>
+                                <tr>
+                                    <td>Maximum GPIO Pin Current (Source/Sink)</td>
+                                    <td>50 mA</td>
+                                                                    </tr>
+                                <tr>
+                                    <td>8-Bit or 16-Bit Architecture</td>
+                                    <td>8-Bit</td>
+                                                                    </tr>
+                                <tr>
+                                    <td>Available IC Packages / Footprints</td>
+                                    <td>
+                                        <a href="https://www.digikey.com/en/models/4080209">TQFP,  </a>   
+                                        <a href="https://www.digikey.com/en/models/4080108">44-QFN</a>
+                                    </td>
+                                                                    </tr>
+                                <tr>
+                                    <td>Supports External Interrupts?</td>
+                                    <td>Yes, IOC</td>
+                                                                    </tr>
+                                <tr>
+                                    <td>In-System Programming Capability and type</td>
+                                    <td>Yes, Supports ICSP</td>
+                                                                    </tr>
+                                <tr>
+                                    <td>Programming Hardware, Cost, and URL</td>
+                                    <td>
+                                        <a href="https://www.microchip.com/en-us/development-tool/pg164100">MPLAB SNAP</a>
+                                        $39.20
+                                    </td>
+                                                                    </tr>
+                                <tr>
+                                    <td>Works with MPLAB® X Integrated Development Environment (IDE)?</td>
+                                    <td>Yes</th>
+                                                                    </tr>
+                                <tr>
+                                    <td>Works with Microchip Code Configurator?</td>
+                                    <td>Yes</td>
+                                                                    </tr>
+
+
+                            </tbody>
+                        </table>
+
+                        <p></p>
+                        <p></p>
+                        <p></p>
+                        <p></p>
+
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Design Considerations</th>
+                                    <th>Team Project-Specific Requirements</th>
+                                    <th style="width: 18%;">Chosen PIC uC</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>How many GPIO Pins?</td>
+                                    <td>At Least 20 GPIO pins.</td>
+                                    <td>44</td>
+                                                                    </tr>
+                                <tr>
+                                    <td>Built-in Analog to Digital Converter? How many?</td>
+                                    <td>Our block diagram requires no internal ADC from the microcontroller.</td>
+                                    <td>Yes, 34</td>
+                                                                    </tr>
+                                <tr>
+                                    <td>Built-in Hardware PWM? How many?</td>
+                                    <td>At least four PWM modules.</td>
+                                    <td>Yes, 4</td>
+                                                                    </tr>
+                                <tr>
+                                    <td>Built-in I2C? SPI? How many?</td>
+                                    <td>Preferable for 2 modules (ability to communicate in both I2C and SPI simultaneously)</td>
+                                    <td>Includes 2 MSSP pins, SPI and I2C</td>
+                                                                    </tr>
+                                <tr>
+                                    <td>Built-in UART? How many?</td>
+                                    <td>Preferable for debugging and transmitting data via ESP32.</td>
+                                    <td>Yes, 2</td>
+                                                                    </tr>
+                            </tbody>
+                        </table>
+
+
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Comparisons</th>
+                                    <th style="width: 18%;">Chosen PIC uC</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Overall Pros</td>
+                                    <td>
+                                        <ul>
+                                            <li>34 GPIO Pins</li>
+                                            <li>Has 2 UART modules</li>
+                                            <li>Has 35 external analog channels</li>
+                                            <li>Has 2 MSSP outputs</li>
+                                            <li>Fulfills Peralta Manufacturing Requirements</li>
+                                        </ul>
+                                    </td>
+                                                                    </tr>
+                                <tr>
+                                    <td>Overall Cons</td>
+                                    <td>
+                                        <ul>
+                                            <li>Needs expensive programmer</li>
+                                            <li>Only has 1 SPI and 1 I2C</li>
+                                            <li>Only has 2 PWM outputs</li>
+                                            <li>Relatively expensive at $5.38</li>
+                                        </ul>
+                                    </td>
+                                                                    </tr>
+                                <tr>
+                                    <td>Ranking</td>
+                                    <td>1</td>
+                                                                    </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                </section>
+
+
+
+                
 
 
 				<!-- Footer -->
