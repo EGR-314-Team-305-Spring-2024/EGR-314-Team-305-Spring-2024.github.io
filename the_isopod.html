@@ -63,1179 +63,1223 @@
 
                 <p></p>
 
-                <div class="content">
-                    <h2 class="major">Project Description</h2>
-                    <p>This semester we will be producing systems that can respond to the environment using serial sensing and actuation in your system for a mobile weather station. Each team will also broadcast their environmental data to the internet over WiFi using the MQTT protocol.</p>
+
+
+
+
+
+                <div class="content" style="padding-inline: 125px;">
+
+                    <div>
+                        <h2 class="major">Project Description</h2>
+                        <p>This semester we will be producing systems that can respond to the environment using serial sensing and actuation in your system for a mobile weather station. Each team will also broadcast their environmental data to the internet over WiFi using the MQTT protocol.</p>
+                        
+                        <p>Our team was tasked with developing a mobile weather station that would be capable of measuring at least two different environmental variables, including but not limited to:</p>
+                        <ul>
+                            <li>Temperature</li>
+                            <li>Rainfall</li>
+                            <li>Humidity</li>
+                            <li>Atmospheric pressure</li>
+                            <li>Windspeed</li>
+                        </ul>
                     
-                    <p>Our team was tasked with developing a mobile weather station that would be capable of measuring at least two different environmental variables, including but not limited to:</p>
-                    <ul>
-                        <li>Temperature</li>
-                        <li>Rainfall</li>
-                        <li>Humidity</li>
-                        <li>Atmospheric pressure</li>
-                        <li>Windspeed</li>
-                    </ul>
-                
-                    <p>In addition to monitoring the eviorment, we were required to utilize an actuator who's movement would be based on data collected by our sensors.</p>
+                        <p>In addition to monitoring the eviorment, we were required to utilize an actuator who's movement would be based on data collected by our sensors.</p>
 
-                </div>
+                    </div>
 
-                <!-- User needs, Benchmarking, and Requirments Section-->
-                <h2 class="minor" id="user-needs">
-                    <a href="#header">Developing User Needs and Requirments</a>
-                </h2>
+                    <!-- User needs, Benchmarking, and Requirments Section-->
+                    <h2 class="minor" id="user-needs">
+                        <a href="#header">Developing User Needs and Requirments</a>
+                    </h2>
 
-                <p>With the project requirements in mind, we developed user needs and requirements for our product based on user reviews.</p>
+                    <p>With the project requirements in mind, we developed user needs and requirements for our product based on user reviews.</p>
 
-                <div class="content">
-                    <h4 class="minor">User Needs</h4>
-                    <p>Steps Involved in our User Needs Generation:</p>
-                    <ol>
-                        <li>Researched similar products on the market and analyzed user reviews.</li>
-                            <img src="/pictures/product_1.png" alt="Sainlogic Wireless Weather Station" width="25%" height="25%">
-                        <li>Sorted user needs into categories:</li>
-                        <ol>
-                            <li>Data based</li>
-                            <li>Location based</li>
-                            <li>General</li>
+                    <div>
+                        <h4 class="minor">User Needs</h4>
+                        <p>Steps Involved in our User Needs Generation:</p>
+                        <ol style="padding-left: 5%;">
+                            <li>Researched similar products on the market and analyzed user reviews.</li>
+                                <img src="/pictures/product_1.png" alt="Sainlogic Wireless Weather Station" width="25%" height="25%">
+                            <li>Sorted user needs into categories:</li>
+                            <ol style="padding-left: 5%;">
+                                <li>Data based</li>
+                                <li>Location based</li>
+                                <li>General</li>
+                            </ol>
+                                <img src="/pictures/group_jam_3.png" alt="User needs grouped on Jam Board" width="25%" height="25%">
+                            <li>Ranked User Needs</li>
                         </ol>
-                            <img src="/pictures/group_jam_3.png" alt="User needs grouped on Jam Board" width="25%" height="25%">
-                        <li>Ranked User Needs</li>
-                    </ol>
-                    <p>Unexpected User Needs:</p>
-                    <ul>
-                        <li>Battery lubricant</li>
-                        <li>Fan aspirated temperature sensor</li>
+                        <p>Unexpected User Needs:</p>
+                        <ul style="padding-left: 5%;">
+                            <li>Battery lubricant</li>
+                            <li>Fan aspirated temperature sensor</li>
+                                                </ul>
+                    </div>
+
+                    <div>
+                        <h4 class="minor">Product Requirments</h4>
+                        <p>Steps Involved in our Product Requirments Generation:</p>
+                        <ol style="padding-left: 5%;">
+                            <li>Identify Stakeholders</li>
+                            <ul style="padding-left: 5%;">
+                                <li>Park Rangers/ National Park Associations</li>
+                                <li>Camping/ Hiking Clubs</li>
+                                <li>Petroleum Companies</li>
+                                <li>Farmers</li>
+                            </ul>
+                            <li>Brainstormed possible Use Cases based on identified stakeholders (Shown above)</li>
+                            <li>Brainstormed Product Requirements based on User Needs</li>
+                            <ul style="padding-left: 5%;">
+                                <li>The product must require no prior training to deploy</li>
+                                <li>Display “Feels Like” Temperatures</li>
+                                <li>The device must be transportable by an average human</li>
+                            </ul>
+                            <li>Rank generated product requirments</li>
+                        </ol>
+                    </div>
+
+                    <p style="text-align: center;"><a href="user_needs_benchmarking.html">User needs and requirements page</a></p>
+
+                    
+
+
+                    <!-- Design Ideation -->
+                    <h2 class="minor" id="design-ideation">
+                        <a href="#header">Design Ideation</a>
+                    </h2>
+                    <div>
+                        <p>Key Design Concepts:</p>
+                        <ul style="padding-left: 5%;">
+                            <li>Solar panel</li>
+                            <li>Temperature Sensor</li>
+                            <li>Humidity Sensor</li>
+                            <li>Removable Padded Backpack</li>
+                            <li>“Camalback” - sized body</li>
+                            <li>Poles for Mounting Body</li>
+                        </ul>
+
+                        <h4>Prototype Design: Mobile Backpack Weahter Station</h4>
+                        <center>
+                            <img src="/pictures/prototype_1a.png" alt="Mobile Backpack Weahter Station" width="60%" height="60%" >
+                            <p>With these guidelines in mind, we are currently developing a transportable weather station that one could comfortably wear as a backpack so that they could assemble it in a location of their choosing.</p>
+                        </center>
+                        
+
+                        
+                    </div>
+
+                    <p></p>
+                    <p></p>
+                    <p></p>
+
+                    <!-- Selected Design -->
+                    <h2 id="selected-design">
+                        <a href="#header">Selected Design</a>
+                    </h2>
+
+                    <center>
+                        <img src="/pictures/Isopod_Drawing_p1-1.jpg" alt="Isopod_Drawing_p1-1" width="60%" height="60%">
+                        <img src="/pictures/Isopod_Drawing_p2-2.jpg" alt="Isopod_Drawing_p2-2" width="60%" height="60%">
+                        <p></p>
+                        <p></p>
+                        <p></p>
+                    </center>
+
+
+                    <h2 id="block-diagram">
+                        <a href="#header">Block Diagram</a>
+                    </h2>
+                    
+                    <p>Functional diagram of the Isopod.</p>
+                    <center>
+                        <img src="/pictures/Team305_Block_Diagram-2.jpg" alt="Team305_Block_Diagram" width="50%" height="70%">
+                                        
+                    </center>
+
+                    <p></p>
+                    <p></p>
+                    <p></p>
+
+                    <!--Component Selection-->
+                    <h2 id="component-selection">
+                        <a href="#header">Component Selection</a>
+                    </h2>
+                    <p>Market research and selection of the optimal component to fit our design requirements.</p>
+
+                    <section>
+                        <div>
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th style="width: 10%;">Subsystem</th>
+                                        <th style="width: 10%;">Component</th>
+                                        <th style="width: 20%;">Name</th>
+                                        <th style="width: 30%;">Pros</th>
+                                        <th style="width: 30%;">Cons</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Switching Voltage Regulator</td>
+                                        <td>Switching Voltage Regulator</td>
+                                        <td>
+                                            <p><a href="https://www.digikey.com/en/products/detail/texas-instruments/LM2673SX-ADJ-NOPB/366900">LM2673SX-ADJ/NOPB</a></p>
+                                            <img src="/pictures/LM2673SX.jpg" alt="LM2673SX-ADJ/NOPB" width="100%" height="100%">
+                                        </td>
+                                        <td>
+                                            <ul>
+                                                <li>Input voltage of 8V to 40V</li>
+                                                <li>3.3, 5, and 12V fixed voltage output</li>
+                                                <li>1.2-37V adjustable output</li>
+                                                <li>Simple design with passive components</li>
                                             </ul>
-                </div>
+                                        </td>
+                                        <td>
+                                            <ul>
+                                                <li>Requires Diode</li>
+                                                <li>Large package, 10x5mm</li>
+                                            </ul>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </section>
 
-                <div class="content">
-                    <h4 class="minor">Product Requirments</h4>
-                    <p>Steps Involved in our Product Requirments Generation:</p>
+                    <p>The LM2673SX-ADJ/NOPB is similar to the LM2575T-3.3G in the sense of similar configuration. It is much cheaper than the other options, and it is a good size that should provide easy soldering. Additionally, the output voltage and current of the LM2673SX-ADJ/NOPB are adjustable through the use of resistors.</p>
+
+                    <p></p>
+                    <p></p>
+
+                    <section>
+                        <div>
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th style="width: 10%;">Subsystem</th>
+                                        <th style="width: 10%;">Component</th>
+                                        <th style="width: 20%;">Name</th>
+                                        <th style="width: 30%;">Pros</th>
+                                        <th style="width: 30%;">Cons</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Temperature Sensor</td>
+                                        <td>Temperature Sensor</td>
+                                        <td>
+                                            <p><a href="https://www.digikey.com/en/products/detail/microchip-technology/AT30TS74-XM8M-T/4860274?utm_adgroup=&utm_source=google&utm_medium=cpc&utm_campaign=PMax%20Supplier_Focus%20Supplier&utm_term=&utm_content=&utm_id=go_cmp-20243063242_adg-_ad-__dev-c_ext-_prd-_sig-CjwKCAiA_OetBhAtEiwAPTeQZxcXyAvSp-2nTNRwUCUg__e8ar22jCDYRbUrTbhkHUVj90MhJ3FOShoCMvAQAvD_BwE&gad_source=1&gclid=CjwKCAiA_OetBhAtEiwAPTeQZxcXyAvSp-2nTNRwUCUg__e8ar22jCDYRbUrTbhkHUVj90MhJ3FOShoCMvAQAvD_BwE">AT30TS74-XM8M-T</a></p>
+                                            <img src="/pictures/AT30TS74-XM8M-T.jpg" alt="AT30TS74-XM8M-T" width="100%" height="100%">
+
+                                        </td>
+                                        <td>
+                                            <ul>
+                                                <li>Low operating current of 85 microA</li>
+                                                <li>+/- 1 degree Celsius accuracy of temperatures between -20 to 100 degrees Celsius</li>
+                                                <li>1.2-37V adjustable output</li>
+                                                <li>9-12 bit configurable resolution</li>
+                                                <li>8 MSOP, easier hand soldering</li>
+                                                <li>Cheap</li>
+                                            </ul>
+                                        </td>
+                                        <td>
+                                            <ul>
+                                                <li>Takes up more space than other options</li>
+                                            </ul>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </section>
+
+                    <p>Initially the TC74A4-3.3VCTTR seemed ideal since we would be working with that component in class, and it is a digital temperature sensor with I2C communication. The AT30TS74-XM8M-T is very similar to the TC74A4-3.3VCTTR, but it has a bit larger package which should be easier to hand solder. Additionally, it has a lower operating current, more accurate, and is more of a configurable resolution. </p>
+
+                    <p></p>
+                    <p></p>
+
+                    <section>
+                        <div>
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th style="width: 10%;">Subsystem</th>
+                                        <th style="width: 10%;">Component</th>
+                                        <th style="width: 20%;">Name</th>
+                                        <th style="width: 30%;">Pros</th>
+                                        <th style="width: 30%;">Cons</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Power</td>
+                                        <td>Battery</td>
+                                        <td>
+                                            <p><a href="https://www.digikey.com/en/products/detail/power-sonic-corporation/PS-1230%2520F1/13577481?utm_adgroup=&utm_source=google&utm_medium=cpc&utm_campaign=PMax%20Shopping_Product_Low%20ROAS%20Categories&utm_term=&utm_content=&utm_id=go_cmp-20243063506_adg-_ad-__dev-c_ext-_prd-13577481_sig-Cj0KCQiAn-2tBhDVARIsAGmStVliD9UjZEXBvi0EpwfoKxj9lENW0qBGxG5Vu8zHUUitT8ElnNKZ2CcaAu11EALw_wcB&gad_source=1&gclid=Cj0KCQiAn-2tBhDVARIsAGmStVliD9UjZEXBvi0EpwfoKxj9lENW0qBGxG5Vu8zHUUitT8ElnNKZ2CcaAu11EALw_wcB">PS-1230 F1</a></p>
+                                            <img src="/pictures/PS-1230_F1.png" alt="PS-1230_F1" width="100%" height="100%">
+                                        </td>
+                                        <td>
+                                            <ul>
+                                                <li>Robust</li>
+                                                <li>Rechargeable</li>
+                                                <li>Great capacity</li>
+                                                <li>Weather resistant</li>
+                                                <li>Long lifetime</li>
+                                            </ul>
+                                        </td>
+                                        <td>
+                                            <ul>
+                                                <li>Expensive</li>
+                                                <li>Large</li>
+                                                <li>Heavy</li>
+                                            </ul>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </section>
+
+                    <p>The PS-1230 F1 is energy dense and widely available. It is also more resistant to weather effects compared to lithium based batteries and isn't nearly as volatile. It is an easy pick due to these factors, giving us ample room in our power budget. In addition to giving us tons of power, the fact that it’s a nickel-lead acid battery means that finding supporting components (like battery clips, chargers, ect.) are cheap and easy to find.</p>
+
+                    <p></p>
+                    <p></p>
+
+                    <section>
+                        <div>
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th style="width: 10%;">Subsystem</th>
+                                        <th style="width: 10%;">Component</th>
+                                        <th style="width: 20%;">Name</th>
+                                        <th style="width: 30%;">Pros</th>
+                                        <th style="width: 30%;">Cons</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Motor</td>
+                                        <td>Motor</td>
+                                        <td>
+                                        <p><a href="https://www.digikey.com/en/products/detail/nmb-technologies-corporation/PPN13PB11C2/2417080">PPN13PB11C2</a></p>
+                                        <img src="/pictures/PPN13PB11C2.jpg" alt="PPN13PB11C2" width="100%" height="100%">
+                                        </td>
+                                        <td>
+                                            <ul>
+                                                <li>Cheap</li>
+                                                <li>Easy to acquire</li>
+                                                <li>Simple</li>
+                                                <li>Small</li>
+                                                <li>Decent power</li>
+                                                <li>Can run at 6V</li>
+                                            </ul>
+                                        </td>
+                                        <td>
+                                            <ul>
+                                                <li>Doesn't include any gears</li>
+                                            </ul>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </section>
+
+                    <p>The PPN13PB11C2 motor is cheap, small, and widely available, allowing us to easily integrate it into our design. It may not be the most powerful motor listed, but it should be able to give enough performance for our purposes. Lastly, it's also not the most power efficient, but it's not a power hog and shouldn’t require much from the batteries/solar panels.</p>
+
+                    <section>
+                        <div>
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th style="width: 10%;">Subsystem</th>
+                                        <th style="width: 10%;">Component</th>
+                                        <th style="width: 20%;">Name</th>
+                                        <th style="width: 30%;">Pros</th>
+                                        <th style="width: 30%;">Cons</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Motor</td>
+                                        <td>Motor Driver 1</td>
+                                        <td>
+                                            <p><a href="https://www.digikey.com/en/products/detail/infineon-technologies/IFX9201SGAUMA1/5415542">IFX9201SGAUMA1</a></p>
+                                            <img src="/pictures/IFX9201SGAUMA1.jpg" alt="IFX9201SGAUMA1" width="100%" height="100%">
+                                        </td>
+                                        <td>
+                                            <ul>
+                                                <li>Small</li>
+                                                <li>Cheap</li>
+                                                <li>Already known</li>
+                                                <li>SPI communication</li>
+                                                <li>Meets peralta manufacturing requirements</li>
+                                            </ul>
+                                        </td>
+                                        <td>
+                                            <ul>
+                                                <li>Can only supply 5.5V at max</li>
+                                                <li>Primitive SPI PWM control</li>
+                                            </ul>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Motor</td>
+                                        <td>Motor Driver 2</td>
+                                        <td>
+                                            <p><a href="https://www.digikey.com/en/products/detail/texas-instruments/DRV8830DGQR/2520903">DRV8830DGQR</a></p>
+                                            <img src="/pictures/DRV8830DGQR.jpg" alt="DRV8830DGQR" width="100%" height="100%">
+                                        </td>
+                                        <td>
+                                            <ul>
+                                                <li>Small</li>
+                                                <li>Cheap</li>
+                                                <li>I2C communication</li>
+                                                <li>Variable control PWM</li>
+                                            </ul>
+                                        </td>
+                                        <td>
+                                            <ul>
+                                                <li>Can only supply 5V at max</li>
+                                                <li>Does not meet peralta manufacturing requirements</li>
+                                            </ul>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </section>
+
+                    <p>Our rationale for choosing IFX9201SGAUMA1 is that it provides a robust and cheap solution. Although it may only supply 5.5V, this is somewhat bypassed by the fact that it can supply a max of 10 amps. We also choose DRV8830DGQR as it uses I2C to communicate, allowing us to control the motor speed, however, it has a very small footprint and thus will be hard to work with</p>
+
+                    <p></p>
+                    <p></p>
+
+                    <section>
+                        <div>
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th style="width: 10%;">Subsystem</th>
+                                        <th style="width: 10%;">Component</th>
+                                        <th style="width: 20%;">Name</th>
+                                        <th style="width: 30%;">Pros</th>
+                                        <th style="width: 30%;">Cons</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Light Sensor</td>
+                                        <td>Light Sensor</td>
+                                        <td>
+                                            <p><a href="https://www.digikey.com/en/products/detail/advanced-photonix/NSL-5152/5423680">NSL-5152</a></p>
+                                            <img src="/pictures/NSL-5152.jpg" alt="NSL-5152" width="100%" height="100%">
+                                        </td>
+                                        <td>
+                                            <ul>
+                                                <li>Easy to use</li>
+                                                <li>Extensive documentation and use cases</li>
+                                                <li>Cheap</li>
+                                                <li>Small</li>
+                                            </ul>
+                                        </td>
+                                        <td>
+                                            <ul>
+                                                <li>Low response time</li>
+                                                <li>Through hole mounting</li>
+                                            </ul>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </section>
+
+                    <p>The NSL-5152 has the most example cases geared towards tracking the position of the sun. It also doesn’t require the use of an external active IC like the TEMD7000X01. Due to the nature of how the team is using the light sensor, a through-hole mount would actually be more beneficial since the light sensor would have to be mounted next to the moving solar panels separate from the main PCB.</p>
+
+                    <p></p>
+                    <p></p>
+
+                    <section>
+                        <div>
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th style="width: 10%;">Subsystem</th>
+                                        <th style="width: 10%;">Component</th>
+                                        <th style="width: 20%;">Name</th>
+                                        <th style="width: 30%;">Pros</th>
+                                        <th style="width: 30%;">Cons</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Analog to Digital</td>
+                                        <td>ADC</td>
+                                        <td>
+                                            <p><a href="https://www.digikey.com/en/products/detail/microchip-technology/MCP3021A5T-E-OT/593685">MCP3021A5T-E/OT</a></p>
+                                            <img src="/pictures/MCP3021A5T.JPG" alt="MCP3021A5T" width="100%" height="`100%">
+                                        </td>
+                                        <td>
+                                            <ul>
+                                                <li>Cheap</li>
+                                                <li>Surface mount</li>
+                                                <li>Detailed I2C documentation</li>
+                                                <li>Meets peralta manufacturing requirements</li>
+                                            </ul>
+                                        </td>
+                                        <td>
+                                            <ul>
+                                                <li>Low resolution (10-bit)</li>
+                                            </ul>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </section>
+
+                    <p>The MCP3021A5T has the most versatility of the three chips along with an extensive datasheet. Unlike the 5591, this chip fits within the project's requirements and is far cheaper. It also has an optimal pad size which will allow for the reliable manufacture of prototypes. </p>
+
+                    <p></p>
+                    <p></p>
+
+                    <section>
+                        <div>
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th style="width: 10%;">Subsystem</th>
+                                        <th style="width: 10%;">Component</th>
+                                        <th style="width: 20%;">Name</th>
+                                        <th style="width: 30%;">Pros</th>
+                                        <th style="width: 30%;">Cons</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>“Anemometer” Hall Sensor</td>
+                                        <td>Hall Sensor</td>
+                                        <td>
+                                            <p><a href="https://www.digikey.com/en/products/detail/ams-osram-usa-inc/AS5600-ASOM/4914332?s=N4IgTCBcDaIIIGUCsA2ADGgtIg8gWRAF0BfIA">AS5600-ASOM</a></p>
+                                            <img src="/pictures/AS5600-ASOM.jpg" alt="AS5600-ASOM" width="100%" height="100%">
+                                        </td>
+                                        <td>
+                                            <ul>
+                                                <li>Simple I2C protocol</li>
+                                                <li>High-resolution output signal</li>
+                                                <li>Selectable output</li>
+                                                <li>Low-power consumption</li>
+                                                <li>Easy to setup</li>
+                                                <li>Small</li>
+                                                <li>Robust environmental tolerance</li>
+                                            </ul>
+                                        </td>
+                                        <td>
+                                            <ul>
+                                                <li>Takes up more space than other options</li>
+                                            </ul>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </section>
+
+                    <p>Our rationale for choosing the AS5600-ASOM is that we are familiar with the chip. We have used it in class, and there is an ample supply already in class. Since the differences between the chips are minor, familiarity is the deciding factor for us.</p>
+
+                    <p></p>
+                    <p></p>
+
+                    <section>
+                        <div>
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th style="width: 10%;">Subsystem</th>
+                                        <th style="width: 10%;">Component</th>
+                                        <th style="width: 20%;">Name</th>
+                                        <th style="width: 30%;">Pros</th>
+                                        <th style="width: 30%;">Cons</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Solar</td>
+                                        <td>Solar Charger</td>
+                                        <td>
+                                            <p><a href="https://www.digikey.com/en/products/detail/silvertel/AG103/21187176">AG103</a></p>
+                                            <img src="/pictures/AG103.jpg" alt="AG103" width="100%" height="100%">
+                                        </td>
+                                        <td>
+                                            <ul>
+                                                <li>Charges Lead Nickel acid battery</li>
+                                                <li>Outputs highly stable and regulated voltage</li>
+                                                <li>Overcurrent protection</li>
+                                                <li>Short protection</li>
+                                                <li>Can output 3A max</li>
+                                            </ul>
+                                        </td>
+                                        <td>
+                                            <ul>
+                                                <li>Mid-range price</li>
+                                                <li>Outputs 12V</li>
+                                                <li>Needs at least an input voltage of 9V</li>
+                                            </ul>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </section>
+
+                    <p>Our rationale for choosing the AG103 is that it is versatile and robust. By combining a solar charger and a battery protection board, we assure that our batteries will be fed consistent power and be protected.</p>
+
+                    <p></p>
+                    <p></p>
+
+                    <section>
+                        <div>
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th style="width: 10%;">Subsystem</th>
+                                        <th style="width: 10%;">Component</th>
+                                        <th style="width: 20%;">Name</th>
+                                        <th style="width: 30%;">Pros</th>
+                                        <th style="width: 30%;">Cons</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Solar</td>
+                                        <td>Solar Panels</td>
+                                        <td>
+                                            <p><a href="https://www.digikey.com/en/products/detail/voltaic-systems/P123/12352802">Voltaic Systems P123</a></p>
+                                            <img src="/pictures/P123.png" alt="P123" width="100%" height="100%">
+                                        </td>
+                                        <td>
+                                            <ul>
+                                                <li>Small</li>
+                                                <li>Cheap</li>
+                                                <li>Can be series up to 18V</li>
+                                            </ul>
+                                        </td>
+                                        <td>
+                                            <ul>
+                                                <li>Max power of 0.1 amps</li>
+                                            </ul>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </section>
+
+                    <p>Our rationale for choosing the Voltaic Systems P123 is that it provides a robust and cheap solution. Although it may only supply 0.1 amps, this can be mitigated by adding more solar panels.</p>
+
+                    <p></p>
+                    <p></p>
+
+                    <h3>Power Budget</h3>
+                    <center>
+                        <img src="/pictures/Team305_power_budget.png" alt="Team305_power_budget" width="50%" height="50%">
+                    </center>
+                   
+
+                    <p></p>
+                    <p></p>
+                    <p></p>
+
+                    <!-- Microcontroller Selection-->
+                    <div>
+                        <h3>Microcontroller Selection</h3>
+                        <p>In-depth comparison of selected Microcontrollers compatible with the SNAP programmer.</p>
+
+                    </div>
+                    <section>
+                        <div>
+
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th>Microcontroller Considerations</th>
+                                        <th style="width: 18%;">Chosen PIC uC</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Part Number</td>
+                                        <td>PIC18F47J13-I/PT</td>
+                                                                        </tr>
+                                    <tr>
+                                        <td>Product Page</td>
+                                        <td><a href="https://www.digikey.com/en/products/detail/microchip-technology/PIC18F47J13-I-PT/2385820">Digikey</a></td>
+                                                                        </tr>
+                                    <tr>
+                                        <td>Data Sheets</td>
+                                        <td><a href="https://ww1.microchip.com/downloads/en/DeviceDoc/30009974C.pdf">Microchip</a></td>
+                                                                        </tr>
+                                    <tr>
+                                        <td>Application Notes</td>
+                                        <td><a href="https://www.microchip.com/en-us/application-notes/tb3016">Microchip</a></td>
+                                                                        </tr>
+                                    <tr>
+                                        <td>Code Examples</td>
+                                        <td><a href="https://www.microchip.com/en-us/application-notes/tb3016">Microchip</a></td>
+                                                                        </tr>
+                                    <tr>
+                                        <td>External Resources</td>
+                                        <td><a href="https://www.youtube.com/watch?v=fpgIAkE8d64">Youtube</a></td>
+                                                                        </tr>
+                                    <tr>
+                                        <td>Production Unit Cost</td>
+                                        <td>$5.38</td>
+                                                                        </tr>
+                                    <tr>
+                                        <td>Supply Voltage Range</td>
+                                        <td>3.3-6 V</td>
+                                                                        </tr>
+                                    <tr>
+                                        <td>Absolute Maximum Current for entire IC</td>
+                                        <td>250 mA</td>
+                                                                        </tr>
+                                    <tr>
+                                        <td>Maximum GPIO Pin Current (Source/Sink)</td>
+                                        <td>50 mA</td>
+                                                                        </tr>
+                                    <tr>
+                                        <td>8-Bit or 16-Bit Architecture</td>
+                                        <td>8-Bit</td>
+                                                                        </tr>
+                                    <tr>
+                                        <td>Available IC Packages / Footprints</td>
+                                        <td>
+                                            <a href="https://www.digikey.com/en/products/detail/microchip-technology/PIC18F47J13-I-PT/2385820">TQFP,  </a>   
+                                            <a href="https://www.digikey.com/en/products/detail/microchip-technology/PIC18F47J13-I-ML/2385819">44-QFN</a>
+                                        </td>
+                                                                        </tr>
+                                    <tr>
+                                        <td>Supports External Interrupts?</td>
+                                        <td>Yes, 4</td>
+                                                                        </tr>
+                                    <tr>
+                                        <td>In-System Programming Capability and type</td>
+                                        <td>Yes, Supports ICSP</td>
+                                                                        </tr>
+                                    <tr>
+                                        <td>Programming Hardware, Cost, and URL</td>
+                                        <td>
+                                            <a href="https://www.microchip.com/en-us/development-tool/pg164100">MPLAB SNAP</a>
+                                            $39.20
+                                        </td>
+                                                                        </tr>
+                                    <tr>
+                                        <td>Works with MPLAB® X Integrated Development Environment (IDE)?</td>
+                                        <td>Yes</th>
+                                                                        </tr>
+                                    <tr>
+                                        <td>Works with Microchip Code Configurator?</td>
+                                        <td>Yes</td>
+                                                                        </tr>
+
+
+                                </tbody>
+                            </table>
+
+                            <p></p>
+                            <p></p>
+                            <p></p>
+                            <p></p>
+
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th>Design Considerations</th>
+                                        <th>Team Project-Specific Requirements</th>
+                                        <th style="width: 18%;">Chosen PIC uC</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>How many GPIO Pins?</td>
+                                        <td>At Least 20 GPIO pins.</td>
+                                        <td>44</td>
+                                                                        </tr>
+                                    <tr>
+                                        <td>Built-in Analog to Digital Converter? How many?</td>
+                                        <td>Our block diagram requires no internal ADC from the microcontroller.</td>
+                                        <td>Yes, 34</td>
+                                                                        </tr>
+                                    <tr>
+                                        <td>Built-in Hardware PWM? How many?</td>
+                                        <td>At least two PWM modules.</td>
+                                        <td>Yes, 2</td>
+                                                                        </tr>
+                                    <tr>
+                                        <td>Built-in I2C? SPI? How many?</td>
+                                        <td>Preferable for 2 modules (ability to communicate in both I2C and SPI simultaneously)</td>
+                                        <td>Includes 2 MSSP pins, SPI and I2C</td>
+                                                                        </tr>
+                                    <tr>
+                                        <td>Built-in UART? How many?</td>
+                                        <td>Preferable for debugging and transmitting data via ESP32.</td>
+                                        <td>Yes, 2</td>
+                                                                        </tr>
+                                </tbody>
+                            </table>
+
+
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th>Comparisons</th>
+                                        <th style="width: 18%;">Chosen PIC uC</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Overall Pros</td>
+                                        <td>
+                                            <ul>
+                                                <li>34 GPIO Pins</li>
+                                                <li>Has 2 UART modules</li>
+                                                <li>Has 35 external analog channels</li>
+                                                <li>Has 2 MSSP outputs</li>
+                                                <li>Fulfills Peralta Manufacturing Requirements</li>
+                                            </ul>
+                                        </td>
+                                                                        </tr>
+                                    <tr>
+                                        <td>Overall Cons</td>
+                                        <td>
+                                            <ul>
+                                                <li>Only has 1 SPI and 1 I2C</li>
+                                                <li>Only has 2 PWM outputs</li>
+                                                <li>Relatively expensive at $5.38</li>
+                                            </ul>
+                                        </td>
+                                                                        </tr>
+                                    <tr>
+                                        <td>Ranking</td>
+                                        <td>1</td>
+                                                                        </tr>
+                                </tbody>
+                            </table>
+                        </div>
+
+                    </section>
+
+                    <p></p>
+                    <p></p>
+                    <p></p>
+
+                    <!-- Subsytems -->
+                    <h2>Subsystem Designs</h2>
+                    <section>
+                        <div>
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th>Document Type</th>
+                                        <th>Microcontroller Subsystem</th>
+                                        <th>Temperature and 3.3V Power Subsystem</th>
+                                        <th>Hall Effect Sensor Subsystem</th>
+                                        <th>Motor Driver and 6V Power Subsystem</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>
+                                            <b>Schematic</b>
+                                        </td>
+                                        <td>
+                                            <img src="/pictures/microcontroller_sub_r1a.png" alt="microcontroller_sub_r1a" width="70%" height="70%">
+                                        </td>
+                                        <td>
+                                            <img src="/pictures/ts-ps-sub-schm-1.jpg" alt="microcontroller_sub_r1" width="70%" height="70%">
+                                        </td>
+                                        <td>
+                                            <img src="/pictures/hal-sub-schm-1.jpg" alt="hal-sub-schm-1" width="70%" height="70%">
+                                        </td>
+                                        <td>
+                                            <img src="/pictures/md-6ps-sub-schm-1.jpg" alt="md-6ps-sub-schm-1" width="70%" height="70%">
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <b>PCB</b>
+                                        </td>
+                                        <td>
+                                            <img src="/pictures/microcontroller-sub-pcb-1.jpg" alt="microcontroller-sub-pcb-1" width="70%" height="70%">
+                                        </td>
+                                        <td>
+                                            <img src="/pictures/ts-ps-sub-pcb-1.jpg" alt="ts-ps-sub-pcb-1" width="70%" height="70%">
+                                        </td>
+                                        <td>
+                                            <img src="/pictures/hal-sub-pcb-1.jpg" alt="hal-sub-pcb-1" width="70%" height="70%">
+                                        </td>
+                                        <td>
+                                            <img src="/pictures/md-6ps-sub-pcb-1c.png" alt="md-6ps-sub-pcb-1c" width="70%" height="70%">
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </section>
+
+                    <p></p>
+                    <p></p>
+                    <p></p>
+
+
+                    <!--hardware implementation-->
+
+                    <!--
+
+                        Include an image of the team's final schematics as a figure in the report. you may use landscape mode on this page to better fit the format of the schematic.
+                        Discuss how the functionality of this schematic satisfies user needs and product requirements though an in depth discussion of function.
+                        Discuss your team's design and decision making process related to this section
+                        Include the team's bill of materials in the appendix
+                        Include front and back screenshots of the team's final PCB design.
+                        Include front and back photos of the team's final PCB design.
+                        If you were to create a "Version 2.0" of your hardware design, discuss what could be 
+                        improved in the hardware design and why it should be improved. Use the schematic above to support the discussion. (½ page minimum)
+                    -->
+
+                    <h2 id="hardware-proposal">
+                        <a href="#header">Hardware Implementation</a>
+                    </h2>
+                    
+                    <b>Schematics version 1</b>
+                    <section>
+                        <div>
+                            <table style="text-align: center;">
+                                <tbody>
+                                    <tr>
+                                        <td>
+                                            <img src="pictures\isopod_hardwareProposal_Microcontroller-1.png" alt="hardware-prop-microcontroller-schm-1a" width="80%" height="80%">
+                                        </td>
+                                        <td>
+                                            <img src="pictures\isopod_hardwareProposal_Peripherals-1.png" alt="hardware-prop-peripherals-schm-1a" width="80%" height="80%">
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </section>
+
+                    <b>Schematics version 2</b>
+                    <section>
+                        <div>
+                            <table style="text-align: center;">
+                                <tbody>
+                                    <tr>
+                                        <td>
+                                            <img src="pictures\isopod_hardwareProposal_Microcontroller_v2-1.png" alt="hardware-prop-microcontroller-schm-1a" width="80%" height="80%">
+                                        </td>
+                                        <td>
+                                            <img src="pictures\isopod_hardwareProposal_Peripherals_v2-1.png" alt="hardware-prop-peripherals-schm-1a" width="80%" height="80%">
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </section>
+
+                    <h3>Final Schematic</h3>
+
+                    <b>Microcontroller Schematic</b><br>
+                    <center>
+                        <img src="pictures\isopod_hardwareProposal_Microcontroller_v3-1.png" alt="isopod_microcontroller_schm_r1" width="80%" height="80%">
+                    </center>
+                    
+
+                    <p></p>
+
+                    <b>Peripherals Schematic</b><br>
+                    <center>
+                        <img src="pictures\isopod_hardwareProposal_Peripherals_v3-1.png" alt="Isopod_peripherals_schm_r1" width="80%" height="80%">
+                    </center>
+                    
+
+                    <p></p>
+
+
+                    <p></p>
+
+                    <p>
+                        The final design of the schematic allows for multiple access points into the microcontroller to both test for 
+                        failures and leave opportuninty for future modifications. <br> <br>
+
+                        There are two open header pins at each of the communication lines (UART, SPI, I2C)
+                        to allow the addition of more subsystems or to substitute an onboard failing subsystem. Connected directly to the microcontroller are
+                        six open header pins with access to four analog pins and the two pins responsible for an external oscillator. 
+                        In addition to that, there are six onboard LEDs to allow for diagnosis of the microcontrollers program routines.
+                        There are also multiple headers placed specifically for testing the signals of certain circuit junctions such as the at the communication lines,
+                        the analog output of the LDRs and the power rails (3.3V, 6V, 12V). <br>
+                        Multiple jumpers are placed strategically to allow for complete disconnection of select circuits like the master clear programming circuit 
+                        and the ADC of the LDR subsystem. <br> <br>
+
+                        To make the system more robust, fuses were placed at both the 6V and 3.3V powerlines and adjusted just above the expected current draw
+                        (with respect to the power budget and not the maximum capability of the circuits). Bypass Capacitors were placed at the power pins of
+                        each of the onboard chips.
+
+                        In terms of improvement, the addition of a jumper between the motor controller and the motor itself would allow for the possible implimentation 
+                        of a current-limiting resistor to further tune the speeds of the motor given the unregulated nature of the 6V power line. While the current
+                        design of the voltage divider does well to push the proper voltage through the motor controller and leaves the option of modifying the value
+                        of the resistors, it does not cover the need for adjusting the current. This caused some issues with the overall speed of the motor 
+                        regardless of the gear ratios implemented to regulate this. A jumper here would provide and easier solution than redesiging a gear-box. 
+
+                    </p>
+
+                    <h3>Final PCB</h3>
+                    <section>
+                        <div>
+                            <table style="text-align: center;">
+                                <tbody>
+                                    <tr>
+                                        <td>
+                                            <i>Front</i> <br>
+                                            <img src="pictures/final_PCB_TOP.png" width="80%" height="80%">
+                                        </td>
+                                        <td>
+                                            <i>Back</i> <br>
+                                            <img src="pictures/final_PCB_BOTTOM.png" width="80%" height="80%">
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div> 
+                    </section>
+
+                    <p>
+                        The PCB is designed primarily to the specifications of the microcontroller's datasheet with the master clear circuit 
+                        placed as close to the microcontroller as possible. <br><br>
+
+                        Given the potential of high temperatures from the 6V voltage divider, the divider was placed as far from the rest of the circuit
+                        as possible (specifically the temperature sensor) where modifications can be made without disturbing the rest of the circuit should 
+                        the need arise. The hall effect sensor and the temperature sensor were also placed as far from eachother as possible
+                        to eliminate any mechanical interference between the two. <br><br>
+
+                        The opportunity to improve on the design would likely include placing the OLED circuit closer to the ESP32 and completely disconnecting
+                        the I2C lines of both the OLED and ESP32 from the rest of the circuit and instead connect them directly to eachother. This would greatly simplify the circuit
+                        and would allow for greater manuverability in terms of integrating the circuit with the final CAD design of the product.
+                        This is because the OLED and the ESP32 are two aspects of the circuit which would require easy and constant access to (either to see or to reprogram for wifi). <br><br>
+
+                        The open pins for the power supplies would also be moved so they would either line the bottom or right edge of the PCB. Or in either case, to 
+                        at least be placed near the LEDs for easy debugging post product assembly. As the design is now, the power pins are difficult to access
+                        once everything has been assembled and would benefit being placed near the LEDs so that the user would be able to immediately see whether 
+                        the circuit is being powered and functioning properly. <br><br>
+                    </p>
+
+                    
+                    <div>
+                        <div>
+                            <table style="text-align: center;">
+                                <thead>
+                                    <tr>
+                                        <th>Final Assembly</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>
+                                           <img src="/pictures/inno_show_pic_1.JPG" alt="inno_show_pic_1" width="100%" height="100%"> 
+                                        </td>
+                                        <td>
+                                            <img src="/pictures/inno_show_pic_3.JPG" alt="inno_show_pic_3" width="100%" height="100%">
+                                        </td>
+                                        <td>
+                                            <img src="/pictures/inno_show_pic_4.JPG" alt="inno_show_pic_4" width="100%" height="100%">
+                                        </td>
+                                        
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    
+                    <p style="text-align: center;"><a href="hardware_implementation.html">BOM page</a></p>
+                    
+                    <p></p>
+                    <p></p>
+                    <p></p>
+
+
+                    <!-- 
+                        Include an updated image of the team's final UML activity and/or statechart diagrams as a figure in the report. 
+                        you may use landscape mode on this page to better fit the format of the schematic if desired.
+                        Ensure your diagram matches your code.
+                        Discuss how the functionality of this software diagram satisfies user needs and product requirements though an in depth discussion of function
+                        Discuss your team's design and decision making process related to this section
+                        Numbered list of the top 5 biggest changes to your software design since the software proposal. 
+                        Include several sentences for each change describing the issue and how you resolved it. Use the UML diagrams above to support the discussion.
+                        If you were to create a "Version 2.0" of your software design, discuss what could be improved in the software design and why it should be improved. 
+                        Use the UML diagrams above to support the discussion. Consider using a graphical representation of the flow that your updated software would take. 
+                        What functions would you create? How would you divide up your code? How would you improve its debuggability? 
+                        What peripherals or system features would you like to use or set up to make your system more reliable, stable, functional, or robust? 
+                        How would you simplify, improve, or update your protocol design to support this in software? (½ page minimum)
+                    -->
+                    <h2 id="software-proposal">
+                        <a href="#header">Software Proposal</a>
+                    </h2>
+
+                    <center>
+                        <img src="/pictures/Software_Proposal_Team305.drawio(3).png" alt="Software_Proposal_Team305" width="80%" height="80%">                 
+                    </center>
+
+                    <p></p>
+                    <p></p>
+
+                    <section>
+                        <div>
+                            <table style="text-align: center;">
+                                <thead>
+                                    <tr>
+                                        <th>Microcontroller Main Loop</th>
+                                        <th>Initialize</th>
+                                        <th>Log Temp Data</th>
+                                        <th>Log Wind Data</th>
+                                        <th>Data Transmission</th>
+                                        <th>Motor</th>
+                                        <th>ESP32 Main Loop</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>
+                                            <img src="/pictures/Software_Proposal_Main_Microcontroller_Loop_Team305.jpg" alt="Software_Proposal_Main_Microcontroller_Loop_Team305" width="50%" height="50%">
+                                        </td>
+                                        <td>
+                                            <img src="/pictures/Software_Proposal_Initialize_Loop_Team305.jpg" alt="Software_Proposal_Initialize_Loop_Team305" width="85%" height="85%">
+                                        </td>
+                                        <td>
+                                            <img src="/pictures/Software_Proposal_Log_Temp_Team305.jpg" alt="Software_Proposal_Log_Temp_Team305" width="85%" height="85%">
+                                        </td>
+                                        <td>
+                                            <img src="/pictures/Software_Proposal_Log_Wind_Team305.jpg" alt="Software_Proposal_Log_Wind_Team305" width="85%" height="85%">
+                                        </td>
+                                        <td>
+                                            <img src="/pictures/Software_Proposal_Data_Transmission_Interrupt_Team305.jpg" alt="Software_Proposal_Data_Transmission_Interrupt_Team305" width="85%" height="85%">
+                                        </td>
+                                        <td>
+                                            <img src="/pictures/Software_Proposal_Motor_Interrupt_Team305.jpg" alt="Software_Proposal_Motor_Interrupt_Team305" width="50%" height="50%">
+                                        </td>
+                                        <td>
+                                            <img src="/pictures/Software_Proposal_ESP32_Main_Loop_Team305.jpg" alt="Software_Proposal_ESP32_Main_Loop_Team305" width="70%" height="70%">
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </section>
+
+                    <p>
+                        The code's main purpose is to pass information gathered from all the peripherals to the ESP32 while properly timing the use of the 
+                        motor. The ESP32 then published that information to the MQTT server. The ESP32 simultaneously subscribes from the four topics
+                        (Motor, LDR, Temperature, Hall Effect) to print out the information onto the OLED in a readable fashion. This is done so as to 
+                        ensure that the OLED only displays information if everything is running correctly. 
+                        In the main loop, the microcontroller needed to constantly be checking the values of the LDRs in order to determine whether or not to 
+                        move the motor. To prevent timing issues with posting information, it was decided that the data gathered from the sensors needed to only be 
+                        sent every 100ms rather than the speed at which the microcontroller would run through the main loop. 
+                        In the programming configurations, a new timer was used to send an interrupt every 100ms specifically to convert and send the data from the sensors.
+                        This allowed for both the motors and data transfer to happen vitually at the same time without mistiming the communication of all the peripherals. 
+
+                    </p>
+
+                    <h3>Top 5 Biggest Changes from Proposal</h3>
                     <ol>
-                        <li>Identify Stakeholders</li>
-                        <ul>
-                            <li>Park Rangers/ National Park Associations</li>
-                            <li>Camping/ Hiking Clubs</li>
-                            <li>Petroleum Companies</li>
-                            <li>Farmers</li>
-                        </ul>
-                        <li>Brainstormed possible Use Cases based on identified stakeholders (Shown above)</li>
-                        <li>Brainstormed Product Requirements based on User Needs</li>
-                        <ul>
-                            <li>The product must require no prior training to deploy</li>
-                            <li>Display “Feels Like” Temperatures</li>
-                            <li>The device must be transportable by an average human</li>
-                        </ul>
-                        <li>Rank generated product requirments</li>
+                        <li>Disabled interrupt on the SPI motor driver</li>
+                        <li>Packaged individual interrupts of the sensor peripherals into a single timer interrupt</li>
+                        <li>Modified the overall timing of the system</li>
+                        <li>Packaged data conversion in timer instead of in main loop</li>
+                        <li>Modified data type of sensors to prevent bit conversion issues</li>
                     </ol>
-                </div>
 
-                <p><a href="https://github.com/EGR-314-Team-305-Spring-2024/EGR-314-Team-305-Spring-2024.github.io/blob/main/appendices/user_needs_benchmarking_and_requirements.md">Click here for more information on User needs and requirements</a></p>
+                    <p>
+                        Future modifications to the code would likely implement more practical usage of the onboard LEDs. As the code stands now, they are 
+                        only used to indicate the state of the motor and the timing of the data transfer. To make debugging easier, the LEDs would likely be better 
+                        distributed to inducate a change in the data. This would mean better determining not only which subsystem may be having issues but also the nature of it
+                        (conversion timing, data transfer, etc).
+                        The code of the ESP32 would also be modified more efficiently send data since as it is now, the information post to MQTT is often 5-10 seconds delayed. 
+                        Different configurations would have to be tested to improve the responsiveness of the ESP. 
+                    </p>
 
-                
 
+                    <div>
+                        <h2 id="system-verification">
+                        <a href="#header">System Verification</a>
+                        </h2>
+                    </div>
 
-                <!-- Design Ideation -->
-                <h2 class="minor" id="design-ideation">
-                    <a href="#header">Design Ideation</a>
-                </h2>
-                <div class="content" >
-                    <p>Key Design Concepts:</p>
+                    <img src="/pictures/team_305_vari_table.png" alt="Team 305 Verification Table" width="100%" height="100%">
+                    
+                    <p></p>
+                    <p></p>
+
+                    <div>
+                        <h2 id="lessons-learned">
+                        <a href="#header">Lessons Learned</a>
+                        </h2>
+                    </div>
+
                     <ul>
-                        <li>Solar panel</li>
-                        <li>Temperature Sensor</li>
-                        <li>Humidity Sensor</li>
-                        <li>Removable Padded Backpack</li>
-                        <li>“Camalback” - sized body</li>
-                        <li>Poles for Mounting Body</li>
+                        <li>Read into the data sheets and figure out real world feasibility</li>
+                        <li>Think of how it's going to be made when designing CAD model</li>
+                        <li>Create test prints of components</li>
+                        <li>Make backup boards</li>
+                        <li>Have multiple people thoroughly run through electrical schematics and PCBs</li>
+                        <li>Practice care when working with high amperage power lines</li>
+                        <li>Start construction more than a week in advance at the latest</li>
+                        <li>PPE should be worn when soldering</li>
+                        <li>Version of MPLabX matters a lot and can dictate properties of the PIC chip</li>
+                        <li>Check I2C products for address details</li>
                     </ul>
 
-                    <h4>Prototype Design: Mobile Backpack Weahter Station</h4>
-                    <img src="/pictures/prototype_1a.png" alt="Mobile Backpack Weahter Station" width="60%" height="60%">
+                    <p>
+                        We had a cases where on the surface a product looked like a solid choice, but in the real world proved to be finicky or hard to work with.
+                        This was especially true with our solar charger, as its datasheet proved to be quite inadequate and we were unable to get it working. We
+                        had to purchase a new solar charger. We also had some issues with the CAD model of the main chassis of our device being one solid piece in 
+                        SolidWorks. Thus when it came time to actually make it, we had to split it into multiple parts to manufacture it. We also had issues with 
+                        3D printed parts not fitting together, we had to sand down components to make them fit. We learned that having backup boards is a huge
+                        advantage. Not only is it good to have just in case something goes wrong, its really nice to have multiple boards so more than one person
+                        can test code. When first creating the electrical schematic and PCB, we accidentally used the wrong footprint for the microcontroller. We 
+                        were set back a bit as we needed new PCBs and we fried one of our PIC chips. Only a couple hours before the innovation showcase, we
+                        accidentally touched the 12V positive and negative lines and fried the 12V, which was sub-optimal. We only started really manufacturing
+                        the mechanical components of the Isopod only 5 days before the innovation showcase, causing great stress and forced us to make several
+                        debilitating compromises. One of teammates, who will remain unnamed, was not wearing proper PPE during a lengthy soldering session, causing
+                        slight health issues including, but not limited to, dizziness, general confusion, nose bleeds, and vision loss. Proper PPE is heavily 
+                        recommended for short and long term health and safety. When trying to create SPI interrupts, we realized that the version of MPLabX can 
+                        affect the behaviors of the PIC chip. In our case, all the versions we had wouldn't allow us to have SPI interrupts at all. This was solved 
+                        by only having a timer interrupt, it was a rather clunky solution. Lastly, we learned to really pay attention to the I2C address details in 
+                        datasheets as one of our components, the ADC, had a fixed I2C address assigned at the factory, so every ADC chip had the same address. This 
+                        meant that we could only use one ADC chip on our board, not ideal when you need to read signals from two LDRs.
+                    </p>
 
-                    <p>With these guidelines in mind, we are currently developing a transportable weather station that one could comfortably wear as a backpack so that they could assemble it in a location of their choosing.</p>
+                    <p></p>
+                    <p></p>
+
+                    <div>
+                        <h2 id="recommendations">
+                        <a href="#header">Recommendations for Future Students</a>
+                        </h2>
+                    </div>
+                    
+                    <ol>
+                        <li>Make multiple PCB boards to add redundancy and allow multiple people to test code at the same time</li>
+                        <li>Test all chips on breakout boards before soldering it on a PCB</li>
+                        <li>Take videos whenever something works, this will save your grade</li>
+                        <li>Put multiple pin headers for each trace on your PCB for debugging purposes or to connect to a breakout board</li>
+                        <li>Use html for your website as it might be hard to learn at first, but its much easier to use in the long run</li>
+                    </ol>
+
+
+
                 </div>
 
-                <p></p>
-                <p></p>
-                <p></p>
 
-                <!-- Selected Design -->
-                <h2 id="selected-design">
-                    <a href="#header">Selected Design</a>
-                </h2>
-
-                <img src="/pictures/Isopod_Drawing_p1-1.jpg" alt="Isopod_Drawing_p1-1" width="60%" height="60%">
-                <img src="/pictures/Isopod_Drawing_p2-2.jpg" alt="Isopod_Drawing_p2-2" width="60%" height="60%">
-                <img src="/pictures/inno_show_pic_1.JPG" alt="inno_show_pic_1" width="40%" height="40%">
-                <p></p>
-                <p></p>
-                <p></p>
-
-                <h2 id="block-diagram">
-                    <a href="#header">Block Diagram</a>
-                </h2>
                 
-                <p>Functional diagram of the Isopod.</p>
-                <img src="/pictures/Team305_Block_Diagram-2.jpg" alt="Team305_Block_Diagram" width="50%" height="70%">
-                
-                <p></p>
-                <p></p>
-                <p></p>
-
-                <!--Component Selection-->
-                <h2 id="component-selection">
-                    <a href="#header">Component Selection</a>
-                </h2>
-                <p>Market research and selection of the optimal component to fit our design requirements.</p>
-
-                <section>
-                    <div class="table-wrapper">
-                        <table>
-                            <thead>
-                                <tr>
-                                    <th>Subsystem</th>
-                                    <th>Component</th>
-                                    <th>Name</th>
-                                    <th>Pros</th>
-                                    <th>Cons</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>Switching Voltage Regulator</td>
-                                    <td>Switching Voltage Regulator</td>
-                                    <td>
-                                        <p><a href="https://www.digikey.com/en/products/detail/texas-instruments/LM2673SX-ADJ-NOPB/366900">LM2673SX-ADJ/NOPB</a></p>
-                                        <img src="/pictures/LM2673SX.jpg" alt="LM2673SX-ADJ/NOPB" width="50%" height="50%">
-                                    </td>
-                                    <td>
-                                        <ul>
-                                            <li>Input voltage of 8V to 40V</li>
-                                            <li>3.3, 5, and 12V fixed voltage output</li>
-                                            <li>1.2-37V adjustable output</li>
-                                            <li>Simple design with passive components</li>
-                                        </ul>
-                                    </td>
-                                    <td>
-                                        <ul>
-                                            <li>Requires Diode</li>
-                                            <li>Large package, 10x5mm</li>
-                                        </ul>
-                                    </td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
-                </section>
-
-                <p>The LM2673SX-ADJ/NOPB is similar to the LM2575T-3.3G in the sense of similar configuration. It is much cheaper than the other options, and it is a good size that should provide easy soldering. Additionally, the output voltage and current of the LM2673SX-ADJ/NOPB are adjustable through the use of resistors.</p>
-
-                <p></p>
-                <p></p>
-
-                <section>
-                    <div class="table-wrapper">
-                        <table>
-                            <thead>
-                                <tr>
-                                    <th>Subsystem</th>
-                                    <th>Component</th>
-                                    <th>Name</th>
-                                    <th>Pros</th>
-                                    <th>Cons</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>Temperature Sensor</td>
-                                    <td>Temperature Sensor</td>
-                                    <td>
-                                        <p><a href="https://www.digikey.com/en/products/detail/microchip-technology/AT30TS74-XM8M-T/4860274?utm_adgroup=&utm_source=google&utm_medium=cpc&utm_campaign=PMax%20Supplier_Focus%20Supplier&utm_term=&utm_content=&utm_id=go_cmp-20243063242_adg-_ad-__dev-c_ext-_prd-_sig-CjwKCAiA_OetBhAtEiwAPTeQZxcXyAvSp-2nTNRwUCUg__e8ar22jCDYRbUrTbhkHUVj90MhJ3FOShoCMvAQAvD_BwE&gad_source=1&gclid=CjwKCAiA_OetBhAtEiwAPTeQZxcXyAvSp-2nTNRwUCUg__e8ar22jCDYRbUrTbhkHUVj90MhJ3FOShoCMvAQAvD_BwE">AT30TS74-XM8M-T</a></p>
-                                        <img src="/pictures/AT30TS74-XM8M-T.jpg" alt="AT30TS74-XM8M-T" width="50%" height="50%">
-
-                                    </td>
-                                    <td>
-                                        <ul>
-                                            <li>Low operating current of 85 microA</li>
-                                            <li>+/- 1 degree Celsius accuracy of temperatures between -20 to 100 degrees Celsius</li>
-                                            <li>1.2-37V adjustable output</li>
-                                            <li>9-12 bit configurable resolution</li>
-                                            <li>8 MSOP, easier hand soldering</li>
-                                            <li>Cheap</li>
-                                        </ul>
-                                    </td>
-                                    <td>
-                                        <ul>
-                                            <li>Takes up more space than other options</li>
-                                        </ul>
-                                    </td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
-                </section>
-
-                <p>Initially the TC74A4-3.3VCTTR seemed ideal since we would be working with that component in class, and it is a digital temperature sensor with I2C communication. The AT30TS74-XM8M-T is very similar to the TC74A4-3.3VCTTR, but it has a bit larger package which should be easier to hand solder. Additionally, it has a lower operating current, more accurate, and is more of a configurable resolution. </p>
-
-                <p></p>
-                <p></p>
-
-                <section>
-                    <div class="table-wrapper">
-                        <table>
-                            <thead>
-                                <tr>
-                                    <th>Subsystem</th>
-                                    <th>Component</th>
-                                    <th>Name</th>
-                                    <th>Pros</th>
-                                    <th>Cons</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>Power</td>
-                                    <td>Battery</td>
-                                    <td>
-                                        <p><a href="https://www.digikey.com/en/products/detail/power-sonic-corporation/PS-1230%2520F1/13577481?utm_adgroup=&utm_source=google&utm_medium=cpc&utm_campaign=PMax%20Shopping_Product_Low%20ROAS%20Categories&utm_term=&utm_content=&utm_id=go_cmp-20243063506_adg-_ad-__dev-c_ext-_prd-13577481_sig-Cj0KCQiAn-2tBhDVARIsAGmStVliD9UjZEXBvi0EpwfoKxj9lENW0qBGxG5Vu8zHUUitT8ElnNKZ2CcaAu11EALw_wcB&gad_source=1&gclid=Cj0KCQiAn-2tBhDVARIsAGmStVliD9UjZEXBvi0EpwfoKxj9lENW0qBGxG5Vu8zHUUitT8ElnNKZ2CcaAu11EALw_wcB">PS-1230 F1</a></p>
-                                        <img src="/pictures/PS-1230_F1.png" alt="PS-1230_F1" width="40%" height="40%">
-                                    </td>
-                                    <td>
-                                        <ul>
-                                            <li>Robust</li>
-                                            <li>Rechargeable</li>
-                                            <li>Great capacity</li>
-                                            <li>Weather resistant</li>
-                                            <li>Long lifetime</li>
-                                        </ul>
-                                    </td>
-                                    <td>
-                                        <ul>
-                                            <li>Expensive</li>
-                                            <li>Large</li>
-                                            <li>Heavy</li>
-                                        </ul>
-                                    </td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
-                </section>
-
-                <p>The PS-1230 F1 is energy dense and widely available. It is also more resistant to weather effects compared to lithium based batteries and isn't nearly as volatile. It is an easy pick due to these factors, giving us ample room in our power budget. In addition to giving us tons of power, the fact that it’s a nickel-lead acid battery means that finding supporting components (like battery clips, chargers, ect.) are cheap and easy to find.</p>
-
-                <p></p>
-                <p></p>
-
-                <section>
-                    <div class="table-wrapper">
-                        <table>
-                            <thead>
-                                <tr>
-                                    <th>Subsystem</th>
-                                    <th>Component</th>
-                                    <th>Name</th>
-                                    <th>Pros</th>
-                                    <th>Cons</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>Motor</td>
-                                    <td>Motor</td>
-                                    <td>
-                                       <p><a href="https://www.digikey.com/en/products/detail/nmb-technologies-corporation/PPN13PB11C2/2417080">PPN13PB11C2</a></p>
-                                       <img src="/pictures/PPN13PB11C2.jpg" alt="PPN13PB11C2" width="50%" height="50%">
-                                    </td>
-                                    <td>
-                                        <ul>
-                                            <li>Cheap</li>
-                                            <li>Easy to acquire</li>
-                                            <li>Simple</li>
-                                            <li>Small</li>
-                                            <li>Decent power</li>
-                                            <li>Can run at 6V</li>
-                                        </ul>
-                                    </td>
-                                    <td>
-                                        <ul>
-                                            <li>Doesn't include any gears</li>
-                                        </ul>
-                                    </td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
-                </section>
-
-                <p>The PPN13PB11C2 motor is cheap, small, and widely available, allowing us to easily integrate it into our design. It may not be the most powerful motor listed, but it should be able to give enough performance for our purposes. Lastly, it's also not the most power efficient, but it's not a power hog and shouldn’t require much from the batteries/solar panels.</p>
-
-                <section>
-                    <div class="table-wrapper">
-                        <table>
-                            <thead>
-                                <tr>
-                                    <th>Subsystem</th>
-                                    <th>Component</th>
-                                    <th>Name</th>
-                                    <th>Pros</th>
-                                    <th>Cons</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>Motor</td>
-                                    <td>Motor Driver 1</td>
-                                    <td>
-                                        <p><a href="https://www.digikey.com/en/products/detail/infineon-technologies/IFX9201SGAUMA1/5415542">IFX9201SGAUMA1</a></p>
-                                        <img src="/pictures/IFX9201SGAUMA1.jpg" alt="IFX9201SGAUMA1" width="50%" height="50%">
-                                    </td>
-                                    <td>
-                                        <ul>
-                                            <li>Small</li>
-                                            <li>Cheap</li>
-                                            <li>Already known</li>
-                                            <li>SPI communication</li>
-                                            <li>Meets peralta manufacturing requirements</li>
-                                        </ul>
-                                    </td>
-                                    <td>
-                                        <ul>
-                                            <li>Can only supply 5.5V at max</li>
-                                            <li>Primitive SPI PWM control</li>
-                                        </ul>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>Motor</td>
-                                    <td>Motor Driver 2</td>
-                                    <td>
-                                        <p><a href="https://www.digikey.com/en/products/detail/texas-instruments/DRV8830DGQR/2520903">DRV8830DGQR</a></p>
-                                        <img src="/pictures/DRV8830DGQR.jpg" alt="DRV8830DGQR" width="50%" height="50%">
-                                    </td>
-                                    <td>
-                                        <ul>
-                                            <li>Small</li>
-                                            <li>Cheap</li>
-                                            <li>I2C communication</li>
-                                            <li>Variable control PWM</li>
-                                        </ul>
-                                    </td>
-                                    <td>
-                                        <ul>
-                                            <li>Can only supply 5V at max</li>
-                                            <li>Does not meet peralta manufacturing requirements</li>
-                                        </ul>
-                                    </td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
-                </section>
-
-                <p>Our rationale for choosing IFX9201SGAUMA1 is that it provides a robust and cheap solution. Although it may only supply 5.5V, this is somewhat bypassed by the fact that it can supply a max of 10 amps. We also choose DRV8830DGQR as it uses I2C to communicate, allowing us to control the motor speed, however, it has a very small footprint and thus will be hard to work with</p>
-
-                <p></p>
-                <p></p>
-
-                <section>
-                    <div class="table-wrapper">
-                        <table>
-                            <thead>
-                                <tr>
-                                    <th>Subsystem</th>
-                                    <th>Component</th>
-                                    <th>Name</th>
-                                    <th>Pros</th>
-                                    <th>Cons</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>Light Sensor</td>
-                                    <td>Light Sensor</td>
-                                    <td>
-                                        <p><a href="https://www.digikey.com/en/products/detail/advanced-photonix/NSL-5152/5423680">NSL-5152</a></p>
-                                        <img src="/pictures/NSL-5152.jpg" alt="NSL-5152" width="25%" height="25%">
-                                    </td>
-                                    <td>
-                                        <ul>
-                                            <li>Easy to use</li>
-                                            <li>Extensive documentation and use cases</li>
-                                            <li>Cheap</li>
-                                            <li>Small</li>
-                                        </ul>
-                                    </td>
-                                    <td>
-                                        <ul>
-                                            <li>Low response time</li>
-                                            <li>Through hole mounting</li>
-                                        </ul>
-                                    </td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
-                </section>
-
-                <p>The NSL-5152 has the most example cases geared towards tracking the position of the sun. It also doesn’t require the use of an external active IC like the TEMD7000X01. Due to the nature of how the team is using the light sensor, a through-hole mount would actually be more beneficial since the light sensor would have to be mounted next to the moving solar panels separate from the main PCB.</p>
-
-                <p></p>
-                <p></p>
-
-                <section>
-                    <div class="table-wrapper">
-                        <table>
-                            <thead>
-                                <tr>
-                                    <th>Subsystem</th>
-                                    <th>Component</th>
-                                    <th>Name</th>
-                                    <th>Pros</th>
-                                    <th>Cons</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>Analog to Digital</td>
-                                    <td>ADC</td>
-                                    <td>
-                                        <p><a href="https://www.digikey.com/en/products/detail/microchip-technology/MCP3021A5T-E-OT/593685">MCP3021A5T-E/OT</a></p>
-                                        <img src="/pictures/MCP3021A5T.JPG" alt="MCP3021A5T" width="40%" height="40%">
-                                    </td>
-                                    <td>
-                                        <ul>
-                                            <li>Cheap</li>
-                                            <li>Surface mount</li>
-                                            <li>Detailed I2C documentation</li>
-                                            <li>Meets peralta manufacturing requirements</li>
-                                        </ul>
-                                    </td>
-                                    <td>
-                                        <ul>
-                                            <li>Low resolution (10-bit)</li>
-                                        </ul>
-                                    </td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
-                </section>
-
-                <p>The MCP3021A5T has the most versatility of the three chips along with an extensive datasheet. Unlike the 5591, this chip fits within the project's requirements and is far cheaper. It also has an optimal pad size which will allow for the reliable manufacture of prototypes. </p>
-
-                <p></p>
-                <p></p>
-
-                <section>
-                    <div class="table-wrapper">
-                        <table>
-                            <thead>
-                                <tr>
-                                    <th>Subsystem</th>
-                                    <th>Component</th>
-                                    <th>Name</th>
-                                    <th>Pros</th>
-                                    <th>Cons</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>“Anemometer” Hall Sensor</td>
-                                    <td>Hall Sensor</td>
-                                    <td>
-                                        <p><a href="https://www.digikey.com/en/products/detail/ams-osram-usa-inc/AS5600-ASOM/4914332?s=N4IgTCBcDaIIIGUCsA2ADGgtIg8gWRAF0BfIA">AS5600-ASOM</a></p>
-                                        <img src="/pictures/AS5600-ASOM.jpg" alt="AS5600-ASOM" width="50%" height="50%">
-                                    </td>
-                                    <td>
-                                        <ul>
-                                            <li>Simple I2C protocol</li>
-                                            <li>High-resolution output signal</li>
-                                            <li>Selectable output</li>
-                                            <li>Low-power consumption</li>
-                                            <li>Easy to setup</li>
-                                            <li>Small</li>
-                                            <li>Robust environmental tolerance</li>
-                                        </ul>
-                                    </td>
-                                    <td>
-                                        <ul>
-                                            <li>Takes up more space than other options</li>
-                                        </ul>
-                                    </td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
-                </section>
-
-                <p>Our rationale for choosing the AS5600-ASOM is that we are familiar with the chip. We have used it in class, and there is an ample supply already in class. Since the differences between the chips are minor, familiarity is the deciding factor for us.</p>
-
-                <p></p>
-                <p></p>
-
-                <section>
-                    <div class="table-wrapper">
-                        <table>
-                            <thead>
-                                <tr>
-                                    <th>Subsystem</th>
-                                    <th>Component</th>
-                                    <th>Name</th>
-                                    <th>Pros</th>
-                                    <th>Cons</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>Solar</td>
-                                    <td>Solar Charger</td>
-                                    <td>
-                                        <p><a href="https://www.digikey.com/en/products/detail/silvertel/AG103/21187176">AG103</a></p>
-                                        <img src="/pictures/AG103.jpg" alt="AG103" width="50%" height="50%">
-                                    </td>
-                                    <td>
-                                        <ul>
-                                            <li>Charges Lead Nickel acid battery</li>
-                                            <li>Outputs highly stable and regulated voltage</li>
-                                            <li>Overcurrent protection</li>
-                                            <li>Short protection</li>
-                                            <li>Can output 3A max</li>
-                                        </ul>
-                                    </td>
-                                    <td>
-                                        <ul>
-                                            <li>Mid-range price</li>
-                                            <li>Outputs 12V</li>
-                                            <li>Needs at least an input voltage of 9V</li>
-                                        </ul>
-                                    </td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
-                </section>
-
-                <p>Our rationale for choosing the AG103 is that it is versatile and robust. By combining a solar charger and a battery protection board, we assure that our batteries will be fed consistent power and be protected.</p>
-
-                <p></p>
-                <p></p>
-
-                <section>
-                    <div class="table-wrapper">
-                        <table>
-                            <thead>
-                                <tr>
-                                    <th>Subsystem</th>
-                                    <th>Component</th>
-                                    <th>Name</th>
-                                    <th>Pros</th>
-                                    <th>Cons</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>Solar</td>
-                                    <td>Solar Panels</td>
-                                    <td>
-                                        <p><a href="https://www.digikey.com/en/products/detail/voltaic-systems/P123/12352802">Voltaic Systems P123</a></p>
-                                        <img src="/pictures/P123.png" alt="P123" width="50%" height="50%">
-                                    </td><img src="/pictures/inno_show_pic_1.JPG" alt="inno_show_pic_1" width="40%" height="40%">
-                                            <li>Small</li>
-                                            <li>Cheap</li>
-                                            <li>Can be series up to 18V</li>
-                                        </ul>
-                                    </td>
-                                    <td>
-                                        <ul>
-                                            <li>Max power of 0.1 amps</li>
-                                        </ul>
-                                    </td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
-                </section>
-
-                <p>Our rationale for choosing the Voltaic Systems P123 is that it provides a robust and cheap solution. Although it may only supply 0.1 amps, this can be mitigated by adding more solar panels.</p>
-
-                <p></p>
-                <p></p>
-
-                <h3>Power Budget</h3>
-                <img src="/pictures/Team305_power_budget.png" alt="Team305_power_budget" width="50%" height="50%">
-
-                <p></p>
-                <p></p>
-                <p></p>
-
-                <!-- Microcontroller Selection-->
-                <div class="content">
-                    <h3>Microcontroller Selection</h3>
-                    <p>In-depth comparison of selected Microcontrollers compatible with the SNAP programmer.</p>
-
-                </div>
-                <section>
-                    <div class="table-wrapper">
-
-                        <table>
-                            <thead>
-                                <tr>
-                                    <th>Microcontroller Considerations</th>
-                                    <th style="width: 18%;">Chosen PIC uC</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>Part Number</td>
-                                    <td>PIC18F47J13-I/PT</td>
-                                                                    </tr>
-                                <tr>
-                                    <td>Product Page</td>
-                                    <td><a href="https://www.digikey.com/en/products/detail/microchip-technology/PIC18F47J13-I-PT/2385820">Digikey</a></td>
-                                                                    </tr>
-                                <tr>
-                                    <td>Data Sheets</td>
-                                    <td><a href="https://ww1.microchip.com/downloads/en/DeviceDoc/30009974C.pdf">Microchip</a></td>
-                                                                    </tr>
-                                <tr>
-                                    <td>Application Notes</td>
-                                    <td><a href="https://www.microchip.com/en-us/application-notes/tb3016">Microchip</a></td>
-                                                                    </tr>
-                                <tr>
-                                    <td>Code Examples</td>
-                                    <td><a href="https://www.microchip.com/en-us/application-notes/tb3016">Microchip</a></td>
-                                                                    </tr>
-                                <tr>
-                                    <td>External Resources</td>
-                                    <td><a href="https://www.youtube.com/watch?v=fpgIAkE8d64">Youtube</a></td>
-                                                                    </tr>
-                                <tr>
-                                    <td>Production Unit Cost</td>
-                                    <td>$5.38</td>
-                                                                    </tr>
-                                <tr>
-                                    <td>Supply Voltage Range</td>
-                                    <td>3.3-6 V</td>
-                                                                    </tr>
-                                <tr>
-                                    <td>Absolute Maximum Current for entire IC</td>
-                                    <td>250 mA</td>
-                                                                    </tr>
-                                <tr>
-                                    <td>Maximum GPIO Pin Current (Source/Sink)</td>
-                                    <td>50 mA</td>
-                                                                    </tr>
-                                <tr>
-                                    <td>8-Bit or 16-Bit Architecture</td>
-                                    <td>8-Bit</td>
-                                                                    </tr>
-                                <tr>
-                                    <td>Available IC Packages / Footprints</td>
-                                    <td>
-                                        <a href="https://www.digikey.com/en/products/detail/microchip-technology/PIC18F47J13-I-PT/2385820">TQFP,  </a>   
-                                        <a href="https://www.digikey.com/en/products/detail/microchip-technology/PIC18F47J13-I-ML/2385819">44-QFN</a>
-                                    </td>
-                                                                    </tr>
-                                <tr>
-                                    <td>Supports External Interrupts?</td>
-                                    <td>Yes, 4</td>
-                                                                    </tr>
-                                <tr>
-                                    <td>In-System Programming Capability and type</td>
-                                    <td>Yes, Supports ICSP</td>
-                                                                    </tr>
-                                <tr>
-                                    <td>Programming Hardware, Cost, and URL</td>
-                                    <td>
-                                        <a href="https://www.microchip.com/en-us/development-tool/pg164100">MPLAB SNAP</a>
-                                        $39.20
-                                    </td>
-                                                                    </tr>
-                                <tr>
-                                    <td>Works with MPLAB® X Integrated Development Environment (IDE)?</td>
-                                    <td>Yes</th>
-                                                                    </tr>
-                                <tr>
-                                    <td>Works with Microchip Code Configurator?</td>
-                                    <td>Yes</td>
-                                                                    </tr>
-
-
-                            </tbody>
-                        </table>
-
-                        <p></p>
-                        <p></p>
-                        <p></p>
-                        <p></p>
-
-                        <table>
-                            <thead>
-                                <tr>
-                                    <th>Design Considerations</th>
-                                    <th>Team Project-Specific Requirements</th>
-                                    <th style="width: 18%;">Chosen PIC uC</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>How many GPIO Pins?</td>
-                                    <td>At Least 20 GPIO pins.</td>
-                                    <td>44</td>
-                                                                    </tr>
-                                <tr>
-                                    <td>Built-in Analog to Digital Converter? How many?</td>
-                                    <td>Our block diagram requires no internal ADC from the microcontroller.</td>
-                                    <td>Yes, 34</td>
-                                                                    </tr>
-                                <tr>
-                                    <td>Built-in Hardware PWM? How many?</td>
-                                    <td>At least two PWM modules.</td>
-                                    <td>Yes, 2</td>
-                                                                    </tr>
-                                <tr>
-                                    <td>Built-in I2C? SPI? How many?</td>
-                                    <td>Preferable for 2 modules (ability to communicate in both I2C and SPI simultaneously)</td>
-                                    <td>Includes 2 MSSP pins, SPI and I2C</td>
-                                                                    </tr>
-                                <tr>
-                                    <td>Built-in UART? How many?</td>
-                                    <td>Preferable for debugging and transmitting data via ESP32.</td>
-                                    <td>Yes, 2</td>
-                                                                    </tr>
-                            </tbody>
-                        </table>
-
-
-                        <table>
-                            <thead>
-                                <tr>
-                                    <th>Comparisons</th>
-                                    <th style="width: 18%;">Chosen PIC uC</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>Overall Pros</td>
-                                    <td>
-                                        <ul>
-                                            <li>34 GPIO Pins</li>
-                                            <li>Has 2 UART modules</li>
-                                            <li>Has 35 external analog channels</li>
-                                            <li>Has 2 MSSP outputs</li>
-                                            <li>Fulfills Peralta Manufacturing Requirements</li>
-                                        </ul>
-                                    </td>
-                                                                    </tr>
-                                <tr>
-                                    <td>Overall Cons</td>
-                                    <td>
-                                        <ul>
-                                            <li>Only has 1 SPI and 1 I2C</li>
-                                            <li>Only has 2 PWM outputs</li>
-                                            <li>Relatively expensive at $5.38</li>
-                                        </ul>
-                                    </td>
-                                                                    </tr>
-                                <tr>
-                                    <td>Ranking</td>
-                                    <td>1</td>
-                                                                    </tr>
-                            </tbody>
-                        </table>
-                    </div>
-
-                </section>
-
-                <p></p>
-                <p></p>
-                <p></p>
-
-                <!-- Subsytems -->
-                <h2>Subsystem Designs</h2>
-                <section>
-                    <div class="table-wrapper">
-                        <table>
-                            <thead>
-                                <tr>
-                                    <th>Document Type</th>
-                                    <th>Microcontroller Subsystem</th>
-                                    <th>Temperature and 3.3V Power Subsystem</th>
-                                    <th>Hall Effect Sensor Subsystem</th>
-                                    <th>Motor Driver and 6V Power Subsystem</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>
-                                        <b>Schematic</b>
-                                    </td>
-                                    <td>
-                                        <img src="/pictures/microcontroller_sub_r1a.png" alt="microcontroller_sub_r1a" width="70%" height="70%">
-                                    </td>
-                                    <td>
-                                        <img src="/pictures/ts-ps-sub-schm-1.jpg" alt="microcontroller_sub_r1" width="70%" height="70%">
-                                    </td>
-                                    <td>
-                                        <img src="/pictures/hal-sub-schm-1.jpg" alt="hal-sub-schm-1" width="70%" height="70%">
-                                    </td>
-                                    <td>
-                                        <img src="/pictures/md-6ps-sub-schm-1.jpg" alt="md-6ps-sub-schm-1" width="70%" height="70%">
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <b>PCB</b>
-                                    </td>
-                                    <td>
-                                        <img src="/pictures/microcontroller-sub-pcb-1.jpg" alt="microcontroller-sub-pcb-1" width="70%" height="70%">
-                                    </td>
-                                    <td>
-                                        <img src="/pictures/ts-ps-sub-pcb-1.jpg" alt="ts-ps-sub-pcb-1" width="70%" height="70%">
-                                    </td>
-                                    <td>
-                                        <img src="/pictures/hal-sub-pcb-1.jpg" alt="hal-sub-pcb-1" width="70%" height="70%">
-                                    </td>
-                                    <td>
-                                        <img src="/pictures/md-6ps-sub-pcb-1c.png" alt="md-6ps-sub-pcb-1c" width="70%" height="70%">
-                                    </td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
-                </section>
-
-                <p></p>
-                <p></p>
-                <p></p>
-
-
-                <!--hardware implementation-->
-
-                <!--
-
-                    Include an image of the team's final schematics as a figure in the report. you may use landscape mode on this page to better fit the format of the schematic.
-                    Discuss how the functionality of this schematic satisfies user needs and product requirements though an in depth discussion of function.
-                    Discuss your team's design and decision making process related to this section
-                    Include the team's bill of materials in the appendix
-                    Include front and back screenshots of the team's final PCB design.
-                    Include front and back photos of the team's final PCB design.
-                    If you were to create a "Version 2.0" of your hardware design, discuss what could be 
-                    improved in the hardware design and why it should be improved. Use the schematic above to support the discussion. (½ page minimum)
-                -->
-
-                <h2 id="hardware-proposal">
-                    <a href="#header">Hardware Implementation</a>
-                </h2>
-                
-                <b>Schematics version 1</b>
-                <section>
-                    <div class="table-wrapper">
-                        <table>
-                            <tbody>
-                                <tr>
-                                    <td>
-                                        <img src="pictures\isopod_hardwareProposal_Microcontroller-1.png" alt="hardware-prop-microcontroller-schm-1a" width="80%" height="80%">
-                                    </td>
-                                    <td>
-                                        <img src="pictures\isopod_hardwareProposal_Peripherals-1.png" alt="hardware-prop-peripherals-schm-1a" width="80%" height="80%">
-                                    </td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
-                </section>
-
-                <b>Schematics version 2</b>
-                <section>
-                    <div class="table-wrapper">
-                        <table>
-                            <tbody>
-                                <tr>
-                                    <td>
-                                        <img src="pictures\isopod_hardwareProposal_Microcontroller_v2-1.png" alt="hardware-prop-microcontroller-schm-1a" width="80%" height="80%">
-                                    </td>
-                                    <td>
-                                        <img src="pictures\isopod_hardwareProposal_Peripherals_v2-1.png" alt="hardware-prop-peripherals-schm-1a" width="80%" height="80%">
-                                    </td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
-                </section>
-
-                <h3>Final Schematic</h3>
-
-                <b>Microcontroller Schematic</b>
-                <img src="pictures\isopod_hardwareProposal_Microcontroller_v3-1.png" alt="isopod_microcontroller_schm_r1" width="80%" height="80%">
-
-                <p></p>
-
-                <b>Peripherals Schematic</b>
-                <img src="pictures\isopod_hardwareProposal_Peripherals_v3-1.png" alt="Isopod_peripherals_schm_r1" width="80%" height="80%">
-
-                <p></p>
-
-                <div class="Mid-range">
-                    <div class="table-wrapper">
-                        <table>
-                            <tbody>
-                                <tr>
-                                    <img src="/pictures/inno_show_pic_1.JPG" alt="inno_show_pic_1" width="30%" height="30%">
-                                </tr>
-                                <tr>
-                                    <img src="/pictures/inno_show_pic_3.JPG" alt="inno_show_pic_3" width="30%" height="30%">
-                                </tr>
-                                <tr>
-                                    <img src="/pictures/inno_show_pic_4.JPG" alt="inno_show_pic_4" width="30%" height="30%">
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
-                </div>
-
-                <p></p>
-
-                <p>
-                    The final design of the schematic allows for multiple access points into the microcontroller to both test for 
-                    failures and leave opportuninty for future modifications. <br> <br>
-
-                    There are two open header pins at each of the communication lines (UART, SPI, I2C)
-                    to allow the addition of more subsystems or to substitute an onboard failing subsystem. Connected directly to the microcontroller are
-                    six open header pins with access to four analog pins and the two pins responsible for an external oscillator. 
-                    In addition to that, there are six onboard LEDs to allow for diagnosis of the microcontrollers program routines.
-                    There are also multiple headers placed specifically for testing the signals of certain circuit junctions such as the at the communication lines,
-                    the analog output of the LDRs and the power rails (3.3V, 6V, 12V). <br>
-                    Multiple jumpers are placed strategically to allow for complete disconnection of select circuits like the master clear programming circuit 
-                    and the ADC of the LDR subsystem. <br> <br>
-
-                    To make the system more robust, fuses were placed at both the 6V and 3.3V powerlines and adjusted just above the expected current draw
-                    (with respect to the power budget and not the maximum capability of the circuits). Bypass Capacitors were placed at the power pins of
-                    each of the onboard chips.
-
-                    In terms of improvement, the addition of a jumper between the motor controller and the motor itself would allow for the possible implimentation 
-                    of a current-limiting resistor to further tune the speeds of the motor given the unregulated nature of the 6V power line. While the current
-                    design of the voltage divider does well to push the proper voltage through the motor controller and leaves the option of modifying the value
-                    of the resistors, it does not cover the need for adjusting the current. This caused some issues with the overall speed of the motor 
-                    regardless of the gear ratios implemented to regulate this. A jumper here would provide and easier solution than redesiging a gear-box. 
-
-                </p>
-
-                <h3>Final PCB</h3>
-                <section>
-                    <div class="table-wrapper">
-                        <table>
-                            <tbody>
-                                <tr>
-                                    <td>
-                                        <i>Front</i> <br>
-                                        <img src="pictures/final_PCB_TOP.png" width="80%" height="80%">
-                                    </td>
-                                    <td>
-                                        <i>Back</i> <br>
-                                        <img src="pictures/final_PCB_BOTTOM.png" width="80%" height="80%">
-                                    </td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div> 
-                </section>
-
-                <p>
-                    The PCB is designed primarily to the specifications of the microcontroller's datasheet with the master clear circuit 
-                    placed as close to the microcontroller as possible. <br><br>
-
-                    Given the potential of high temperatures from the 6V voltage divider, the divider was placed as far from the rest of the circuit
-                    as possible (specifically the temperature sensor) where modifications can be made without disturbing the rest of the circuit should 
-                    the need arise. The hall effect sensor and the temperature sensor were also placed as far from eachother as possible
-                    to eliminate any mechanical interference between the two. <br><br>
-
-                    The opportunity to improve on the design would likely include placing the OLED circuit closer to the ESP32 and completely disconnecting
-                    the I2C lines of both the OLED and ESP32 from the rest of the circuit and instead connect them directly to eachother. This would greatly simplify the circuit
-                    and would allow for greater manuverability in terms of integrating the circuit with the final CAD design of the product.
-                    This is because the OLED and the ESP32 are two aspects of the circuit which would require easy and constant access to (either to see or to reprogram for wifi). <br><br>
-
-                    The open pins for the power supplies would also be moved so they would either line the bottom or right edge of the PCB. Or in either case, to 
-                    at least be placed near the LEDs for easy debugging post product assembly. As the design is now, the power pins are difficult to access
-                    once everything has been assembled and would benefit being placed near the LEDs so that the user would be able to immediately see whether 
-                    the circuit is being powered and functioning properly. <br><br>
-                </p>
-                
-                <p><a href="https://github.com/EGR-314-Team-305-Spring-2024/EGR-314-Team-305-Spring-2024.github.io/blob/main/appendices/hardware_proposal.md">Click here for BOM</a></p>
-                
-                <p></p>
-                <p></p>
-                <p></p>
-
-
-                <!-- 
-                    Include an updated image of the team's final UML activity and/or statechart diagrams as a figure in the report. 
-                    you may use landscape mode on this page to better fit the format of the schematic if desired.
-                    Ensure your diagram matches your code.
-                    Discuss how the functionality of this software diagram satisfies user needs and product requirements though an in depth discussion of function
-                    Discuss your team's design and decision making process related to this section
-                    Numbered list of the top 5 biggest changes to your software design since the software proposal. 
-                    Include several sentences for each change describing the issue and how you resolved it. Use the UML diagrams above to support the discussion.
-                    If you were to create a "Version 2.0" of your software design, discuss what could be improved in the software design and why it should be improved. 
-                    Use the UML diagrams above to support the discussion. Consider using a graphical representation of the flow that your updated software would take. 
-                    What functions would you create? How would you divide up your code? How would you improve its debuggability? 
-                    What peripherals or system features would you like to use or set up to make your system more reliable, stable, functional, or robust? 
-                    How would you simplify, improve, or update your protocol design to support this in software? (½ page minimum)
-                -->
-                <h2 id="software-proposal">
-                    <a href="#header">Software Proposal</a>
-                </h2>
-
-                <img src="/pictures/Software_Proposal_Team305.drawio(3).png" alt="Software_Proposal_Team305" width="80%" height="80%">
-                
-                <p></p>
-                <p></p>
-
-                <section>
-                    <div class="table-wrapper">
-                        <table>
-                            <thead>
-                                <tr>
-                                    <th>Microcontroller Main Loop</th>
-                                    <th>Initialize</th>
-                                    <th>Log Temp Data</th>
-                                    <th>Log Wind Data</th>
-                                    <th>Data Transmission</th>
-                                    <th>Motor</th>
-                                    <th>ESP32 Main Loop</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>
-                                        <img src="/pictures/Software_Proposal_Main_Microcontroller_Loop_Team305.jpg" alt="Software_Proposal_Main_Microcontroller_Loop_Team305" width="50%" height="50%">
-                                    </td>
-                                    <td>
-                                        <img src="/pictures/Software_Proposal_Initialize_Loop_Team305.jpg" alt="Software_Proposal_Initialize_Loop_Team305" width="85%" height="85%">
-                                    </td>
-                                    <td>
-                                        <img src="/pictures/Software_Proposal_Log_Temp_Team305.jpg" alt="Software_Proposal_Log_Temp_Team305" width="85%" height="85%">
-                                    </td>
-                                    <td>
-                                        <img src="/pictures/Software_Proposal_Log_Wind_Team305.jpg" alt="Software_Proposal_Log_Wind_Team305" width="85%" height="85%">
-                                    </td>
-                                    <td>
-                                        <img src="/pictures/Software_Proposal_Data_Transmission_Interrupt_Team305.jpg" alt="Software_Proposal_Data_Transmission_Interrupt_Team305" width="85%" height="85%">
-                                    </td>
-                                    <td>
-                                        <img src="/pictures/Software_Proposal_Motor_Interrupt_Team305.jpg" alt="Software_Proposal_Motor_Interrupt_Team305" width="50%" height="50%">
-                                    </td>
-                                    <td>
-                                        <img src="/pictures/Software_Proposal_ESP32_Main_Loop_Team305.jpg" alt="Software_Proposal_ESP32_Main_Loop_Team305" width="70%" height="70%">
-                                    </td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
-                </section>
-
-                <p>
-                    The code's main purpose is to pass information gathered from all the peripherals to the ESP32 while properly timing the use of the 
-                    motor. The ESP32 then published that information to the MQTT server. The ESP32 simultaneously subscribes from the four topics
-                    (Motor, LDR, Temperature, Hall Effect) to print out the information onto the OLED in a readable fashion. This is done so as to 
-                    ensure that the OLED only displays information if everything is running correctly. 
-                    In the main loop, the microcontroller needed to constantly be checking the values of the LDRs in order to determine whether or not to 
-                    move the motor. To prevent timing issues with posting information, it was decided that the data gathered from the sensors needed to only be 
-                    sent every 100ms rather than the speed at which the microcontroller would run through the main loop. 
-                    In the programming configurations, a new timer was used to send an interrupt every 100ms specifically to convert and send the data from the sensors.
-                    This allowed for both the motors and data transfer to happen vitually at the same time without mistiming the communication of all the peripherals. 
-
-                </p>
-
-                <h3>Top 5 Biggest Changes from Proposal</h3>
-                <ol>
-                    <li>Disabled interrupt on the SPI motor driver</li>
-                    <li>Packaged individual interrupts of the sensor peripherals into a single timer interrupt</li>
-                    <li>Modified the overall timing of the system</li>
-                    <li>Packaged data conversion in timer instead of in main loop</li>
-                    <li>Modified data type of sensors to prevent bit conversion issues</li>
-                </ol>
-
-                <p>
-                    Future modifications to the code would likely implement more practical usage of the onboard LEDs. As the code stands now, they are 
-                    only used to indicate the state of the motor and the timing of the data transfer. To mske debugging easier, the LEDs would likely be better 
-                    distributed to inducate a change in the data. This would mean better determining not only which subsystem may be having issues but also the nature of it
-                    (conversion timing, data transfer, etc).
-                    The code of the ESP32 would also be modified more efficiently send data since as it is now, the information post to MQTT is often 5-10 seconds delayed. 
-                    Different configurations would have to be tested to improve the responsiveness of the ESP. 
-                </p>
-
-
-                <div>
-                    <h2 id="system-verification">
-                    <a href="#header">System Verification</a>
-                    </h2>
-                </div>
-
-                <img src="/pictures/team_305_vari_table.png" alt="Team 305 Verification Table">
-                
-                <p></p>
-                <p></p>
-
-                <div>
-                    <h2 id="lessons-learned">
-                    <a href="#header">Lessons Learned</a>
-                    </h2>
-                </div>
-
-                <ul>
-                    <li>Read into the data sheets and figure out real world feasibility</li>
-                    <li>Think of how it's going to be made when designing CAD model</li>
-                    <li>Create test prints of components</li>
-                    <li>Make backup boards</li>
-                    <li>Have multiple people thoroughly run through electrical schematics and PCBs</li>
-                    <li>Practice care when working with high amperage power lines</li>
-                    <li>Start construction more than a week in advance at the latest</li>
-                    <li>PPE should be worn when soldering</li>
-                    <li>Version of MPLabX matters a lot and can dictate properties of the PIC chip</li>
-                    <li>Check I2C products for address details</li>
-                </ul>
-
-                <p>
-                    We had a cases where on the surface a product looked like a solid choice, but in the real world proved to be finicky or hard to work with.
-                    This was especially true with our solar charger, as its datasheet proved to be quite inadequate and we were unable to get it working. We
-                    had to purchase a new solar charger. We also had some issues with the CAD model of the main chassis of our device being one solid piece in 
-                    SolidWorks. Thus when it came time to actually make it, we had to split it into multiple parts to manufacture it. We also had issues with 
-                    3D printed parts not fitting together, we had to sand down components to make them fit. We learned that having backup boards is a huge
-                    advantage. Not only is it good to have just in case something goes wrong, its really nice to have multiple boards so more than one person
-                    can test code. When first creating the electrical schematic and PCB, we accidentally used the wrong footprint for the microcontroller. We 
-                    were set back a bit as we needed new PCBs and we fried one of our PIC chips. Only a couple hours before the innovation showcase, we
-                    accidentally touched the 12V positive and negative lines and fried the 12V, which was sub-optimal. We only started really manufacturing
-                    the mechanical components of the Isopod only 5 days before the innovation showcase, causing great stress and forced us to make several
-                    debilitating compromises. One of teammates, who will remain unnamed, was not wearing proper PPE during a lengthy soldering session, causing
-                    slight health issues including, but not limited to, dizziness, general confusion, nose bleeds, and vision loss. Proper PPE is heavily 
-                    recommended for short and long term health and safety. When trying to create SPI interrupts, we realized that the version of MPLabX can 
-                    affect the behaviors of the PIC chip. In our case, all the versions we had wouldn't allow us to have SPI interrupts at all. This was solved 
-                    by only having a timer interrupt, it was a rather clunky solution. Lastly, we learned to really pay attention to the I2C address details in 
-                    datasheets as one of our components, the ADC, had a fixed I2C address assigned at the factory, so every ADC chip had the same address. This 
-                    meant that we could only use one ADC chip on our board, not ideal when you need to read signals from two LDRs.
-                </p>
-
-                <p></p>
-                <p></p>
-
-                <div>
-                    <h2 id="recommendations">
-                    <a href="#header">Recommendations for Future Students</a>
-                    </h2>
-                </div>
-                
-                <ol>
-                    <li>Make multiple PCB boards to add redundancy and allow multiple people to test code at the same time</li>
-                    <li>Test all chips on breakout boards before soldering it on a PCB</li>
-                    <li>Take videos whenever something works, this will save your grade</li>
-                    <li>Put multiple pin headers for each trace on your PCB for debugging purposes or to connect to a breakout board</li>
-                    <li>Use html for your website as it might be hard to learn at first, but its much easier to use in the long run</li>
-                </ol>
-
                 
 
 				<!-- Footer -->
