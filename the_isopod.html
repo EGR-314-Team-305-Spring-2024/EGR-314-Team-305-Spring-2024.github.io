@@ -1213,12 +1213,12 @@
                     accidentally touched the 12V positive and negative lines and fried the 12V, which was sub-optimal. We only started really manufacturing
                     the mechanical components of the Isopod only 5 days before the innovation showcase, causing great stress and forced us to make several
                     debilitating compromises. One of teammates, who will remain unnamed, was not wearing proper PPE during a lengthy soldering session, causing
-                    slight health issues including, but not limited to, dizziness, confusion, and nose bleeds. Proper PPE is heavily recommended for short and
-                    long term health and safety. When trying to create SPI interrupts, we realized that the version of MPLabX can affect the behaviors of the PIC
-                    chip. In our case, all the versions we had wouldn't allow us to have SPI interrupts at all. This was solved by only having a timer interrupt,
-                    it was a rather clunky solution. Lastly, we learned to really pay attention to the I2C address details in datasheets as one of our components,
-                    the ADC, had a fixed I2C address assigned at the factory, so every ADC chip had the same address. This meant that we could only use one ADC
-                    chip on our board, not ideal when you need to read signals from two LDRs.
+                    slight health issues including, but not limited to, dizziness, general confusion, nose bleeds, and vision loss. Proper PPE is heavily 
+                    recommended for short and long term health and safety. When trying to create SPI interrupts, we realized that the version of MPLabX can 
+                    affect the behaviors of the PIC chip. In our case, all the versions we had wouldn't allow us to have SPI interrupts at all. This was solved 
+                    by only having a timer interrupt, it was a rather clunky solution. Lastly, we learned to really pay attention to the I2C address details in 
+                    datasheets as one of our components, the ADC, had a fixed I2C address assigned at the factory, so every ADC chip had the same address. This 
+                    meant that we could only use one ADC chip on our board, not ideal when you need to read signals from two LDRs.
                 </p>
 
                 <p></p>
@@ -1228,10 +1228,15 @@
                     <h2 id="recommendations">
                     <a href="#header">Recommendations for Future Students</a>
                     </h2>
-
                 </div>
                 
-
+                <ol>
+                    <li>Make multiple PCB boards to add redundancy and allow multiple people to test code at the same time</li>
+                    <li>Test all chips on breakout boards before soldering it on a PCB</li>
+                    <li>Take videos whenever something works, this will save your grade</li>
+                    <li>Put multiple pin headers for each trace on your PCB for debugging purposes or to connect to a breakout board</li>
+                    <li>Use html for your website as it might be hard to learn at first, but its much easier to use in the long run</li>
+                </ol>
 
                 
 
